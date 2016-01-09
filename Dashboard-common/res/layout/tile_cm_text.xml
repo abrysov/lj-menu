@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <LinearLayout style="@style/cm_fragment_product_list_ll_text" >
+
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:id="@+id/tv_name"
+            style="@style/cm_fragment_product_list_tv_name"
+            app:customTypeface="fonts/robotolight.ttf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.sqiwy.menu.view.TypefaceTextView
+                android:id="@+id/tv_price"
+                style="@style/cm_fragment_product_list_tv_price_0"
+                app:customTypeface="fonts/robotolight.ttf" />
+
+            <com.sqiwy.menu.view.TypefaceTextView
+                android:id="@+id/tv_weight"
+                style="@style/cm_fragment_product_list_tv_weight"
+                android:paddingLeft="8dp"
+                app:customTypeface="fonts/robotolight.ttf" />
+        </LinearLayout>
+
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:id="@+id/tv_desc"
+            style="@style/cm_fragment_product_list_tv_weight"
+            android:visibility="gone"
+            app:customTypeface="fonts/robotolight.ttf" />
+    </LinearLayout>
+
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header android:fragment="com.sqiwy.dashboard.PreferencesActivity$ClientConfig"
+            android:title="@string/lbl_client_config"
+            android:summary="" />
+    
+    <header android:fragment="com.sqiwy.dashboard.PreferencesActivity$SettingsConfig"
+            android:title="@string/settings" />
+
+</preference-headers>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/cm_fragment_menu_grand_height"
+        android:layout_marginRight="@dimen/cm_fragment_menu_grand_height"
+        android:layout_marginTop="@dimen/cm_fragment_menu_grand_height" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:id="@+id/fragment_product_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/cm_fragment_product_list_margin_right"
+                android:layout_marginRight="@dimen/cm_fragment_product_list_margin_right"
+                android:layout_weight="1" >
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fl_container"
+                android:layout_width="@dimen/cm_fragment_bill_width"
+                android:layout_height="match_parent" >
+
+                <FrameLayout
+                    android:id="@+id/fragment_bill"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                </FrameLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_shadow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_container_shadow"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="60dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/circle_bg"
+                        android:gravity="center"
+                        android:minLines="2"
+                        android:padding="20dp"
+                        android:singleLine="false"
+                        android:text="@string/add_dish_hear"
+                        android:textColor="@color/container_tv"
+                        android:textSize="20px" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_product_category_list"
+            android:layout_width="@dimen/cm_fragment_product_category_list_width"
+            android:layout_height="match_parent" >
+        </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_menu_grand"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cm_fragment_menu_grand_height" >
+    </FrameLayout>
+
+</FrameLayout>

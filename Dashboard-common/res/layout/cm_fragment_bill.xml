@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/ll_bill"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_bill"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cm_fragment_bill_removeorder_layout_height"
+            android:orientation="horizontal" >
+
+            <com.sqiwy.menu.view.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="25dp"
+                android:text="@string/tv_order"
+                android:textColor="@color/cm_fragment_bill_item_clearorder_textcolor"
+                android:textSize="@dimen/cm_fragment_bill_order_textsize"
+                android:textStyle="bold"
+                app:customTypeface="fonts/robotolight.ttf" />
+
+            <com.sqiwy.menu.view.TypefaceButton
+                android:id="@+id/clear_order_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/cm_fragment_bill_removeorder_button_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="25dp"
+                android:background="#FFFFFFFF"
+                android:paddingBottom="0dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="0dp"
+                android:text="@string/clear_order"
+                android:textColor="@color/cm_fragment_bill_item_clearorder_textcolor"
+                android:textSize="@dimen/cm_fragment_bill_clearorder_textsize"
+                app:customTypeface="fonts/robotoregular.ttf" />
+            
+            <RelativeLayout android:id="@+id/ll_bill_removeconfirmation_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/cm_fragment_bill_removeorder_button_height"
+                android:layout_marginTop="@dimen/cm_fragment_bill_removeconfirmation_layout_topmargin"
+                android:layout_marginRight="@dimen/cm_fragment_bill_removeconfirmation_layout_rightmargin"
+                android:layout_alignParentRight="true" android:layout_centerVertical="true"
+                android:visibility="invisible" >
+                <com.sqiwy.menu.view.TypefaceButton android:id="@+id/cm_fragment_bill_removeconfirmation_no_button"
+                    app:customTypeface="fonts/robotoregular.ttf"
+                    android:textSize="@dimen/cm_fragment_bill_removeconfirmation_button_textheight"
+                    android:background="@color/white"
+                    android:text="@string/customNo"
+                    android:textColor="@color/cm_fragment_bill_item_clearorder_textcolor"
+                    android:layout_height="match_parent"
+                    android:layout_width="@dimen/cm_fragment_bill_removeconfirmation_button_width" />
+                <com.sqiwy.menu.view.TypefaceButton android:id="@+id/cm_fragment_bill_removeconfirmation_yes_button"
+                    app:customTypeface="fonts/robotoregular.ttf"
+                    android:layout_toRightOf="@id/cm_fragment_bill_removeconfirmation_no_button"
+                    android:textSize="@dimen/cm_fragment_bill_removeconfirmation_button_textheight"
+                    android:background="@color/white"
+                    android:text="@string/customYes"
+                    android:textColor="@color/cm_fragment_bill_item_remove_product_textcolor"
+                    android:layout_height="match_parent"
+                    android:layout_width="@dimen/cm_fragment_bill_removeconfirmation_button_width"
+                    android:layout_marginLeft="@dimen/cm_fragment_bill_removeconfirmation_button_intervalbetween" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bill_line"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp" />
+
+        <ListView
+            android:id="@+id/lv_bill"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:listSelector="@android:color/transparent"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:footerDividersEnabled="false"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bill_dash_line" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/cm_fragment_bill_tv_margin_top_total_sum"
+            android:orientation="horizontal" >
+
+            <com.sqiwy.menu.view.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/total_to_pay"
+                android:textColor="#bababa"
+                android:textSize="@dimen/cm_fragment_bill_tv_size_total"
+                app:customTypeface="fonts/robotoregular.ttf" />
+
+            <com.sqiwy.menu.view.TypefaceTextView
+                android:id="@+id/tv_total_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/cm_fragment_bill_tv_size_total_sum"
+                app:customTypeface="fonts/robotoregular.ttf" />
+        </LinearLayout>
+
+        <com.sqiwy.menu.view.TypefaceButton
+            android:id="@+id/btn_order"
+            android:layout_width="265dp"
+            android:layout_height="67dp"
+            android:layout_marginBottom="@dimen/cm_fragment_bill_btn_margin_bottom"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_red_background"
+            android:text="@string/btn_order"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/cm_fragment_bill_tv_size_order"
+            app:customTypeface="fonts/robotoregular.ttf" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/ll_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_container_shadow"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="invisible" >
+
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/put"
+            android:gravity="center"
+            android:minLines="2"
+            android:text="@string/add_dish_hear"
+            android:textColor="@color/container_tv"
+            android:textSize="27dp"
+            app:customTypeface="fonts/robotolight.ttf" />
+    </FrameLayout>
+
+</FrameLayout>

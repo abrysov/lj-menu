@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ContentDescription">
+
+    <ListView
+        android:id="@+id/lv_products"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        android:paddingBottom="@dimen/cm_fragment_product_list_bottompadding"
+        android:clipToPadding="false" />
+
+    <ImageView
+        android:id="@+id/iv_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:focusable="false"
+        android:rotation="180"
+        android:src="@drawable/ic_arrow" android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:focusable="false"
+        android:src="@drawable/ic_arrow" android:visibility="gone" />
+
+</FrameLayout>

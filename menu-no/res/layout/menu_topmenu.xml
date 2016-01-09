@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#D0CAC3"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:onClick="buttonToggle"
+        android:src="@drawable/menu_0026_bar_main_dash" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:onClick="topmenuMenu"
+        android:src="@drawable/menu_0025_bar_menu_categories" />
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:onClick="topmenuRotate"
+        android:src="@drawable/menu_0024_bar_rotate" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/menu_0012_check_back_white"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:onClick="closeButton"
+        android:src="@drawable/menu_0023_bar_close" />
+
+</LinearLayout>

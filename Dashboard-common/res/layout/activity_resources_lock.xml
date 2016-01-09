@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gestures"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:eventsInterceptionEnabled="true"
+        android:gestureColor="@color/transparent"
+        android:gestureStrokeType="multiple"
+        android:orientation="vertical"
+        android:uncertainGestureColor="@color/transparent" >
+
+        <FrameLayout
+            android:id="@+id/fragment_grand_db"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </FrameLayout>
+    </android.gesture.GestureOverlayView>
+
+</FrameLayout>

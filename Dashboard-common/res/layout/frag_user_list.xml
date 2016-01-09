@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E2E2E2">
+	
+    <com.sqiwy.menu.view.TypefaceTextView
+        android:id="@+id/empty_title"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:padding="5dp"
+        android:textColor="@color/chat_text"
+        android:gravity="center"
+        android:text="@string/now_in_chat"
+        app:customTypeface="fonts/robotoregular.ttf"
+	    android:textSize="@dimen/chat_big_textsize"
+        />
+    
+    
+     <GridLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:orientation="vertical"
+        android:columnCount="2"
+        android:visibility="gone"
+        android:gravity="center"
+    	android:rowCount="2"
+        android:padding="10dp">
+			
+        <com.sqiwy.menu.view.TypefaceTextView
+	        android:id="@+id/nick"
+	        android:layout_columnSpan="2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        style="@style/black_mid_text"
+	        android:padding="5dp"
+	        android:textColor="@color/chat_text"
+	        app:customTypeface="fonts/robotoregular.ttf"
+	        android:textSize="@dimen/chat_big_textsize"/>
+    
+	    <com.sqiwy.menu.view.TypefaceTextView
+	        android:id="@+id/status"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/chat_text"
+	        style="@style/black_mid_text"
+	        android:layout_gravity="left"
+	        android:padding="5dp"
+	        app:customTypeface="fonts/robotoregular.ttf"
+	        android:textSize="@dimen/chat_small_textsize"/>
+    	
+	    <com.sqiwy.menu.view.TypefaceTextView
+		        android:id="@+id/btn_edit"
+		        style="@style/btn_gray"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/btn_edit"
+		        android:layout_gravity="right"
+		        android:gravity="center"
+		        android:textColor="@color/chat_text"
+		        android:textSize="@dimen/chat_small_textsize"
+		        app:customTypeface="fonts/robotoregular.ttf" />
+            
+    </GridLayout>
+    
+    <View android:layout_width="match_parent"
+	        android:layout_height="1dp"
+	        android:background="#D9D9D9"/>
+
+    <ListView
+        android:id="@+id/user_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/chat_text"
+        android:choiceMode="singleChoice"
+        android:divider="@null"
+        android:listSelector="@drawable/selector_user_list" />
+
+</LinearLayout>

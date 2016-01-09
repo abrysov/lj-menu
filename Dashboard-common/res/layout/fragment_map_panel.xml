@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/cm_fragment_menu_grand_height"
+    android:background="@color/map_panel_background"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:id="@+id/map_panel_floor_btn"
+        style="@style/map_panel_floor_button"
+        android:background="@null"
+        android:paddingLeft="1dp">
+
+        <LinearLayout
+            android:id="@+id/map_panel_floor_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <com.sqiwy.menu.view.TypefaceTextView
+                android:id="@+id/map_panel_floor_button_title"
+                style="@style/map_panel_floor_picker_button_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                app:customTypeface="fonts/robotothin.ttf" />
+
+            <com.sqiwy.menu.view.TypefaceTextView
+                android:id="@+id/map_panel_floor_button_extra"
+                style="@style/map_panel_floor_picker_button_text_ex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="0dip"
+                android:singleLine="true"
+                app:customTypeface="fonts/robotothin.ttf" />
+        </LinearLayout>
+
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:id="@+id/map_panel_floor_button_title2"
+            style="@style/map_panel_floor_picker_button_text_ex"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:singleLine="true"
+            app:customTypeface="fonts/robotothin.ttf" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/map_panel_button1"
+        style="@style/map_panel_button" >
+
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:id="@+id/map_panel_button1_title"
+            style="@style/map_panel_button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:singleLine="true"
+            app:customTypeface="fonts/robotothin.ttf" />
+
+        <Button
+            android:id="@+id/map_panel_button1_close_btn"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="36dip"
+            android:background="@drawable/btn_map_panel_close"
+            android:padding="10dip"
+            android:singleLine="true" 
+            android:minWidth="25dip"
+            android:minHeight="25dip"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/map_panel_button2"
+        style="@style/map_panel_button" >
+
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:id="@+id/map_panel_button2_title"
+            style="@style/map_panel_button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:singleLine="true"
+            app:customTypeface="fonts/robotothin.ttf" />
+
+        <Button
+            android:id="@+id/map_panel_button2_close_btn"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="36dip"
+            android:background="@drawable/btn_map_panel_close"
+            android:padding="10dip"
+            android:singleLine="true" 
+            android:minWidth="25dip"
+            android:minHeight="25dip"/>
+    </LinearLayout>
+
+</LinearLayout>

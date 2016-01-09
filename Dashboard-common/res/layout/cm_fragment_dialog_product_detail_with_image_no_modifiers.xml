@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    tools:ignore="ContentDescription">
+
+    <FrameLayout android:id="@+id/cm_fragment_detail_close_button_clickextension_layout"
+        android:layout_width="@dimen/cm_fragment_detail_close_button_clickextension_layout_size"
+        android:layout_height="@dimen/cm_fragment_detail_close_button_clickextension_layout_size"
+        android:layout_alignParentRight="true" android:layout_alignParentTop="true" >
+	    <ImageView
+	        android:id="@+id/btn_close"
+	        android:layout_width="@dimen/cm_fragment_detail_close_button_size"
+	        android:layout_height="@dimen/cm_fragment_detail_close_button_size"
+	        android:layout_gravity="right|top"
+	        android:layout_marginRight="@dimen/cm_fragment_detail_close_button_topright_margin"
+	        android:layout_marginTop="@dimen/cm_fragment_detail_close_button_topright_margin"
+	        android:scaleType="centerInside"
+	        android:src="@drawable/btn_cancel" />
+    </FrameLayout>
+    
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="@dimen/cm_fragment_detail_nameprice_layout_height"
+        android:layout_alignParentTop="true" android:id="@+id/cm_fragment_detail_nameprice_layout">
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:id="@+id/tv_price"
+            android:layout_width="@dimen/cm_fragment_detail_grayzone_width"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:gravity="center"
+            android:textSize="@dimen/cm_fragment_detail_product_price_textheight"
+            android:layout_alignParentRight="true"
+            app:customTypeface="fonts/robotoregular.ttf" />
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/cm_fragment_detail_namecontentweightcaloricity_layout_leftmargin"
+            android:gravity="center_vertical"
+            android:layout_toLeftOf="@id/tv_price"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textSize="@dimen/cm_fragment_detail_product_name_textheight"
+            app:customTypeface="fonts/robotolight.ttf" />
+    </RelativeLayout>
+    
+    <RelativeLayout android:id="@+id/cm_fragment_detail_weightcaloricityaddbutton_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cm_fragment_detail_weightcaloricityaddbutton_layout_height"
+        android:layout_alignParentBottom="true" >
+        <FrameLayout android:id="@+id/cm_fragment_detail_addbutton_layout" 
+            android:layout_width="@dimen/cm_fragment_detail_grayzone_width"
+            android:layout_height="match_parent" android:background="@color/modifiers_list_background"
+            android:layout_alignParentRight="true" >
+		    <com.sqiwy.menu.view.TypefaceButton
+		        android:id="@+id/btn_add"
+		        android:layout_width="@dimen/cm_fragment_detail_add_button_width"
+		        android:layout_height="@dimen/cm_fragment_detail_add_button_height"
+		        android:background="@drawable/btn_red_background"
+		        android:text="@string/btn_add"  android:layout_gravity="bottom|center_horizontal"
+		        android:layout_marginBottom="@dimen/cm_fragment_detail_addbutton_bottommargin"
+		        android:gravity="center"
+		        android:textColor="@android:color/white"
+		        android:textSize="@dimen/cm_fragment_detail_add_button_textheight"
+		        app:customTypeface="fonts/robotolight.ttf" />
+        </FrameLayout>
+        <RelativeLayout android:id="@+id/cm_fragment_detail_weightcaloricity_layout"
+            android:layout_toLeftOf="@id/cm_fragment_detail_addbutton_layout"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/cm_fragment_detail_weightcaloricity_layout_topmargin"
+            android:layout_marginLeft="@dimen/cm_fragment_detail_namecontentweightcaloricity_layout_leftmargin" >
+		    <com.sqiwy.menu.view.TypefaceTextView
+		        android:id="@+id/tv_content"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+		        android:textColor="@android:color/black"
+		        android:textSize="@dimen/cm_fragment_detail_content_textheight"
+		        android:textStyle="bold"
+		        app:customTypeface="fonts/robotolight.ttf" />
+	        <com.sqiwy.menu.view.TypefaceTextView
+	            android:id="@+id/details_tv_weight"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:textColor="@android:color/black"
+	            android:textSize="@dimen/cm_fragment_detail_weight_textheight"
+	            android:layout_below="@id/tv_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_marginBottom="@dimen/cm_fragment_detail_weightcaloricity_bottommargin"
+	            android:gravity="bottom"
+	            app:customTypeface="fonts/robotothin.ttf" />
+	        <com.sqiwy.menu.view.TypefaceTextView
+	            android:id="@+id/details_tv_calories"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_marginLeft="@dimen/cm_fragment_detail_caloricity_leftmargin"
+	            android:layout_below="@id/tv_content"
+	            android:layout_toRightOf="@id/details_tv_weight"
+	            android:layout_marginBottom="@dimen/cm_fragment_detail_weightcaloricity_bottommargin"
+	            android:paddingBottom="@dimen/cm_fragment_detail_caloricity_bottompadding"
+	            android:gravity="bottom"
+	            android:textColor="@android:color/black"
+	            android:textSize="@dimen/cm_fragment_detail_caloricity_textheight"
+	            app:customTypeface="fonts/robotolight.ttf" />
+        </RelativeLayout>
+	</RelativeLayout>
+	
+    <LinearLayout android:visibility="gone"
+        android:orientation="vertical" android:background="@color/modifiers_list_background"
+        android:layout_width="@dimen/cm_fragment_detail_grayzone_width"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/cm_fragment_detail_nameprice_layout"
+        android:layout_above="@id/cm_fragment_detail_weightcaloricityaddbutton_layout"
+        android:paddingLeft="@dimen/cm_fragment_detail_modifiers_list_padding"
+        android:paddingRight="@dimen/cm_fragment_detail_modifiers_list_padding"
+        android:id="@+id/modifiers_list_layout" >
+	    <ListView
+	        android:id="@+id/lv_modifiers"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:divider="@null"
+	        android:listSelector="@android:color/transparent"
+	        android:scrollbarStyle="outsideOverlay" />
+    </LinearLayout>
+    
+    <ImageView android:id="@+id/iv_image"
+        android:layout_width="@dimen/cm_fragment_detail_no_modifiers_product_image_width"
+        android:layout_height="@dimen/cm_fragment_detail_no_modifiers_product_image_height"
+        android:layout_below="@id/cm_fragment_detail_nameprice_layout"
+        android:layout_above="@id/cm_fragment_detail_weightcaloricityaddbutton_layout"
+        android:scaleType="centerCrop" />
+</RelativeLayout>

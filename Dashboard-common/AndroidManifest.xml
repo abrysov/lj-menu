@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sqiwy.dashboard"
+    android:versionCode="8"
+    android:versionName="1.8" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+
+    <permission
+        android:name="com.sqiwy.controller.permission.SYSTEM_CONTROLLER_SERVICE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.sqiwy.controller.permission.SYSTEM_CONTROLLER_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+
+    <application
+        android:name="com.sqiwy.menu.MenuApplication"
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:windowSoftInputMode="adjustPan"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity 
+            android:name="com.sqiwy.dashboard.StartActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <category android:name="android.intent.category.HOME" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.sqiwy.menu.chat.ActivityChat"
+            android:label="@string/app_name">
+        </activity>
+        
+        <activity
+            android:name="com.sqiwy.dashboard.DBStartActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppThemNoBackground"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask" >
+        </activity>
+
+        <activity
+            android:name="com.sqiwy.dashboard.DBLockActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+            android:configChanges="orientation|keyboardHidden|screenSize" 
+            android:launchMode="singleTop">
+        </activity>
+        <activity
+            android:name="com.sqiwy.dashboard.DBMediaActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppThemNoBackground"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.sqiwy.dashboard.DBCafeActivity"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+        </activity>
+        <activity
+            android:name="com.sqiwy.dashboard.DBHTMLLoader"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+        </activity>
+        <activity
+            android:name="com.sqiwy.dashboard.PreferencesActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/SystemTheme" >
+        </activity>
+        <activity
+            android:name="com.sqiwy.dashboard.LoadResourcesActivity"
+            android:theme="@style/SystemTheme"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+        </activity>
+        <activity
+            android:name="com.sqiwy.dashboard.DBGamesActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.sqiwy.menu.cm.CMProductListActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppThemNoBackground" >
+        </activity>
+        
+        <activity
+            android:name="com.sqiwy.dashboard.DBInitializeGalleryClock"
+            android:label="@string/title_activity_dbinitialize_gallery_clock" >
+        </activity>
+        
+		<activity
+            android:name="com.sqiwy.dashboard.DBMapActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppThemNoBackground" >
+        </activity>
+        
+		<activity
+            android:name="com.sqiwy.dashboard.ResourcesLockActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity>
+		
+        
+
+        <service
+            android:name="com.sqiwy.medialoader.MediaLoader"
+            android:exported="false" />
+        <service
+            android:name="com.sqiwy.menu.service.UpdateService"
+            android:exported="false" />
+        <service
+            android:name="com.sqiwy.dashboard.logger.LoggerService"
+            android:exported="false" />
+        <provider
+            android:name="com.sqiwy.menu.provider.MenuProvider"
+            android:authorities="com.sqiwy.menu.provider"
+            android:exported="false" >
+        </provider>
+        
+        <provider
+            android:name="com.sqiwy.dashboard.AssetsProvider"
+            android:authorities="com.sqiwy.dashboard.assetsprovider"
+            android:exported="false" />
+
+        <receiver
+            android:name="DBCommercialBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.sqiwy.dashboard.dbcommercialbroadcastreceiver" />
+            </intent-filter>
+        </receiver>
+        
+		<receiver
+            android:name="com.sqiwy.dashboard.logger.LoggerReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data android:name="com.crashlytics.ApiKey" android:value="81a3bdbe5313a278b9875899390915bd33dd0f75"/>
+      </application>
+
+</manifest>

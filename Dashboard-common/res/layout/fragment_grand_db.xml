@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dashboard_header"
+    android:baselineAligned="false"
+    android:divider="@color/menu_top_bar_divider"
+    android:dividerPadding="0dp"
+    android:gravity="center"
+    android:minHeight="@dimen/menu_top_bar_height"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/btn_lock_screen"
+        android:layout_width="@dimen/menu_top_bar_height"
+        android:layout_height="@dimen/menu_top_bar_height"
+        android:layout_alignParentLeft="true"
+        android:gravity="center" >
+
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="6dp"
+            android:drawableTop="@drawable/ic_lock"
+            android:paddingTop="14dp"
+            android:text="@string/lock"
+            android:textColor="@color/tv_tile_item"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:customTypeface="fonts/robotolight.ttf" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/sep1"
+        style="@style/cm_fragment_menu_grand_iv_separator"
+        android:layout_toRightOf="@id/btn_lock_screen" />
+
+    <LinearLayout
+        android:id="@+id/btn_rotate_screen"
+        android:layout_width="@dimen/menu_top_bar_height"
+        android:layout_height="@dimen/menu_top_bar_height"
+        android:layout_alignParentRight="true"
+        android:gravity="center" >
+
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
+            android:drawableTop="@drawable/ic_rotate"
+            android:paddingTop="14dp"
+            android:text="@string/rotate_180"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            app:customTypeface="fonts/robotolight.ttf" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/sep4"
+        style="@style/cm_fragment_menu_grand_iv_separator"
+        android:layout_toLeftOf="@id/btn_rotate_screen" />
+
+    <LinearLayout
+        android:id="@+id/btn_clear_history"
+        android:layout_width="350dp"
+        android:layout_height="@dimen/menu_top_bar_height"
+        android:layout_toRightOf="@id/sep1"
+        android:gravity="center" >
+
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_clear"
+            android:drawablePadding="40dp"
+            android:text="@string/clear_history"
+            android:textColor="@color/tv_tile_item"
+            android:textSize="@dimen/menu_top_bar_text_medium"
+            android:textStyle="bold"
+            app:customTypeface="fonts/robotoregular.ttf" />
+        <!-- android:drawablePadding="@dimen/menu_top_bar_drawable_padding" -->
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/sep2"
+        style="@style/cm_fragment_menu_grand_iv_separator"
+        android:layout_toRightOf="@id/btn_clear_history" />
+
+    <!-- <com.sqiwy.menu.view.TypefaceTextView -->
+    <!-- android:id="@+id/btn_call_waiter" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="@dimen/menu_top_bar_height" -->
+
+
+    <!-- android:drawableLeft="@drawable/ic_bell" -->
+    <!-- android:drawablePadding="40dp" -->
+    <!-- android:gravity="center" -->
+    <!-- android:paddingLeft="@dimen/menu_top_bar_padding" -->
+    <!-- android:paddingRight="@dimen/menu_top_bar_padding" -->
+    <!-- android:text="@string/call_waiter" -->
+    <!-- android:textColor="@color/tv_tile_item" -->
+    <!-- android:textSize="@dimen/menu_top_bar_text_medium" -->
+    <!-- android:textStyle="bold" -->
+    <!-- app:customTypeface="fonts/robotoregular.ttf" /> -->
+
+    <LinearLayout
+        android:id="@+id/btn_call_waiter"
+        android:layout_width="@dimen/cm_fragment_bill_width"
+        android:layout_height="@dimen/menu_top_bar_height"
+        android:layout_toLeftOf="@id/sep4"
+        android:gravity="center" >
+
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_bell"
+            android:drawablePadding="40dp"
+            android:text="@string/call_waiter"
+            android:textColor="@color/tv_tile_item"
+            android:textSize="@dimen/menu_top_bar_text_medium"
+            android:textStyle="bold"
+            app:customTypeface="fonts/robotoregular.ttf" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentLeft="false"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+        <!-- CHINA-ENG version : android:layout_width="184px" android:layout_height="39px" -->
+        <ToggleButton android:id="@+id/tbutton_lang_change"
+
+                android:layout_width="210px" android:layout_height="31px"
+                android:textOn=""
+                android:textOff=""
+                android:background="@drawable/bg_lang_change_en_ru"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/sep3"
+        style="@style/cm_fragment_menu_grand_iv_separator"
+        android:layout_toLeftOf="@id/btn_call_waiter" />
+
+</RelativeLayout>

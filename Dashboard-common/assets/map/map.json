@@ -1,0 +1,2649 @@
+{
+	"floors" : {
+		"0": {
+			"map":"file://android_asset/map/map0.png",
+			"descr":""
+		},
+		"1": {
+			"map":"file://android_asset/map/map1.png",
+			"descr":""
+		},
+		"2": {
+			"map":"file://android_asset/map/map2.png",
+			"descr":""
+		},
+		"3": {
+			"map":"file://android_asset/map/map3.png",
+			"descr":""
+		},
+		"4": {
+			"map":"file://android_asset/map/map4.png",
+			"descr":""
+		},
+		"5": {
+			"map":"file://android_asset/map/map5.png",
+			"descr":"Parking"
+		},
+		"6": {
+			"map":"file://android_asset/map/map6.png",
+			"descr":"Parking"
+		},
+		"7": {
+			"map":"file://android_asset/map/map7.png",
+			"descr":"Rink"
+		}
+	},
+	"cat" : {
+		"linen" : [
+		{
+			"id"    : 0,
+			"name"  : "AUBADE",
+			"floor" : 2,
+			"xyr"   : [618,443,7],
+			"descr" : "Aubade – French brand female belya.Samy large range of lingerie, swimwear, beachwear, home wear and accessories, as well as men's underwear French brand Aubade you can buy in the boutique «AUBADE»."
+		},
+		{
+			"id"    : 1,
+			"name"  : "BLISS",
+			"floor" : 4,
+			"xyr"   : [570,283,9],
+			"descr" : "The company develops and manufactures innovative underwear for various purposes. For 14 years we have led the market and is a recognized expert. Our designers and engineers regularly poseschayutbelevye exhibitions in Paris and used in the collection of the latest trends in the world of fashion underwear. Movie stars and singers enjoy wearing lingerie «Bliss». The quality fabrics, a variety of models and ease of wearing is not inferior to foreign analogues."
+		},
+		{
+			"id"    : 2,
+			"name"  : "BYFORD",
+			"floor" : 3,
+			"xyr"   : [415,207,9],
+			"descr" : "Byford internationally recognizable brand, which was founded in 1919 by Donald Byford knitting industry in central England. Built on the beautiful British heritage, Byford continues to adhere to the highest standards of design, craftsmanship and service. Production takes place under the strict supervision of high quality standards in Europe and Asia . production Design developed in England that provides a high consumer demand for a beautifully sculpted British style. "
+		},
+		{
+			"id"    : 3,
+			"name"  : "CALZEDONIA",
+			"floor" : 2,
+			"xyr"   : [490,313,8],
+			"descr" : "«Calzedonia» - is a fashionable Italian company known in most countries. More than 1,100 shops «Calzedonia» open worldwide - in Italy, Austria, Czech Republic, Greece, Hungary, Mexico, Poland, Portugal, Serbia, Slovenia, Croatia, Spain, Turkey, Cyprus, Russia and other countries. Trendy boutiques and outlets «Calzedonia» offer its customers a wide range of different models of hosiery, swimwear and underwear of excellent quality at affordable prices."
+		},
+		{
+			"id"    : 4,
+			"name"  : "ESTELLE MARE",
+			"floor" : 3,
+			"xyr"   : [564,387,7],
+			"descr" : "«Estelle Mare» - a new project of a network of salons, «Estelle Adoni» - Russia's first boutique high beachwear. The latest trends, the loudest designer names - all in one shop: Emamo, Pin Up, John Galliano, Gottex, Lise Charmel."
+		},
+		{
+			"id"    : 5,
+			"name"  : "ETAM",
+			"floor" : 2,
+			"xyr"   : [768,265,15],
+			"descr" : "Etam - known French brand of lingerie and homewear nearly century-long history has become a favorite worldwide. In 2009, the face of the company has become a world famous model Natalia Vodianova - the embodiment of feminine beauty and seductiveness. Especially for Etam Natalia every year creates a collection of lingerie and homewear Natalia pour Etam (Natalia for Etam)."
+		},
+		{
+			"id"    : 6,
+			"name"  : "FALCONERI",
+			"floor" : 2,
+			"xyr"   : [492,195,12],
+			"descr" : "FALCONERI"
+		},
+		{
+			"id"    : 7,
+			"name"  : "INCANTO",
+			"floor" : 2,
+			"xyr"   : [426,177,12],
+			"descr" : "INCANTO FASHION GROUP - a leading company in the production of underwear, hosiery and home wear. The company is headquartered in Italy, near Verona. It was there, cosmopolitan design team creates collections that meet the latest trends of world fashion-industry."
+		},
+		{
+			"id"    : 8,
+			"name"  : "INTIMISSIMI",
+			"floor" : 2,
+			"xyr"   : [577,587,12],
+			"descr" : "The first line of underwear was launched in 1996 under the name «Intimissimi». Today «Intimissimi» - an independent brand, representing women's, men's underwear and clothing for the home."
+		},
+		{
+			"id"    : 9,
+			"name"  : "LA SENZA",
+			"floor" : 2,
+			"xyr"   : [742,590,18],
+			"descr" : "La Senza - bright, exclusive fashion brand, world famous lingerie for young, fun and flirty!"
+		},
+		{
+			"id"    : 10,
+			"name"  : "NATALI",
+			"floor" : 0,
+			"xyr"   : [834,255,5],
+			"descr" : "NATALI"
+		},
+		{
+			"id"    : 11,
+			"name"  : "VI LEGION",
+			"floor" : 3,
+			"xyr"   : [526,229,11],
+			"descr" : "In stores VI Legion group companies «Wild Orchid», collections of lingerie, homewear and beachwear for men. In VI-Legion has everything you need for a beach vacation: swimming trunks, shorts, tank tops, flip-flops, as well as a comfortable home clothes, comfortable pajamas, robes and underwear from Ermenegildo Zegna, John Galliano, Roberto Cavalli, Frankie Morello, Dolce & Gabanna, Moschino, Diesel and other leading brands."
+		},
+		{
+			"id"    : 12,
+			"name"  : "VOGUE",
+			"floor" : 3,
+			"xyr"   : [695,524,5],
+			"descr" : "VOGUE - is the most famous brand of fashion lingerie and stockings, includes a line of classic and exclusive fashion models tights, lingerie and swimwear. VOGUE woman always young, stylish and dynamic. Products from VOGUE is beautiful, seductive and tempting. Assortment collection VOGUE florists shoppers."
+		},
+		{
+			"id"    : 13,
+			"name"  : "WOLFORD",
+			"floor" : 2,
+			"xyr"   : [756,303,7],
+			"descr" : "Wolford - a modern, dynamic brand in the premium segment of the world of fashion, which offers a variety of product lines of the female wardrobe."
+		},
+		{
+			"id"    : 14,
+			"name"  : "X.O.",
+			"floor" : 3,
+			"xyr"   : [692,432,5],
+			"descr" : "Chain stores male underwear «XO» - a territory style, free from prejudice. Here is valued individuality, inner desire for emancipation and self-expression. It was here, in the world of unlimited flight of fancy, your image becomes complete, and the image - spotless."
+		},
+		{
+			"id"    : 15,
+			"name"  : "YAMAMAY",
+			"floor" : 2,
+			"xyr"   : [519,221,10],
+			"descr" : "Italian firm Yamamay - recognized worldwide leader in the development and sale of underwear, swimwear and homewear. Although most models Yamamay - this exclusive, luxurious linens, the price for it is quite democratic."
+		},
+		{
+			"id"    : 16,
+			"name"  : "BUSTIE",
+			"floor" : 2,
+			"xyr"   : [705,516,10],
+			"descr" : "BUSTIE"
+		},
+		{
+			"id"    : 17,
+			"name"  : "DIKAYA ARHIDEYA",
+			"floor" : 2,
+			"xyr"   : [599,339,10],
+			"descr" : " «DIKAYA ARHIDEYA» presents a rich collection of novelties of the season. In addition to classic and beloved brands such as Ermanno Scervino Lingerie, GA Paladini, Ritratti, Raffaela Dangelo, Versace, Valery and others, «Wild Orchid» offers its clients brands, which at first glance to conquer not only women, but men's hearts."
+		},
+		{
+			"id"    : 18,
+			"name"  : "PLANETA KOLGOTOK",
+			"floor" : 2,
+			"xyr"   : [897,256,5],
+			"descr" : "GK «PLANETA KOLGOTOK», established in 1993, has been operating successfully in the field of hosiery our beautiful ladies."
+		},
+		{
+			"id"    : 19,
+			"name"  : "ESTELLE ADONI",
+			"floor" : 2,
+			"xyr"   : [530,351,8],
+			"descr" : "«ESTELLE ADONI»  – is a unique network of underwear shops where most renowned brands from the best European manufacturers. All that «women want» - she finds in interiors «Estelle Adoni»: luxurious lingerie, fine clothes and shoes for the house, corsetry, gorgeous beach ensembles."
+		}
+		],
+		"Jewellery and Accessories" : [
+		{
+			"id"    : 20,
+			"name"  : "ACCESSORIZE",
+			"floor" : 1,
+			"xyr"   : [591,340,15],
+			"descr" : "English brand Accessorize is a huge range of stylish women's accessories - handbags, hats, scarves, shawls and stoles, hair ornaments, jewelry, shoes, clothes, gifts."
+		},
+		{
+			"id"    : 21,
+			"name"  : "CAMEREL/PROOBRAZ",
+			"floor" : 0,
+			"xyr"   : [685,497,5],
+			"descr" : "A huge range of women's and men's bags, belts, wallets, purses, housekeeper, business card holders, document covers, bags, as well silk scarves and scarves."
+		},
+		{
+			"id"    : 22,
+			"name"  : "CHARM",
+			"floor" : 2,
+			"xyr"   : [757,403,5],
+			"descr" : "CHARM"
+		},
+		{
+			"id"    : 23,
+			"name"  : "CHARM",
+			"floor" : 2,
+			"xyr"   : [625,507,5],
+			"descr" : "CHARM"
+		},
+		{
+			"id"    : 24,
+			"name"  : "DIVA",
+			"floor" : 2,
+			"xyr"   : [606,425,10],
+			"descr" : "diva - the international brand of fashion accessories, born in Australia and quickly won the hearts of fashionistas around the world."
+		},
+		{
+			"id"    : 25,
+			"name"  : "ELIT ZAKOLKA",
+			"floor" : 1,
+			"xyr"   : [295,284,8],
+			"descr" : "ElitZakolka - salon hair accessories. Here is a wide range of hair accessories for every taste and every age."
+		},
+		{
+			"id"    : 26,
+			"name"  : "JOLIE",
+			"floor" : 1,
+			"xyr"   : [0,0,0],
+			"descr" : "JOLIE"
+		},
+		{
+			"id"    : 27,
+			"name"  : "KLUMBA",
+			"floor" : 0,
+			"xyr"   : [674,483,5],
+			"descr" : "Vanity watches, accessories for phones, knitted hats, handbags copyrights, knitted hats, stationery, key chains, handbags, purses, cosmetic bags, boxes, circles, etc. Watch"
+		},
+		{
+			"id"    : 28,
+			"name"  : "KONPLOTT",
+			"floor" : 2,
+			"xyr"   : [669,478,8],
+			"descr" : "Exclusive designer jewelry for 27 years KONPLOTT delight their fans around the world and 'seducing shine', using unusual materials and contrasting, vibrant colors. "
+		},
+		{
+			"id"    : 29,
+			"name"  : "LADY COLLECTION",
+			"floor" : 1,
+			"xyr"   : [490,305,7],
+			"descr" : "Lady Collection - is the biggest brand of fashion jewelry and accessories in Russia and Kazakhstan. Earrings, rings, bracelets, headbands and hair clips, belts and scarves - we you will find everything to create spectacular fashion image every day!"
+		},
+		{
+			"id"    : 30,
+			"name"  : "L’ROSE",
+			"floor" : 2,
+			"xyr"   : [0,0,0],
+			"descr" : "Accessories, Jewelery. Earrings, Bracelets, Rings."
+		},
+		{
+			"id"    : 31,
+			"name"  : "NOMINATION",
+			"floor" : 1,
+			"xyr"   : [306,223,8],
+			"descr" : "Jewelry Nomination Italy designed and manufactured in Tuscany. The company uses a rich tradition of Florentine goldsmiths and modern manufacturing techniques to produce their collections of jewelry."
+		},
+		{
+			"id"    : 32,
+			"name"  : "SWAROVSKI",
+			"floor" : 1,
+			"xyr"   : [654,404,5],
+			"descr" : "Sparkling fashion jewelry and crystal figurines."
+		},
+		{
+			"id"    : 33,
+			"name"  : "TIARA",
+			"floor" : 0,
+			"xyr"   : [662,422,5],
+			"descr" : "Women's accessories: rings, earrings, bracelets, necklaces, hair accessories, handbags, watches brands: DYRBERG / KERN (Denmark), FIVA (Netherlands), EVITA PERONI (Denmark), Satellite (France), Hello Kitty (Japan)"
+		},
+		{
+			"id"    : 34,
+			"name"  : "OPTIMYST",
+			"floor" : 2,
+			"xyr"   : [0,0,0],
+			"descr" : "Hats"
+		},
+		{
+			"id"    : 35,
+			"name"  : "RIMSKIE KANIKULI",
+			"floor" : 1,
+			"xyr"   : [0,0,0],
+			"descr" : "We offer Italian jewelery and accessories premium. All our jewelry to highlight skill manufacturers, original design and high-quality work of the master."
+		}
+		],
+		"Gallery Pret-a-Porter" : [
+		{
+			"id"    : 36,
+			"name"  : "AGENT PROVOCATEUR",
+			"floor" : 0,
+			"xyr"   : [519,593,12],
+			"descr" : "Agent Provocateur - underwear brand name speaks for itself: a provocative, seductive, but always leaving something to the imagination."
+		},
+		{
+			"id"    : 37,
+			"name"  : "BALLIN",
+			"floor" : 1,
+			"xyr"   : [409,377,6],
+			"descr" : "Today Ballin - big brand known throughout the world, producing about 350,000 pairs of shoes per year."
+		},
+		{
+			"id"    : 38,
+			"name"  : "BILANCIONI",
+			"floor" : 1,
+			"xyr"   : [228,319,13],
+			"descr" : "BILANCIONI"
+		},
+		{
+			"id"    : 39,
+			"name"  : "BML MUNCHEN",
+			"floor" : 0,
+			"xyr"   : [549,622,11],
+			"descr" : "BML collection created for men who are ready to emphasize their individuality, for those who appreciate the unsurpassed fit and flawless execution, elegant restraint and charm."
+		},
+		{
+			"id"    : 40,
+			"name"  : "CARACTERE",
+			"floor" : 0,
+			"xyr"   : [389,369,16],
+			"descr" : "Caractère brand belongs to the famous Italian holding Miroglio Group, holds a leading position in the world in the field of women's apparel that is exported to 36 countries."
+		},
+		{
+			"id"    : 41,
+			"name"  : "COCCINELLE",
+			"floor" : 0,
+			"xyr"   : [194,292,12],
+			"descr" : "Brand Coccinelle, famous for its bags and accessories luxury class."
+		},
+		{
+			"id"    : 42,
+			"name"  : "CONCEPT BY TIME CODE",
+			"floor" : 0,
+			"xyr"   : [449,586,6],
+			"descr" : "Watch say about you in the community more than the recommendation of friends, colleagues and personal pages on social networks. It all depends on what you want to say."
+		},
+		{
+			"id"    : 43,
+			"name"  : "DIVA BOUTIQUE",
+			"floor" : 1,
+			"xyr"   : [475,458,15],
+			"descr" : "Our company has over 15 years of clothing from Italy, our buyers are closely watching all the fashion trends, intelligently selected range and try their best to professionally and efficiently meet changing with each season demands of customers."
+		},
+		{
+			"id"    : 44,
+			"name"  : "ELENA MIRO",
+			"floor" : 1,
+			"xyr"   : [184,259,13],
+			"descr" : "Elena Miro - one of those rare companies in the fashion industry, which creates clothes large sizes, from the 48th and above."
+		},
+		{
+			"id"    : 45,
+			"name"  : "FASHION LIFESTYLE BOUTIQUE",
+			"floor" : 1,
+			"xyr"   : [370,459,21],
+			"descr" : "Fashion Lifestyle Buyers can choose from more than 1,500 brands of clothes, shoes, accessories."
+		},
+		{
+			"id"    : 46,
+			"name"  : "FEAVINCI",
+			"floor" : 1,
+			"xyr"   : [456,424,17],
+			"descr" : "Assortment list: coats, jackets, coats, suits, jackets, trousers, shirts, ties, cufflinks, socks, shoes, knitwear, hats, scarves, gloves, bags and accessories."
+		},
+		{
+			"id"    : 47,
+			"name"  : "FLASH STORE",
+			"floor" : 1,
+			"xyr"   : [210,284,14],
+			"descr" : "flash store - it's multi-brand men's and women's clothing, shoes and accessories, organically integrating on its site, a variety of fashion trend within the premium segment and luxe, youth clothing from casual to smart designers and evening collections."
+		},
+		{
+			"id"    : 48,
+			"name"  : "FREYWILLE",
+			"floor" : 0,
+			"xyr"   : [432,573,5],
+			"descr" : "Austrian company 'FREYWILLE'"
+		},
+		{
+			"id"    : 49,
+			"name"  : "FURLA",
+			"floor" : 0,
+			"xyr"   : [218,314,12],
+			"descr" : "FURLA"
+		},
+		{
+			"id"    : 50,
+			"name"  : "GL CLUB",
+			"floor" : 1,
+			"xyr"   : [393,437,6],
+			"descr" : "GL CLUB"
+		},
+		{
+			"id"    : 51,
+			"name"  : "ICE ICEBERG",
+			"floor" : 1,
+			"xyr"   : [286,364,12],
+			"descr" : "Ice Iceberg - brand with a strong personality, addressed to a young, cosmopolitan audience open to new trends."
+		},
+		{
+			"id"    : 52,
+			"name"  : "IMPERIAL",
+			"floor" : 0,
+			"xyr"   : [252,347,11],
+			"descr" : "«IMPERIA’L» - multibrand boutique ultra-masculine and feminine fashion clothes from Europe to progressively minded youth."
+		},
+		{
+			"id"    : 53,
+			"name"  : "LAB.PAL ZILERI",
+			"floor" : 1,
+			"xyr"   : [493,554,12],
+			"descr" : "Lab.Pal Zileri – elegant and casual, sportswear and contemporary, this collection consists of many shades."
+		},
+		{
+			"id"    : 54,
+			"name"  : "LANCEL",
+			"floor" : 0,
+			"xyr"   : [408,480,15],
+			"descr" : "Bags of leather and textiles for men and women, briefcases, purses, backpacks, travel bags and suitcases LANCEL."
+		},
+		{
+			"id"    : 55,
+			"name"  : "LECADEAU",
+			"floor" : 0,
+			"xyr"   : [338,416,8],
+			"descr" : "LeCadeau - network of boutiques jewelry, accessories and gifts from top brands."
+		},
+		{
+			"id"    : 56,
+			"name"  : "LIU-JO",
+			"floor" : 1,
+			"xyr"   : [0,0,0],
+			"descr" : "LIU JO brand was founded in Italy in 1995 by the designer Marco Marchi (Marco Marchi) and his brother. Liu Jo clothing made ​​from high quality materials, mainly of silk, wool and cotton and decorated with scatterings of crystals, beads and original prints."
+		},
+		{
+			"id"    : 57,
+			"name"  : "NO ONE",
+			"floor" : 1,
+			"xyr"   : [519,587,16],
+			"descr" : "For almost twenty years the company NO ONE has received the status of one of the largest distributors of leading Italian brands in the Russian market. The company's portfolio of about 50 European brands."
+		},
+		{
+			"id"    : 58,
+			"name"  : "PATRIZIA PEPE",
+			"floor" : 0,
+			"xyr"   : [425,396,17],
+			"descr" : "PATRIZIA PEPE"
+		},
+		{
+			"id"    : 59,
+			"name"  : "PIA PRIMA",
+			"floor" : 0,
+			"xyr"   : [354,427,6],
+			"descr" : "PIA PRIMA"
+		},
+		{
+			"id"    : 60,
+			"name"  : "PINKO",
+			"floor" : 0,
+			"xyr"   : [501,554,17],
+			"descr" : "Women's clothing and accessories."
+		},
+		{
+			"id"    : 61,
+			"name"  : "POP UP 7",
+			"floor" : 0,
+			"xyr"   : [478,517,14],
+			"descr" : "POP UP 7"
+		},
+		{
+			"id"    : 62,
+			"name"  : "RICHONE",
+			"floor" : 0,
+			"xyr"   : [152,250,21],
+			"descr" : "RICHONE- multibrand boutique, offering customers only topical, refined and elegant world of high fashion trends: men's and women's clothing and footwear, T-shirts, jeans, belts, bags, dresses, pants, skirts."
+		},
+		{
+			"id"    : 63,
+			"name"  : "TREVIS JORDAN",
+			"floor" : 0,
+			"xyr"   : [471,465,17],
+			"descr" : "Trevis Jordan – this fashionable women's clothing, shoes and accessories. Collections at the store can be attributed to the styles of art fashion bohemian and romantic, smart business casual."
+		},
+		{
+			"id"    : 64,
+			"name"  : "TRU TRUSSARDI",
+			"floor" : 0,
+			"xyr"   : [450,425,15],
+			"descr" : "TRU TRUSSARDI"
+		},
+		{
+			"id"    : 65,
+			"name"  : "VICINI",
+			"floor" : 1,
+			"xyr"   : [547,621,10],
+			"descr" : "Men's and women's shoes, handbags."
+		},
+		{
+			"id"    : 66,
+			"name"  : "ELLE DE BOTE",
+			"floor" : 1,
+			"xyr"   : [564,139,10],
+			"descr" : "ELLE DE BOTE – is confident and dynamic national trading network of perfumes and cosmetics."
+		},
+		{
+			"id"    : 67,
+			"name"  : "ELLE DE BOTE",
+			"floor" : 1,
+			"xyr"   : [357,347,15],
+			"descr" : "ELLE DE BOTE – is confident and dynamic national trading network of perfumes and cosmetics."
+		},
+		{
+			"id"    : 68,
+			"name"  : "NICOLAS TIBO",
+			"floor" : 0,
+			"xyr"   : [418,556,6],
+			"descr" : "Florentine mosaic, enamel, cast miniatures in silver and gold, painting, wood carving, stone carving, interior decoration in the style of Faberge, unusual table and mantel clocks are amazingly refined."
+		},
+		{
+			"id"    : 69,
+			"name"  : "PARAD",
+			"floor" : 1,
+			"xyr"   : [250,344,13],
+			"descr" : "PARAD – is a place where in the comfort front interior can choose shoes and accessories for all occasions."
+		}
+		],
+		"Children and youth fashion" : [
+		{
+			"id"    : 70,
+			"name"  : "ADIDAS KIDS",
+			"floor" : 4,
+			"xyr"   : [767,459,12],
+			"descr" : "In adidas kids can find absolutely any goods for children. Girls will love the bright dresses, socks and tops, pants boys will appreciate the convenient and fashionable backpacks."
+		},
+		{
+			"id"    : 71,
+			"name"  : "BEBA KIDS",
+			"floor" : 4,
+			"xyr"   : [749,292,16],
+			"descr" : "In store Bebakids presented collections for children and adolescents from 0 - 16 years. Clothing stands a real European quality and style."
+		},
+		{
+			"id"    : 72,
+			"name"  : "DU PAREIL AU MEME",
+			"floor" : 4,
+			"xyr"   : [590,476,15],
+			"descr" : "Du Pareil au Meme(DPAM) – is a global network of children's clothing for boys and girls from 0 to 14 years, which offers the market the brand concept with colorful French design, ideal price-performance ratio and a large assortment."
+		},
+		{
+			"id"    : 73,
+			"name"  : "GAP KIDS",
+			"floor" : 4,
+			"xyr"   : [831,425,13],
+			"descr" : "Gap – cult American fashion brand."
+		},
+		{
+			"id"    : 74,
+			"name"  : "JUSTICE",
+			"floor" : 4,
+			"xyr"   : [758,239,18],
+			"descr" : "This is number 1 brand for girls ages 6-14!"
+		},
+		{
+			"id"    : 75,
+			"name"  : "KANZ",
+			"floor" : 4,
+			"xyr"   : [692,422,9],
+			"descr" : "More than 10 years KANZ known in Russia as one of the leaders of the sale of children's clothing and accessories, is the owner of the production and distributorship of many brands."
+		},
+		{
+			"id"    : 76,
+			"name"  : "MAMAS & PAPAS",
+			"floor" : 4,
+			"xyr"   : [617,666,44],
+			"descr" : "Mamas & Papas – British brand products for expectant mothers and babies."
+		},
+		{
+			"id"    : 77,
+			"name"  : "MONNALISA",
+			"floor" : 4,
+			"xyr"   : [551,510,17],
+			"descr" : "Monnalisa - branded boutiques of Italian children's clothing in Moscow."
+		},
+		{
+			"id"    : 78,
+			"name"  : "MOTHERCARE",
+			"floor" : 4,
+			"xyr"   : [600,379,28],
+			"descr" : "mothercare — only chain stores for moms and babies, rightly recognized expert in this market sector."
+		},
+		{
+			"id"    : 79,
+			"name"  : "OKAIDI",
+			"floor" : 4,
+			"xyr"   : [624,449,9],
+			"descr" : "OKAIDI - World-famous brand of French children's clothing «Okaïdi» strives to make the world better."
+		},
+		{
+			"id"    : 80,
+			"name"  : "PAMPOLINA",
+			"floor" : 4,
+			"xyr"   : [675,452,12],
+			"descr" : "PAMPOLINA"
+		},
+		{
+			"id"    : 81,
+			"name"  : "REEBOK KIDS",
+			"floor" : 4,
+			"xyr"   : [707,518,12],
+			"descr" : "Children's sporting goods."
+		},
+		{
+			"id"    : 82,
+			"name"  : "SELA",
+			"floor" : 4,
+			"xyr"   : [618,119,23],
+			"descr" : "SELA - is well-known Russian brand of fashionable and stylish clothes, which has more than 20 years of pleasing their customers bright collections, original design and consistently high quality."
+		},
+		{
+			"id"    : 83,
+			"name"  : "SENBODULUN",
+			"floor" : 4,
+			"xyr"   : [584,328,9],
+			"descr" : "Senbodulun- Chain stores safe children's clothing and products for kids"
+		},
+		{
+			"id"    : 84,
+			"name"  : "VESELO SHAGAT",
+			"floor" : 4,
+			"xyr"   : [776,314,10],
+			"descr" : "'VESELO SHAGAT' - is a network of shoe stores, clothing and accessories for children from the first step to 14 years."
+		},
+		{
+			"id"    : 85,
+			"name"  : "IMPERIYA DETSTVA",
+			"floor" : 4,
+			"xyr"   : [903,403,20],
+			"descr" : "Company «Empire of Childhood» was founded in 1997 and today is one of the leading retailers in children's goods class «Premium» in Moscow."
+		}
+		],
+		"Ladieswear" : [
+		{
+			"id"    : 86,
+			"name"  : "A.M.N.",
+			"floor" : 2,
+			"xyr"   : [567,304,13],
+			"descr" : "Turkish fashion women's clothing"
+		},
+		{
+			"id"    : 87,
+			"name"  : "BASIC EDITIONS",
+			"floor" : 2,
+			"xyr"   : [845,145,6],
+			"descr" : "«Basic Editions» - network of single-brand boutiques women's clothing, shoes and accessories."
+		},
+		{
+			"id"    : 88,
+			"name"  : "BEBE",
+			"floor" : 2,
+			"xyr"   : [816,404,10],
+			"descr" : "BEBE"
+		},
+		{
+			"id"    : 89,
+			"name"  : "BESSINI",
+			"floor" : 2,
+			"xyr"   : [764,456,10],
+			"descr" : "Brand Bessini today - the result of work masters who dedicated his life to the art of dressing and fabrics."
+		},
+		{
+			"id"    : 90,
+			"name"  : "CASTELLO",
+			"floor" : 3,
+			"xyr"   : [903,310,7],
+			"descr" : "Classic and modern styles coexist with each other, making shopping trip into a pleasant and exciting process."
+		},
+		{
+			"id"    : 91,
+			"name"  : "CATERINA LEMAN",
+			"floor" : 2,
+			"xyr"   : [934,271,13],
+			"descr" : "Women's clothing. Assortment: raincoats, costume group, dresses, skirts, pants, blouses, knitted group."
+		},
+		{
+			"id"    : 92,
+			"name"  : "CHAPERCHE",
+			"floor" : 2,
+			"xyr"   : [719,260,12],
+			"descr" : "The boutique mainly represented French brands luxe c class 34 to 48 size."
+		},
+		{
+			"id"    : 93,
+			"name"  : "CHARUEL",
+			"floor" : 3,
+			"xyr"   : [645,392,14],
+			"descr" : "Charuel - fashion brand women's clothing class average - average plus existing in the market since 1998."
+		},
+		{
+			"id"    : 94,
+			"name"  : "CINZIA ROCCA",
+			"floor" : 2,
+			"xyr"   : [645,385,9],
+			"descr" : "Women's coats, knitwear - Marlys. Scarves, gloves - Colombo."
+		},
+		{
+			"id"    : 95,
+			"name"  : "COATS",
+			"floor" : 2,
+			"xyr"   : [657,397,6],
+			"descr" : "Top women's clothing, women's clothing, beachwear, light group, accessories, bags."
+		},
+		{
+			"id"    : 96,
+			"name"  : "GERARD DAREL",
+			"floor" : 2,
+			"xyr"   : [602,194,9],
+			"descr" : "Women's clothing, shoes."
+		},
+		{
+			"id"    : 97,
+			"name"  : "GERRY WEBER",
+			"floor" : 3,
+			"xyr"   : [675,196,20],
+			"descr" : "'Gerry Weber'- for modern and confident women prefer quality and fashionable clothes for the office and leisure."
+		},
+		{
+			"id"    : 98,
+			"name"  : "GIZIA",
+			"floor" : 2,
+			"xyr"   : [815,172,12],
+			"descr" : "Casual wear, clothing for leisure, clothes for the office, evening wear, cruise wear."
+		},
+		{
+			"id"    : 99,
+			"name"  : "KAREN MILLEN",
+			"floor" : 2,
+			"xyr"   : [708,209,13],
+			"descr" : "The basic idea of ​​Karen Millen create fashionable, beautiful clothes with extraordinary cut, so that it was both elegant, original and at the same time comfortable."
+		},
+		{
+			"id"    : 100,
+			"name"  : "KIRA PLASTININA",
+			"floor" : 3,
+			"xyr"   : [1032,280,9],
+			"descr" : "Model Kira Plastinina for young, active, seeking individuality, girls are the same age as their designer."
+		},
+		{
+			"id"    : 101,
+			"name"  : "LAUREN VIDAL",
+			"floor" : 2,
+			"xyr"   : [624,321,11],
+			"descr" : "Assortment: jackets, jackets, leggings, tunics, dresses, skirts, pants, shirts."
+		},
+		{
+			"id"    : 102,
+			"name"  : "MANGO",
+			"floor" : 2,
+			"xyr"   : [755,202,9],
+			"descr" : "Mango - is a highly-quality, comfortable and stylish clothing for girls, leading an active lifestyle and following the latest trends in the fashion world."
+		},
+		{
+			"id"    : 103,
+			"name"  : "MARELLA",
+			"floor" : 2,
+			"xyr"   : [566,154,7],
+			"descr" : "In store MARELLA presented popular Italian brand MARELLA, which is part of MaxMara Fashion Group, one of the leading companies in Italy and famous throughout the world, dealing with the direction pret-a-porter."
+		},
+		{
+			"id"    : 104,
+			"name"  : "MONA LISA",
+			"floor" : 3,
+			"xyr"   : [957,260,11],
+			"descr" : "Women's clothing."
+		},
+		{
+			"id"    : 105,
+			"name"  : "MONSOON",
+			"floor" : 2,
+			"xyr"   : [630,412,10],
+			"descr" : "Monsoon - English brand, founded in 1972, uniting under his wing two popular in the UK and worldwide brands - Monsoon and Accessorize."
+		},
+		{
+			"id"    : 106,
+			"name"  : "MOTIVI",
+			"floor" : 2,
+			"xyr"   : [558,489,15],
+			"descr" : "Shops brand Motivi worldwide offer a wide range of goods: jackets, coats, coats, jackets, trousers, skirts, shorts, sweaters, blouses, shirts, gloves, socks, stockings, shawls and scarves. Hats, bags, belts and jewelry."
+		},
+		{
+			"id"    : 107,
+			"name"  : "NOUVELLE",
+			"floor" : 3,
+			"xyr"   : [432,187,7],
+			"descr" : "Range of goods: Clothing, accessories, beachwear, evening dresses, pants, skirts, sweaters, tunics, belts, gloves, purses, coats, jackets, hats, bags, scarves, shawls, gloves, hosiery, swimwear."
+		},
+		{
+			"id"    : 108,
+			"name"  : "OASIS",
+			"floor" : 2,
+			"xyr"   : [720,620,11],
+			"descr" : "Range of goods: dress, sweater, top, pants, jeans, blouse, bolero, gloves, jacket, vest, umbrella, cardigan, leather jacket, tights, overalls, jacket, coat, purse, leotard, leggings, fingerless gloves, boots, gloves, Headband, belt, sunglasses, bag, cosmetic bag, Case for Ipad, hat, scarf, shorts, skirt."
+		},
+		{
+			"id"    : 109,
+			"name"  : "PERFETTA",
+			"floor" : 3,
+			"xyr"   : [604,197,10],
+			"descr" : "Concept stores PERFETTA presented in the best shopping centers of the city. Our interiors demonstrate freedom of choice, offering you the most unusual transformation."
+		},
+		{
+			"id"    : 110,
+			"name"  : "PROMOD",
+			"floor" : 2,
+			"xyr"   : [786,190,10],
+			"descr" : "Promod - is an independent family business. The brand was created in France in 1975 and is now represented in more than 1000 stores in Europe, the Middle East, Africa and Asia."
+		},
+		{
+			"id"    : 111,
+			"name"  : "PUZZLE",
+			"floor" : 0,
+			"xyr"   : [253,246,7],
+			"descr" : "'PUZZLE' - this is a shop for women, where the collections of many Russian designers."
+		},
+		{
+			"id"    : 112,
+			"name"  : "SO FRENCH",
+			"floor" : 2,
+			"xyr"   : [873,319,12],
+			"descr" : "SO FRENCH - multi-brand women's clothing magagazin Russian, Italian, Turkish and Chinese production."
+		},
+		{
+			"id"    : 113,
+			"name"  : "SOCIETA",
+			"floor" : 2,
+			"xyr"   : [334,191,8],
+			"descr" : "Ladieswear"
+		},
+		{
+			"id"    : 114,
+			"name"  : "STEFANEL",
+			"floor" : 2,
+			"xyr"   : [548,250,10],
+			"descr" : "STEFANEL – one of the most famous Italian brands, specializing in production of knitwear."
+		},
+		{
+			"id"    : 115,
+			"name"  : "STRADIVARIUS",
+			"floor" : 2,
+			"xyr"   : [582,380,23],
+			"descr" : "Brand Stradivarius - is the embodiment of femininity and youth combined with the latest fashion trends."
+		},
+		{
+			"id"    : 116,
+			"name"  : "TARA JARMON",
+			"floor" : 2,
+			"xyr"   : [660,212,13],
+			"descr" : "Brand «Tara Jarmon» - is chic, comfortable, elegant (attractive) and comfortable things, but never provocative, decorated items, embroidery, etc."
+		},
+		{
+			"id"    : 117,
+			"name"  : "TRENDY LADY",
+			"floor" : 3,
+			"xyr"   : [370,187,8],
+			"descr" : "If you need the dress - you need us! In the boutique you will find Trendy Lady dress for any occasion."
+		},
+		{
+			"id"    : 118,
+			"name"  : "UTERQUE",
+			"floor" : 2,
+			"xyr"   : [732,477,11],
+			"descr" : "Uterqüe brand appeared in 2008 to fill the female wardrobe luxurious accessories, garments and footwear of the highest quality. Collections Uterqüe produced in limited series and at an affordable price."
+		},
+		{
+			"id"    : 119,
+			"name"  : "ITALYANKA.RU",
+			"floor" : 0,
+			"xyr"   : [753,469,9],
+			"descr" : "In store ITALYANKA.RU represented youth clothing from leading manufacturers from Italy and France, such as: Rinascimento, Northland, Denny Rose, RDS, Sportstaff, Axara, YUKA, Anna Biagini and many others."
+		},
+		{
+			"id"    : 120,
+			"name"  : "CHRISTY",
+			"floor" : 2,
+			"xyr"   : [473,172,12],
+			"descr" : "'Christia' - a network of shops cozy modern women's outerwear and knitwear from manufacturers with a reputation for high quality."
+		}
+		],
+		"Pet-shop" : [
+		{
+			"id"    : 121,
+			"name"  : "ZOOMARCKET CATS & DOGS",
+			"floor" : 0,
+			"xyr"   : [744,148,20],
+			"descr" : "Cats & Dogs - a network of specialized pet stores, we offer high quality goods from the international and domestic manufacturers for pets."
+		}
+		],
+		"Toys" : [
+		{
+			"id"    : 122,
+			"name"  : "EARLY LEARNING CENTRE",
+			"floor" : 4,
+			"xyr"   : [728,579,10],
+			"descr" : "ELC brand is well known around the world, and now our toys will delight children and their parents in Russia. For more than 30 years, Early Learning Centre creates wonderful toys - toys that promote the harmonious development of babies with them, children begin to learn about the world successfully."
+		},
+		{
+			"id"    : 123,
+			"name"  : "FOR A’N’GELS",
+			"floor" : 4,
+			"xyr"   : [659,473,8],
+			"descr" : "Boutique gifts for girls and their moms  «FOR ANGELS»"
+		},
+		{
+			"id"    : 124,
+			"name"  : "HAMLEYS",
+			"floor" : 4,
+			"xyr"   : [503,549,35],
+			"descr" : "Hamleys – world famous toy seller with more than 250-year history."
+		},
+		{
+			"id"    : 125,
+			"name"  : "HUGGY PET",
+			"floor" : 4,
+			"xyr"   : [0,0,0],
+			"descr" : "«Huggy Pet» - this new toys that flick of the wrist turns into a comfortable cushion for baby sleep. Sleep in the arms is now possible with the lamb, rabbit, dog, kitty, ladybug and many others."
+		},
+		{
+			"id"    : 126,
+			"name"  : "IMAGINARIUM",
+			"floor" : 4,
+			"xyr"   : [743,488,12],
+			"descr" : "Imaginarium – chain stores educational toys and games."
+		},
+		{
+			"id"    : 127,
+			"name"  : "IQ TOY PRAVILNIE IGRUSHKI",
+			"floor" : 4,
+			"xyr"   : [855,245,5],
+			"descr" : " \"IQTOY \" Correct toys - a chain of stores educational toys for children and their parents. "
+		},
+		{
+			"id"    : 128,
+			"name"  : "LEGO",
+			"floor" : 4,
+			"xyr"   : [896,314,10],
+			"descr" : "Network LEGO brand stores open for its visitors the unique world of LEGO. The store offers a wide range of designers LEGO, LEGO ® Wear clothes and accessories of world famous brand."
+		},
+		{
+			"id"    : 129,
+			"name"  : "WINX CLUB",
+			"floor" : 4,
+			"xyr"   : [789,329,5],
+			"descr" : "Shop selling children's products to the world-famous brand WINX CLUB. "
+		},
+		{
+			"id"    : 130,
+			"name"  : "GOROD IGRUSHEK",
+			"floor" : 4,
+			"xyr"   : [670,196,20],
+			"descr" : "On the colorful shelves have a wide range of toys for children from 0 to 12 years, and every adult will find something to please from rare vintage cars CMC and Yat Ming, porcelain miniatures Reutter Porzellan and dolls Tonner & Effanbee Doll to popular worldwide brands as dolls Mattel, designers LEGO, radio-controlled cars New Bright, toys Hasbro, puzzles and board games Schmidt, educational and developmental thinking and motor skills Unimax toys and Infantino."
+		},
+		{
+			"id"    : 131,
+			"name"  : "POPUGAI TOI",
+			"floor" : 4,
+			"xyr"   : [678,611,5],
+			"descr" : "Chain stores \"POPUGAI TOI\" offers a wide range of toys world's leading manufacturers: HASBRO, MEGABLOCKS, ANNA CLUB, Clementoni, etc."
+		}
+		],
+		"Stationery products" : [
+		{
+			"id"    : 132,
+			"name"  : "CAMPO MARZIO DESIGN",
+			"floor" : 0,
+			"xyr"   : [586,491,5],
+			"descr" : ""
+		}
+		],
+		"Carnival costumes" : [
+		{
+			"id"    : 133,
+			"name"  : "CARNEVALE",
+			"floor" : 4,
+			"xyr"   : [708,606,12],
+			"descr" : "Carnival adult costumes, children's carnival costumes, wigs, masks, latex accessories CarneVale, hats, theatrical and dance shoes, costumes, costume elements"
+		}
+		],
+		"Health and Beauty, Optics" : [
+		{
+			"id"    : 134,
+			"name"  : "DESSA",
+			"floor" : 1,
+			"xyr"   : [0,0,0],
+			"descr" : "Sunglasses, gloves, umbrellas"
+		},
+		{
+			"id"    : 135,
+			"name"  : "DOUGLAS",
+			"floor" : 1,
+			"xyr"   : [712,175,29],
+			"descr" : "Douglas - a network of perfume and cosmetics stores, providing excellent service, first-class range and a pleasant atmosphere."
+		},
+		{
+			"id"    : 136,
+			"name"  : "GLAMOUR",
+			"floor" : 2,
+			"xyr"   : [0,0,0],
+			"descr" : "First in the SEC \"European\" in the booth for Ladies Glamour features the most popular brands of nail industry. "
+		},
+		{
+			"id"    : 137,
+			"name"  : "JO MALONE",
+			"floor" : 1,
+			"xyr"   : [568,307,14],
+			"descr" : "Revolutionary art of perfumery brand Jo Malone London is famous for its pronounced the English style, which is characterized by the unexpected sound of flavors and elegant art of gift giving."
+		},
+		{
+			"id"    : 138,
+			"name"  : "LUSH",
+			"floor" : 1,
+			"xyr"   : [739,286,10],
+			"descr" : "LUSH. FRESH HANDMADE COSMETICS. «LUSH» translated from English. language means \"gorgeous, fresh, juicy,\" and it will feel so your skin!"
+		},
+		{
+			"id"    : 139,
+			"name"  : "L`OCCITANE",
+			"floor" : 1,
+			"xyr"   : [405,307,11],
+			"descr" : "Means for skin care and body care, perfumes for women and men, fragrances for home"
+		},
+		{
+			"id"    : 140,
+			"name"  : "MAC",
+			"floor" : 1,
+			"xyr"   : [622,366,14],
+			"descr" : "Cosmetics for people of all races, all sexes and ages!"
+		},
+		{
+			"id"    : 141,
+			"name"  : "MAESTRO PROFESSIONAL",
+			"floor" : 0,
+			"xyr"   : [391,290,6],
+			"descr" : "«MAESTRO PROFESSIONAL» Shop professional cosmetics, appliances, accessories, supplies and tools manufacturers worldwide for the beauty industry. The store offers a wide range of professional products."
+		},
+		{
+			"id"    : 142,
+			"name"  : "ORGANIC SHOP",
+			"floor" : 0,
+			"xyr"   : [425,331,12],
+			"descr" : "Shop natural cosmetics."
+		},
+		{
+			"id"    : 143,
+			"name"  : "Sea of Spa Kosmetika mertvogo morya",
+			"floor" : 2,
+			"xyr"   : [938,189,7],
+			"descr" : "High-quality cosmetics \"SVRS Beauty \" has no analogues in the world, as the basis of our creams is an extract from the aloe vera plant, which significantly increases the useful properties of drugs compared with other cosmetics, the basis of which is water."
+		},
+		{
+			"id"    : 144,
+			"name"  : "Sea of Spa Kosmetika mertvogo morya",
+			"floor" : 2,
+			"xyr"   : [570,433,5],
+			"descr" : "High-quality cosmetics \"SVRS Beauty \" has no analogues in the world, as the basis of our creams is an extract from the aloe vera plant, which significantly increases the useful properties of drugs compared with other cosmetics, the basis of which is water."
+		},
+		{
+			"id"    : 145,
+			"name"  : "STYLISTE",
+			"floor" : 2,
+			"xyr"   : [416,211,5],
+			"descr" : "Styliste shop sells professional tools known manufacturers to create any hairstyle, as well as the entire range of tools for hair care - shampoos, conditioners, masks and treatments, as well as styling tools and products finish fixing hairstyles - gels, sweets, pasta, clay, foam, varnishes, mousses as female and male series."
+		},
+		{
+			"id"    : 146,
+			"name"  : "SUN FASHION",
+			"floor" : 2,
+			"xyr"   : [307,312,8],
+			"descr" : "Chain stores \"Sun Fashion\" offers more than 1000 models of sunglasses from world famous designers: SHOPARD, DIOR, D & G, GUCCI, PRADA, VERSACE, MAX MARA, RAY BAN, and many others."
+		},
+		{
+			"id"    : 147,
+			"name"  : "THE BODY SHOP",
+			"floor" : 1,
+			"xyr"   : [526,229,10],
+			"descr" : "The Body Shop ® - the original and ethical international company that produces excellent cosmetics based on natural ingredients that cares about protecting the environment and human rights."
+		},
+		{
+			"id"    : 148,
+			"name"  : "VERBENA",
+			"floor" : 0,
+			"xyr"   : [269,260,9],
+			"descr" : "Shop «VERBENA PROFESSIONAL» represents a full range of professional accessories for the beauty industry."
+		},
+		{
+			"id"    : 149,
+			"name"  : "VICTORIA'S SECRET",
+			"floor" : 1,
+			"xyr"   : [428,328,12],
+			"descr" : "American company Victoria'sSecret, leader in the sale of underwear, perfume, body care and cosmetics, opened its fourth store Victoria's Secret Beauty & Accessories in \"European\" SEC."
+		},
+		{
+			"id"    : 150,
+			"name"  : "VITAWIN",
+			"floor" : 3,
+			"xyr"   : [335,310,8],
+			"descr" : "Shop sports nutrition and accessories company VITAWIN"
+		},
+		{
+			"id"    : 151,
+			"name"  : "VITOMIN",
+			"floor" : 0,
+			"xyr"   : [449,335,10],
+			"descr" : "vit | o | min - the first specialized national network of stores offering healthy lifestyle vitamins, minerals, herbs, sports nutrition and natural cosmetics for a growing group of Russian consumers, health-conscious."
+		},
+		{
+			"id"    : 152,
+			"name"  : "APTEKA 36,6",
+			"floor" : 0,
+			"xyr"   : [904,342,19],
+			"descr" : "Pharmacy Chain \"36 ♥ 6\" - a national leader in retail sales for beauty and health."
+		},
+		{
+			"id"    : 153,
+			"name"  : "BUTIC LU NET",
+			"floor" : 1,
+			"xyr"   : [614,417,6],
+			"descr" : "Our salon specializes in the sale of sunglasses and medical frames."
+		},
+		{
+			"id"    : 154,
+			"name"  : "IV ROSHE",
+			"floor" : 1,
+			"xyr"   : [10,260,8],
+			"descr" : "Yves Rocher (Yves Rocher) - French Botanical Beauty Brand. Cosmetics Yves Rocher - is an expert cosmetics, which is based on knowledge of the nature and scientific research on the properties of plants. Today Brand Yves Rocher - this 4000 outlets worldwide, including more than 280 - in Russia."
+		},
+		{
+			"id"    : 155,
+			"name"  : "ELLE DE BOTTE",
+			"floor" : 1,
+			"xyr"   : [561,139,13],
+			"descr" : "ILE DE BEAUTE Network, founded in 2000, for the short time became one of the leaders in the field of selective retailing cosmetics and perfumes."
+		},
+		{
+			"id"    : 156,
+			"name"  : "ELLE DE BOTTE",
+			"floor" : 1,
+			"xyr"   : [358,342,20],
+			"descr" : "ILE DE BEAUTE Network, founded in 2000, for the short time became one of the leaders in the field of selective retailing cosmetics and perfumes."
+		},
+		{
+			"id"    : 157,
+			"name"  : "LINZAMASTER",
+			"floor" : 1,
+			"xyr"   : [489,265,10],
+			"descr" : "Linzmaster company - a network of opticians full cycle, founded in 1998 in Moscow."
+		},
+		{
+			"id"    : 158,
+			"name"  : "NOVAYA ZARYA",
+			"floor" : 1,
+			"xyr"   : [541,260,9],
+			"descr" : ""
+		},
+		{
+			"id"    :159 ,
+			"name"  : "SOZVEZDIE KRASOTI",
+			"floor" : 0,
+			"xyr"   : [306,297,15],
+			"descr" : "«SOZVEZDIE KRASOTI» - is a network of shops selling unique products for health and beauty, which is actively developing and growing for over 20 years."
+		}
+		],
+		"Fur" : [
+		{
+			"id"    : 160,
+			"name"  : "MEHA SKANDINAVII",
+			"floor" : 1,
+			"xyr"   : [597,676,15],
+			"descr" : "Product range: Ladie's mink, sable, chinchilla, astrakhan, fox, fox, rabbit, male and female headwear, accessories of the same kinds of fur, leather gloves women, including with fur trim."
+		},
+		{
+			"id"    : 161,
+			"name"  : "TRI LVA",
+			"floor" : 1,
+			"xyr"   : [715,564,12],
+			"descr" : "Inside «TRI LVA» presents the best achievements of the world of design ideas manufacturers from Italy, France, Finland, Germany and other countries working in the market of fur than a dozen years and have an impeccable reputation."
+		}
+		],
+		"Menswear" : [
+		{
+			"id"    : 162,
+			"name"  : "CACHAREL",
+			"floor" : 3,
+			"xyr"   : [768,460,13],
+			"descr" : "The appearance of clothing and accessories Cacharel marked a revolution in the world of fashion - a combination of design and innovation. After all, before the appearance of this brand, the big fashion houses focused on the production of pieces of product \"haute couture\" and not for manufacturing ready-made garments."
+		},
+		{
+			"id"    : 163,
+			"name"  : "CAMEL ACTIVE",
+			"floor" : 3,
+			"xyr"   : [410,318,12],
+			"descr" : "German brand CAMEL active is the men's collection of shoes and clothing, supplemented by lines of accessories: bags, belts, hats, and a collection of underwear and socks."
+		},
+		{
+			"id"    : 164,
+			"name"  : "CHEVIGNON",
+			"floor" : 3,
+			"xyr"   : [662,441,0],
+			"descr" : "Chevignon, iconic brand of the 1980s, known for its leather goods and down jackets Tog `s, today stands out by its French chic, subtly combining elegance and wild passion, tradition and modernity!"
+		},
+		{
+			"id"    : 165,
+			"name"  : "DE ROSSI",
+			"floor" : 3,
+			"xyr"   : [784,332,8],
+			"descr" : "Italian menswear store de rossi is unique in the quality and variety range of shirts and ties, scarves and handkerchiefs in the pocket of his jacket, scarves, coats, raincoats and jackets, as well as cufflinks. "
+		},
+		{
+			"id"    : 166,
+			"name"  : "EGOIST",
+			"floor" : 3,
+			"xyr"   : [529,261,11],
+			"descr" : "Menswear. Trousers, suits, coats, jackets, coats, shirts, knitwear, underwear, coats. "
+		},
+		{
+			"id"    : 167,
+			"name"  : "HENDERSON",
+			"floor" : 3,
+			"xyr"   : [674,198,18],
+			"descr" : "HENDERSON - men's fashion salon network, which since 1993 offers men an elegant and stylish clothes for work and leisure. HENDERSON today present in more than 115 major shopping centers located in 40 cities of Russia."
+		},
+		{
+			"id"    : 168,
+			"name"  : "MEUCCI",
+			"floor" : 3,
+			"xyr"   : [495,201,11],
+			"descr" : "In retail stores MEUCCI you will find the entire line of menswear, including suits, shirts, knitwear, jeans, ties and other accessories. You easily select the size you want, because the dimensional grid begins with 46 and ends 66 size."
+		},
+		{
+			"id"    : 169,
+			"name"  : "THE WINDSOR KNOT",
+			"floor" : 3,
+			"xyr"   : [675,414,9],
+			"descr" : "The Windsor Knot salons - a world classic and elegant clothes for successful men."
+		}
+		],
+		"Multimedia" : [
+		{
+			"id"    : 170,
+			"name"  : "HITZONA",
+			"floor" : 4,
+			"xyr"   : [764,167,35],
+			"descr" : "«HITZONA» — this is not the usual shops, this infotainment centers - the purpose of which - providing customers the most interesting and exciting new products in the market of digital technology and multimedia, as well as providing convenient and comfortable shopping in a modern friendly atmosphere, with a full range of services."
+		}
+		],
+		"Shoes, bags and accessories" : [
+		{
+			"id"    : 171,
+			"name"  : "ALBA",
+			"floor" : 1,
+			"xyr"   : [804,204,10],
+			"descr" : "Shoes, bags, belts, tools for shoe care."
+		},
+		{
+			"id"    : 172,
+			"name"  : "ALDO",
+			"floor" : 1,
+			"xyr"   : [781,229,10],
+			"descr" : "Canadian brand of footwear and accessories ALDO created for active, vibrant and stylish young people in love with life and in fashion."
+		},
+		{
+			"id"    : 173,
+			"name"  : "APRIORI",
+			"floor" : 3,
+			"xyr"   : [911,297,5],
+			"descr" : "Accessories, headwear."
+		},
+		{
+			"id"    : 174,
+			"name"  : "AVALON",
+			"floor" : 3,
+			"xyr"   : [648,505,8],
+			"descr" : ""
+		},
+		{
+			"id"    : 175,
+			"name"  : "AVANTI",
+			"floor" : 1,
+			"xyr"   : [474,385,5],
+			"descr" : "Shoes for men and women, handbags, accessories (belts, bags w. Leather portmane men), Cosmetics for shoes, evening handbags."
+		},
+		{
+			"id"    : 176,
+			"name"  : "BACKSTER",
+			"floor" : 2,
+			"xyr"   : [335,274,8],
+			"descr" : ""
+		},
+		{
+			"id"    : 177,
+			"name"  : "BALDININI",
+			"floor" : 1,
+			"xyr"   : [817,406,11],
+			"descr" : "Men's and women's shoes, bags, accessories."
+		},
+		{
+			"id"    : 178,
+			"name"  : "BRACCIALINI",
+			"floor" : 1,
+			"xyr"   : [444,346,8],
+			"descr" : "Women's shoes, handbags, accessories."
+		},
+		{
+			"id"    : 179,
+			"name"  : "CAMPER",
+			"floor" : 2,
+			"xyr"   : [404,200,9],
+			"descr" : ""
+		},
+		{
+			"id"    : 180,
+			"name"  : "CAPRIO",
+			"floor" : 3,
+			"xyr"   : [636,587,8],
+			"descr" : "Accessories, jewelery, leather goods."
+		},
+		{
+			"id"    : 181,
+			"name"  : "CARLO PAZOLINI",
+			"floor" : 1,
+			"xyr"   : [222,224,9],
+			"descr" : "CARLO PAZOLINI - one of the leading companies in the production and sale of shoes and accessories."
+		},
+		{
+			"id"    : 182,
+			"name"  : "CHESTER",
+			"floor" : 1,
+			"xyr"   : [765,263,13],
+			"descr" : "Inside, shoes and accessories you will find a collection CHESTER stylish urban shoes from brands CHESTER, CARNABY and TJ COLLECTION, as well as a rich collection of accessories and leather goods: in stock salon besides women and men's shoes are leather bags, purses, briefcases, belts, wallets, purses , gloves, scarves, fine hosiery and shoe care products brand TJ COLLECTION."
+		},
+		{
+			"id"    : 183,
+			"name"  : "CROCS",
+			"floor" : 3,
+			"xyr"   : [567,369,8],
+			"descr" : "World leader in innovative casual footwear segment for men, women and children, Crocs company offers the market a few unique collections consisting of more than 300 models of different styles."
+		},
+		{
+			"id"    : 184,
+			"name"  : "DI & VI",
+			"floor" : 2,
+			"xyr"   : [389,243,8],
+			"descr" : "Shop «DI & VI» is fashionable and stylish shoes for every taste-fashion, casual, sports and classic destinations. Every season we change the collection represented the best sample models from a variety of brands."
+		},
+		{
+			"id"    : 185,
+			"name"  : "DOMANI",
+			"floor" : 1,
+			"xyr"   : [530,459,14],
+			"descr" : "Chain salons DOMANI offers its customers a wide selection of Italian bags and accessories of famous Italian brands."
+		},
+		{
+			"id"    : 186,
+			"name"  : "DUNE",
+			"floor" : 1,
+			"xyr"   : [587,168,11],
+			"descr" : "Dune is a leader in retail sales of shoes and accessories luxury at affordable prices."
+		},
+		{
+			"id"    : 187,
+			"name"  : "ECCO",
+			"floor" : 2,
+			"xyr"   : [346,166,10],
+			"descr" : "Quality, unique features of Scandinavian style and philosophy of a truly comfortable and stylish shoes have become the hallmark of the Scandinavian brand ECCO."
+		},
+		{
+			"id"    : 188,
+			"name"  : "EL MONTE",
+			"floor" : 1,
+			"xyr"   : [465,247,10],
+			"descr" : "ELMONTE - it's shoes and accessories shop in the best traditions of Italian fashion."
+		},
+		{
+			"id"    : 189,
+			"name"  : "EMANUELLE GELMETTI",
+			"floor" : 1,
+			"xyr"   : [280,269,10],
+			"descr" : ""
+		},
+		{
+			"id"    : 190,
+			"name"  : "EMU-BLOCH",
+			"floor" : 2,
+			"xyr"   : [625,247,8],
+			"descr" : "EMU Australia - shoes made ​​of genuine Australian sheepskin, giving the feet warm and comfortable in any given day. All the shoes are created by a unique water-repellent technology."
+		},
+		{
+			"id"    : 191,
+			"name"  : "ENZO BRERA",
+			"floor" : 1,
+			"xyr"   : [592,395,12],
+			"descr" : "Inside ENZO BRERA you can feel the mood of the famous streets via Brera in Milan."
+		},
+		{
+			"id"    : 192,
+			"name"  : "FABI",
+			"floor" : 1,
+			"xyr"   : [798,438,13],
+			"descr" : "Almost half a century mark Fabi create a stylish and exceptionally high-quality shoes for men and women. Over the years, a host of brand loyal fans for whom the phrase \"Made in Italy \" and \"Made Fabi \" have become synonymous."
+		},
+		{
+			"id"    : 193,
+			"name"  : "FACEBOOTS",
+			"floor" : 3,
+			"xyr"   : [604,438,5],
+			"descr" : "Shoes and accessories from the creators Kixbox"
+		},
+		{
+			"id"    : 194,
+			"name"  : "FASHION GALAXY",
+			"floor" : 1,
+			"xyr"   : [725,479,13],
+			"descr" : "Fashion Galaxy - is a European quality standards, wide choice of models and high level of service."
+		},
+		{
+			"id"    : 195,
+			"name"  : "GEOX",
+			"floor" : 1,
+			"xyr"   : [247,249,10],
+			"descr" : "The company was founded by Mario Moretti Polegato (Mario Moretti Polegato) in 1995. Company name comes from combining the Greek word Geo (earth) and letters «X», symbolizing modern technology."
+		},
+		{
+			"id"    : 196,
+			"name"  : "GUDIALI",
+			"floor" : 1,
+			"xyr"   : [860,159,8],
+			"descr" : "We have created for our customers the most convenient and comfortable environment for shopping. High level of service, knowledgeable sales staff, and a rich variety of models."
+		},
+		{
+			"id"    : 197,
+			"name"  : "INARIO",
+			"floor" : 1,
+			"xyr"   : [982,139,40],
+			"descr" : "Shop \"Inari\" is a trendy, stylish shoes and accessories of high quality at affordable prices."
+		},
+		{
+			"id"    : 198,
+			"name"  : "KARMA OF CHARME/BALLERINA",
+			"floor" : 1,
+			"xyr"   : [755,404,6],
+			"descr" : "Karma-new, trendy shoe trend among foreign and Russian stars!"
+		},
+		{
+			"id"    : 199,
+			"name"  : "KENNEN",
+			"floor" : 3,
+			"xyr"   : [934,276,8],
+			"descr" : "Assortment of: Bags, briefcases, folders, purses, laptop bags, umbrellas, gloves, and more."
+		},
+		{
+			"id"    : 200,
+			"name"  : "KIPLING",
+			"floor" : 2,
+			"xyr"   : [686,491,8],
+			"descr" : "Bags Kipling - a real firework of colors, shapes, materials and styles."
+		},
+		{
+			"id"    : 201,
+			"name"  : "LEATHER LAND",
+			"floor" : 3,
+			"xyr"   : [675,547,8],
+			"descr" : "Leather goods: wallets, portmone, passport covers, card holders, key cases, wallets, cases for glasses, cosmetics, money clips, organizers, diaries, belts, handbags, briefcases, purses, backpacks."
+		},
+		{
+			"id"    : 202,
+			"name"  : "LONGCHAMP",
+			"floor" : 1,
+			"xyr"   : [642,389,10],
+			"descr" : "Longchamp - business card of France - has in its arsenal ancient secrets leather craftsmen (many types of candle and flowers will need to have to look); foldable bag Le Pliage ® in 1993 made ​​a real revolution, winning millions of fans from Cingapura to Argentina."
+		},
+		{
+			"id"    : 203,
+			"name"  : "MARINO ORLANDI",
+			"floor" : 2,
+			"xyr"   : [391,187,8],
+			"descr" : "Handbags, belts, umbrellas, purses"
+		},
+		{
+			"id"    : 204,
+			"name"  : "MASCOTTE",
+			"floor" : 2,
+			"xyr"   : [1046,306,5],
+			"descr" : "Today Mascotte - it's fashion shoes for young, successful, confident. Shoes, which has its own face and responsible fashion trends, what, in fact, says the motto of Mascotte: «Be special, whether in Mascotte»."
+		},
+		{
+			"id"    : 205,
+			"name"  : "NEWPORT",
+			"floor" : 1,
+			"xyr"   : [475,191,13],
+			"descr" : "Women's shoes, evening shoes, leather, rubber boots, accessories, bags."
+		},
+		{
+			"id"    : 206,
+			"name"  : "PAS A PAS",
+			"floor" : 1,
+			"xyr"   : [816,346,8],
+			"descr" : "PAS A PAS, belongs to a network of concept stores Concept Store *, - is more than a fashion boutique women's and men's shoes and accessories, is a cozy garden in the city center, a small island of peace and tranquility in the stormy ocean of urban life."
+		},
+		{
+			"id"    : 207,
+			"name"  : "PIQUADRO",
+			"floor" : 1,
+			"xyr"   : [755,301,6],
+			"descr" : "«PIQUADRO»-brands for people who appreciate design, functionality and comfort!"
+		},
+		{
+			"id"    : 208,
+			"name"  : "RENDEZ-VOUS",
+			"floor" : 1,
+			"xyr"   : [882,348,20],
+			"descr" : "Shop Rendez-vous - corner of France, where under one roof collections of shoes and accessories well-known European brands."
+		},
+		{
+			"id"    : 209,
+			"name"  : "RESPECT",
+			"floor" : 1,
+			"xyr"   : [1008,198,10],
+			"descr" : "shoe company «Respect» produces and sells shoes for over 7 years. The experience gained during this time, my own design and production of a consistently high quality at affordable prices."
+		},
+		{
+			"id"    : 210,
+			"name"  : "ROCKPORT",
+			"floor" : 1,
+			"xyr"   : [890,284,11],
+			"descr" : "Rockport - a world-famous American brand of men's and women's casual shoes for comfortable wear for the whole day. This combination of advanced sports technology and modern design."
+		},
+		{
+			"id"    : 211,
+			"name"  : "SAMSONITE",
+			"floor" : 1,
+			"xyr"   : [517,417,12],
+			"descr" : "Samsonite offers a wide range of products for life, which includes pieces of luggage, travel bags and accessories, briefcases and laptop bags, handbags, shoes, small leather goods and products for active lifestyles."
+		},
+		{
+			"id"    : 212,
+			"name"  : "SUZANNA & MARIA",
+			"floor" : 3,
+			"xyr"   : [601,529,8],
+			"descr" : "Collection of evening dresses, gloves, wallets, belts, accessories for IPHONE"
+		},
+		{
+			"id"    : 213,
+			"name"  : "TOPSTYLE",
+			"floor" : 1,
+			"xyr"   : [718,258,12],
+			"descr" : "Boutique \"TOPSTYLE\" - a place where you can pick up a comfortable atmosphere footwear and accessories for all occasions. "
+		},
+		{
+			"id"    : 214,
+			"name"  : "VELARS",
+			"floor" : 1,
+			"xyr"   : [950,262,13],
+			"descr" : "Company H-Velars pleased to introduce you to the products that we represent in the Russian market, without it is impossible to imagine life in the big city."
+		},
+		{
+			"id"    : 215,
+			"name"  : "KOMFORT OBUV",
+			"floor" : 1,
+			"xyr"   : [860,301,12],
+			"descr" : "Our company operates in the Russian market more than 10 years and has acquired fame and love from patrons of all ages and styles. In our comfortable shoes feel as special occasions and every day."
+		},
+		{
+			"id"    : 216,
+			"name"  : "KOSMETIKA PO UHODU ZA OBUVU",
+			"floor" : 1,
+			"xyr"   : [935,127,5],
+			"descr" : "Spoons, orthopedic insoles, laces, of the frames, spray for shoes, cream, paint, brushes, deodorants, foromoderzhateli for shoes, shoe horns, stretching, penoochistiteli, shoelaces, socks."
+		},
+		{
+			"id"    : 217,
+			"name"  : "TERVOLINA",
+			"floor" : 0,
+			"xyr"   : [308,170,12],
+			"descr" : "TERVOLINA – known European shoe salon network, offering stylish models to suit every taste."
+		},
+		{
+			"id"    : 218,
+			"name"  : "EQUIPAGE",
+			"floor" : 1,
+			"xyr"   : [766,457,11],
+			"descr" : "Equipage — is a specialized network of multi-brand stores, where the products of world famous brands of men's and women's handbags, accessories, briefcases and luggage."
+		},
+		{
+			"id"    : 219,
+			"name"  : "EKONIKA",
+			"floor" : 1,
+			"xyr"   : [820,166,9],
+			"descr" : "«EKONIKA» - эthen the first footwear chain, creating a collection of shoes and accessories exclusively for women. On the market since 1992."
+		},
+		{
+			"id"    : 220,
+			"name"  : "EKSEL",
+			"floor" : 1,
+			"xyr"   : [1005,232,12],
+			"descr" : "Shoes classic and casual, means to care for shoes, bags for men and women."
+		},
+		{
+			"id"    : 221,
+			"name"  : "ELEGANT",
+			"floor" : 1,
+			"xyr"   : [330,147,0],
+			"descr" : ""
+		}
+		],
+		"Clothing" : [
+		{
+			"id"    : 222,
+			"name"  : "AFFLICTION",
+			"floor" : 3,
+			"xyr"   : [799,298,10],
+			"descr" : "Affliction – premium brand of denim clothing from Los Angeles. Affliction Clothing underlines our commitment to originality."
+		},
+		{
+			"id"    : 223,
+			"name"  : "AMERICAN EAGLE OUTFITTERS",
+			"floor" : 3,
+			"xyr"   : [335,130,37],
+			"descr" : "Primarily AEO - denim brand. The range includes jeans various landings and treatments, sweatshirts, sweaters, T-shirts, shirts."
+		},
+		{
+			"id"    : 224,
+			"name"  : "BANANA REPUBLIC",
+			"floor" : 3,
+			"xyr"   : [729,277,29],
+			"descr" : "Banana Republic - it is always elegant and versatile products that help ease stress it is appropriate in all situations, both at work and at a party."
+		},
+		{
+			"id"    : 225,
+			"name"  : "BAON",
+			"floor" : 3,
+			"xyr"   : [448,379,13],
+			"descr" : "Baon in their collections combines practicality and comfort in clothing style sasual and latest fashion novelties."
+		},
+		{
+			"id"    : 226,
+			"name"  : "BERSHKA",
+			"floor" : 2,
+			"xyr"   : [400,351,30],
+			"descr" : "Customers Bershka - this active young people who are aware of the latest fashion trends, they love fashion music constantly communicate in social networks and enjoy life!"
+		},
+		{
+			"id"    : 227,
+			"name"  : "CALVIN KLEIN JEANS",
+			"floor" : 3,
+			"xyr"   : [821,411,12],
+			"descr" : "Calvin Klein – cult American fashion brand, which is an example of modern, sophisticated style, while staying true to the aesthetics of purity, naturalness and minimalism."
+		},
+		{
+			"id"    : 228,
+			"name"  : "COLIN’S",
+			"floor" : 3,
+			"xyr"   : [933,120,20],
+			"descr" : "Buyers COLIN'S - young and active people for their self-expression - the main value."
+		},
+		{
+			"id"    : 229,
+			"name"  : "DKNY JEANS",
+			"floor" : 3,
+			"xyr"   : [743,491,14],
+			"descr" : "Overview - practicality and functionality."
+		},
+		{
+			"id"    : 230,
+			"name"  : "FASHION POINT",
+			"floor" : 3,
+			"xyr"   : [712,515,10],
+			"descr" : "Fashion Point is a chain of retail stores selling jeans and accessories in Russia."
+		},
+		{
+			"id"    : 231,
+			"name"  : "FINN FLARE",
+			"floor" : 3,
+			"xyr"   : [856,122,33],
+			"descr" : "Jackets, coats, raincoats, jackets, dresses, blouses, ski clothing, tracksuits, trousers, shorts, shoes, bags and belts."
+		},
+		{
+			"id"    : 232,
+			"name"  : "GANT",
+			"floor" : 3,
+			"xyr"   : [569,306,13],
+			"descr" : "Brand Gant - it's more than 60 year history of elegance and savoir-faire."
+		},
+		{
+			"id"    : 233,
+			"name"  : "GAP",
+			"floor" : 2,
+			"xyr"   : [893,120,25],
+			"descr" : "Gap – cult American fashion brand. Gap - this inner freedom, individuality and unique style."
+		},
+		{
+			"id"    : 234,
+			"name"  : "GARNE",
+			"floor" : 2,
+			"xyr"   : [896,288,14],
+			"descr" : "Create things that can be loved - a task far more complex than simply conform to fashion trends."
+		},
+		{
+			"id"    : 235,
+			"name"  : "GRAN SASSO",
+			"floor" : 3,
+			"xyr"   : [770,316,9],
+			"descr" : "Company Gran Sasso over half a century is a world leader in the production of the best male and female knitted from natural fibers."
+		},
+		{
+			"id"    : 236,
+			"name"  : "KIXBOX",
+			"floor" : 2,
+			"xyr"   : [742,288,10],
+			"descr" : "Outerwear, sweatshirts, cardigans, shirts, dresses, jackets, jeans, pants, etc."
+		},
+		{
+			"id"    : 237,
+			"name"  : "KORPO",
+			"floor" : 3,
+			"xyr"   : [788,167,26],
+			"descr" : "Men's, women's and children's clothing."
+		},
+		{
+			"id"    : 238,
+			"name"  : "LACOSTE",
+			"floor" : 3,
+			"xyr"   : [614,372,13],
+			"descr" : "LACOSTE- it is one of the most famous and most recognizable European brands, founded in 1933 a great tennis player Rene Lacoste (Rene Lacoste)."
+		},
+		{
+			"id"    : 240,
+			"name"  : "LADY & GENTLEMAN CITY",
+			"floor" : 3,
+			"xyr"   : [618,123,22],
+			"descr" : "lady & gentleman CITY — first federal department stores for men, women and children's clothing in Russia."
+		},
+		{
+			"id"    : 241,
+			"name"  : "LEVI’S",
+			"floor" : 3,
+			"xyr"   : [864,381,10],
+			"descr" : "Brand Levi's ® - the quintessence of classic American style, this fashion without any additional effort."
+		},
+		{
+			"id"    : 242,
+			"name"  : "MARKS & SPENCER",
+			"floor" : 2,
+			"xyr"   : [1070,188,60],
+			"descr" : "Marks & Spencer — the famous British brand with a long history has won the trust and love of many people around the world thanks to the true English quality, style, service and innovative technologies in the production of clothing, shoes, underwear and accessories."
+		},
+		{
+			"id"    : 243,
+			"name"  : "MASSIMO DUTTI",
+			"floor" : 2,
+			"xyr"   : [530,599,28],
+			"descr" : "Sophistication in simplicity: a combination of classic and contemporary."
+		},
+		{
+			"id"    : 244,
+			"name"  : "MEXX",
+			"floor" : 2,
+			"xyr"   : [897,395,21],
+			"descr" : "MEXX Casual collections always carry the spirit of adventure, balancing between the alluring aesthetics of nature and vibrant life of the big city."
+		},
+		{
+			"id"    : 245,
+			"name"  : "NEXT",
+			"floor" : 2,
+			"xyr"   : [616,126,20],
+			"descr" : "Large selection of women's and men's clothing of high quality. Classic and casual models are able to satisfy every whim and demand of the purchaser."
+		},
+		{
+			"id"    : 246,
+			"name"  : "PROVOKACIYA",
+			"floor" : 2,
+			"xyr"   : [634,582,8],
+			"descr" : ""
+		},
+		{
+			"id"    : 247,
+			"name"  : "PULL & BEAR",
+			"floor" : 2,
+			"xyr"   : [470,254,38],
+			"descr" : "Pull and Bear Brand offers the latest fashion trends in the collections of practical and comfortable casual clothing and accessories."
+		},
+		{
+			"id"    : 248,
+			"name"  : "REPLAY",
+			"floor" : 3,
+			"xyr"   : [800,440,11],
+			"descr" : "REPLAY-one of the leaders in the world of denim clothing for men and women; fashion brand from Italy with a 30-year history, founded by Claudio Butsiol."
+		},
+		{
+			"id"    : 249,
+			"name"  : "RIVER ISLAND",
+			"floor" : 2,
+			"xyr"   : [322,347,19],
+			"descr" : "River Island-a popular youth brand from the UK, offering a bright, eclectic collection of things in the spirit of the latest fashion trends."
+		},
+		{
+			"id"    : 250,
+			"name"  : "TIMBERLAND",
+			"floor" : 3,
+			"xyr"   : [757,258,17],
+			"descr" : "Shoes Timberland - the embodiment of lightness, almost weightless models, minimalistic and provide excellent cushioning."
+		},
+		{
+			"id"    : 251,
+			"name"  : "TOMMY HILFIGER",
+			"floor" : 3,
+			"xyr"   : [591,343,13],
+			"descr" : "Each collection Tommy Nilfiger - a unique fusion of classic and latest fashion trends."
+		},
+		{
+			"id"    : 252,
+			"name"  : "TOPSHOP/TOPMAN",
+			"floor" : 2,
+			"xyr"   : [641,66,50],
+			"descr" : "Topshop - a place where your mood is always getting better, because once opened, Topshop will be the favorite brand for life."
+		},
+		{
+			"id"    : 253,
+			"name"  : "U.S.POLO ASSN",
+			"floor" : 3,
+			"xyr"   : [832,234,10],
+			"descr" : "\"When you wear US Polo Assn., You part of the Game\""
+		},
+		{
+			"id"    : 254,
+			"name"  : "VASSA&Co",
+			"floor" : 2,
+			"xyr"   : [797,438,13],
+			"descr" : "Company VASSA & Co-an extensive network of branded stores in Moscow, St. Petersburg and other Russian cities with a common stylistic decision in the spirit of constructive minimalism."
+		},
+		{
+			"id"    : 255,
+			"name"  : "WESTLAND",
+			"floor" : 3,
+			"xyr"   : [309,286,10],
+			"descr" : "WESTLAND company entered the fashion history as one of the creators of the classic jeans. Today WESTLAND - it's not only a wide range of jeans, but also men's and women's casual wear."
+		},
+		{
+			"id"    : 256,
+			"name"  : "YUDASHKIN JEANS",
+			"floor" : 3,
+			"xyr"   : [814,265,13],
+			"descr" : "Yudashkin Jeans offers practical, comfortable style model Casual, democratic denim, elegant sportswear for men and women of different ages who prefer quality and stylish clothes famous brand."
+		},
+		{
+			"id"    : 257,
+			"name"  : "ZARA",
+			"floor" : 2,
+			"xyr"   : [457,453,70],
+			"descr" : "Retail chain company has a unique approach, client-oriented, as well as strategy, according to which the place of supply of goods is the basis of a relationship with customers."
+		},
+		{
+			"id"    : 258,
+			"name"  : "SNEJNAYA KOROLEVA",
+			"floor" : 3,
+			"xyr"   : [935,432,25],
+			"descr" : "«SNEJNAYA KOROLEVA» — Russia's largest network of multi fashion stores."
+		}
+		],
+		"Gifts and sweets" : [
+		{
+			"id"    : 259,
+			"name"  : "BOOLY & BOOM",
+			"floor" : 4,
+			"xyr"   : [707,439,8],
+			"descr" : "«Booly & Boom» is more than a physical store, a concept, a way of life."
+		},
+		{
+			"id"    : 260,
+			"name"  : "CHOCOLATE BOUTIQUE FRENCH KISS",
+			"floor" : 1,
+			"xyr"   : [441,203,7],
+			"descr" : "We offer piece goods, unique and one of a kind: our chocolatiers are only manually and only the best sweet stuff."
+		},
+		{
+			"id"    : 261,
+			"name"  : "EVO IMPRESSIONS",
+			"floor" : 3,
+			"xyr"   : [758,406,6],
+			"descr" : "Gifts EVO - this gift certificates, giving the opportunity to get more than 200 memorable experiences."
+		},
+		{
+			"id"    : 262,
+			"name"  : "LE FUTUR",
+			"floor" : 1,
+			"xyr"   : [565,367,10],
+			"descr" : "Shop amazing things “LeFutur”"
+		},
+		{
+			"id"    : 263,
+			"name"  : "PRINTBAR",
+			"floor" : 1,
+			"xyr"   : [375,273,8],
+			"descr" : "Our souvenirs are a great gift dear and close people, because you can capture your best moments together that will stay with them."
+		},
+		{
+			"id"    : 264,
+			"name"  : "TABAKPODARKI",
+			"floor" : 0,
+			"xyr"   : [523,430,8],
+			"descr" : "The store offers a wide range of tobacco products."
+		},
+		{
+			"id"    : 265,
+			"name"  : "VERMONT-M",
+			"floor" : 0,
+			"xyr"   : [382,300,8],
+			"descr" : "Unique unfading flowers from Franco - Belgian fashion house Vermont do not require maintenance and irrigation, maintain their appearance and flavor to 5 years ..."
+		},
+		{
+			"id"    : 266,
+			"name"  : "VIVA",
+			"floor" : 1,
+			"xyr"   : [594,204,15],
+			"descr" : "In our store are products of the authors whose works are sold in the best boutiques U.S. and other European countries as well as the work of the best design studios in Russia (for example, the trademark \"Sentyabrev\")."
+		},
+		{
+			"id"    : 267,
+			"name"  : "AZBUKA UPAKOVKI",
+			"floor" : 1,
+			"xyr"   : [1021,312,6],
+			"descr" : "Engaged in packing gifts of varying degrees of complexity: from STANDART to DE LUXE, as well as the sale of souvenirs from around the world, latex and foil balloons, postcards (including handmade items)."
+		},
+		{
+			"id"    : 268,
+			"name"  : "ART FOTO",
+			"floor" : 0,
+			"xyr"   : [439,287,7],
+			"descr" : "Artphoto company engaged in the work with the images on the basis of traditional painting and photomontage."
+		},
+		{
+			"id"    : 269,
+			"name"  : "BELLE FLERE",
+			"floor" : 0,
+			"xyr"   : [589,397,10],
+			"descr" : "«BELLE FLERE» - is a production and trading company specializing in floral design, floristry and interior design"
+		},
+		{
+			"id"    : 270,
+			"name"  : "VO IMYA ROZY",
+			"floor" : 0,
+			"xyr"   : [850,313,7],
+			"descr" : ""
+		},
+		{
+			"id"    : 271,
+			"name"  : "GRECHESKIE SLADOSTI VASILIADI",
+			"floor" : 0,
+			"xyr"   : [679,408,8],
+			"descr" : ""
+		},
+		{
+			"id"    : 272,
+			"name"  : "KONFAEL",
+			"floor" : 0,
+			"xyr"   : [860,335,14],
+			"descr" : "«KONFAEL» - existed since 2001 and is a recognized leader in the Russian market for the production of chocolate souvenirs premium."
+		},
+		{
+			"id"    : 273,
+			"name"  : "KOFEINAYA KARTA",
+			"floor" : 3,
+			"xyr"   : [972,244,10],
+			"descr" : "Delight your friends and relatives amazing gifts created according to your taste."
+		},
+		{
+			"id"    : 274,
+			"name"  : "KOFEINAYA KARTA",
+			"floor" : 0,
+			"xyr"   : [561,491,6],
+			"descr" : "Delight your friends and relatives amazing gifts created according to your taste."
+		},
+		{
+			"id"    : 275,
+			"name"  : "KRASNY KUB",
+			"floor" : 1,
+			"xyr"   : [501,211,13],
+			"descr" : "Come - and the choice of gift will become your favorite hobby, giving both you and your friends only positive emotions!"
+		},
+		{
+			"id"    : 276,
+			"name"  : "RUCHKA.RU",
+			"floor" : 1,
+			"xyr"   : [387,290,10],
+			"descr" : "Choose from a wide selection of gifts for any occasion: Stationery, business accessories, leather products from leading manufacturers."
+		},
+		{
+			"id"    : 277,
+			"name"  : "TALER",
+			"floor" : 0,
+			"xyr"   : [493,400,1],
+			"descr" : " Sculpture, jewelry boxes, frames, albums, kaleidoscopes, humidors, wine. sets vin.flyazhki caskets hours, candlesticks, pictures, vases, trays, icons, clocks, coffee sets, cans, Prayer, daggers, ice buckets, set for salads, music boxes, playing sets, souvenir tables, gift baskets ."
+		},
+		{
+			"id"    : 278,
+			"name"  : "UPAKOVKA PODARKOV BANTIK",
+			"floor" : 4,
+			"xyr"   : [676,533,8],
+			"descr" : "Wrapping gifts, souvenirs, gift wrapping"
+		}
+		],
+		"Sports and Activities" : [
+		{
+			"id"    : 279,
+			"name"  : "ADIDAS ORIGINALS",
+			"floor" : 3,
+			"xyr"   : [399,365,18],
+			"descr" : ""
+		},
+		{
+			"id"    : 280,
+			"name"  : "ADIDAS/Y-3",
+			"floor" : 3,
+			"xyr"   : [684,651,55],
+			"descr" : ""
+		},
+		{
+			"id"    : 281,
+			"name"  : "BOSCO",
+			"floor" : 3,
+			"xyr"   : [489,310,12],
+			"descr" : "BOSCO – unique brand of clothing for sports and leisure, created a leading company in Russia in the field of design, fashion, retail and creating spaces for humans - BOSCO DI CILIEGI."
+		},
+		{
+			"id"    : 282,
+			"name"  : "NEW BALANCE",
+			"floor" : 3,
+			"xyr"   : [535,352,10],
+			"descr" : "In the coming spring-summer season New Balance is proud to present their best sneakers and marks the 25th anniversary of the 576 model."
+		},
+		{
+			"id"    : 283,
+			"name"  : "NIKE",
+			"floor" : 3,
+			"xyr"   : [516,451,32],
+			"descr" : "Our mission - to bring inspiration and innovation to every athlete in the world."
+		},
+		{
+			"id"    : 284,
+			"name"  : "PUMA",
+			"floor" : 3,
+			"xyr"   : [456,242,21],
+			"descr" : "PUMA – international company, its products were mixed in a variety of ideas from the world of sports, music, fashion and life styles of subcultures."
+		},
+		{
+			"id"    : 285,
+			"name"  : "REEBOK",
+			"floor" : 3,
+			"xyr"   : [554,529,14],
+			"descr" : "Reebok – one of the leading manufacturers of products for sports, fitness and active lifestyle, using his rich professional experience and advanced technological development to create innovative products that meet the actual needs of customers."
+		},
+		{
+			"id"    : 286,
+			"name"  : "RIP CURL",
+			"floor" : 3,
+			"xyr"   : [620,421,16],
+			"descr" : "Rip Curl - legendary brand, manufacturer of quality apparel and accessories for surfing, snow sports, skateboarding, wakeboarding, lifestyle, street and beach."
+		},
+		{
+			"id"    : 287,
+			"name"  : "SPEEDO / CHAMPION / СATMANDOO",
+			"floor" : 3,
+			"xyr"   : [477,280,15],
+			"descr" : "Sports and casual clothing, lingerie, shoes, accessories."
+		},
+		{
+			"id"    : 288,
+			"name"  : "UMBRO",
+			"floor" : 3,
+			"xyr"   : [569,487,18],
+			"descr" : "Everything you need for training and matches from the famous brand of football: the game form, boots and shoes, footballs, tracksuits, jackets, sweaters, sweatpants, gloves, pads, etc."
+		},
+		{
+			"id"    : 289,
+			"name"  : "PROFI SPORT",
+			"floor" : 3,
+			"xyr"   : [583,402,10],
+			"descr" : ""
+		},
+		{
+			"id"    : 290,
+			"name"  : "EKSPEDICIYA",
+			"floor" : 3,
+			"xyr"   : [486,397,16],
+			"descr" : "«EKSPEDICIYA» Territory vivid impressions."
+		}
+		],
+		"Supermarket" : [
+		{
+			"id"    : 291,
+			"name"  : "PEREKRESTOK",
+			"floor" : 0,
+			"xyr"   : [904,201,46],
+			"descr" : "«PEREKRESTOK» — leading national supermarket chain, one of the first in the history of the domestic retail market."
+		}
+		],
+		"Appliances and mobile communications" : [
+		{
+			"id"    : 292,
+			"name"  : "BORK",
+			"floor" : 1,
+			"xyr"   : [419,226,8],
+			"descr" : "BORK – an international company specializing in home appliances premium. Attracting leading manufacturers, engineers and designers, the company offers its customers a collection of the best home appliances."
+		},
+		{
+			"id"    : 293,
+			"name"  : "FOTO.RU",
+			"floor" : 0,
+			"xyr"   : [716,585,14],
+			"descr" : "FOTO.RU – Federal specialized photographic equipment retail store chain in Russia, as well as the largest online store, which features a huge, continuously expanding range of more than 70 manufacturers of photographic amateur and professional class, Photo accessories and more."
+		},
+		{
+			"id"    : 294,
+			"name"  : "GAME PARK",
+			"floor" : 0,
+			"xyr"   : [612,385,6],
+			"descr" : "Our store specializes in games."
+		},
+		{
+			"id"    : 295,
+			"name"  : "GARMIN",
+			"floor" : 4,
+			"xyr"   : [585,230,9],
+			"descr" : "We are glad to represent Russia in the Garmin, because buying this brand navigators have you actually purchase them directly from the manufacturer."
+		},
+		{
+			"id"    : 296,
+			"name"  : "HTC",
+			"floor" : 4,
+			"xyr"   : [928,282,7],
+			"descr" : "NTS brand salon - this mono-brand store of HTC, one of the world leaders in the manufacturing of mobile devices."
+		},
+		{
+			"id"    : 297,
+			"name"  : "MBAR.RU",
+			"floor" : 3,
+			"xyr"   : [842,320,5],
+			"descr" : "Product accessories Apple, Android, dok.stantsii, headphones, flash drives."
+		},
+		{
+			"id"    : 298,
+			"name"  : "RE:STORE",
+			"floor" : 4,
+			"xyr"   : [651,412,18],
+			"descr" : "re:Store – largest network of shops Apple technology in Europe with the status of Apple Premium Reseller (APR)"
+		},
+		{
+			"id"    : 299,
+			"name"  : "SAMSUNG",
+			"floor" : 1,
+			"xyr"   : [685,707,19],
+			"descr" : "Company store Samsung - a wide selection of phones, smartphones, tablets, laptops, audio, photo and video equipment, accessories, as well as TV Smart TV from the manufacturer."
+		},
+		{
+			"id"    : 300,
+			"name"  : "SONY",
+			"floor" : 0,
+			"xyr"   : [196,238,9],
+			"descr" : "Salon Sony Centre: Sony whole world in one place!"
+		},
+		{
+			"id"    : 301,
+			"name"  : "TOSHIBA",
+			"floor" : 4,
+			"xyr"   : [820,299,10],
+			"descr" : "We are glad to present you the entire range of laptops TOSHIBA - a company that manufactures portable computer equipment more than 20 years, as well as a wide range of options and accessories for your laptop."
+		},
+		{
+			"id"    : 302,
+			"name"  : "VAIO CENTRE",
+			"floor" : 4,
+			"xyr"   : [756,406,8],
+			"descr" : "A variety of formats and features of Sony Vaio laptops are incredibly wide. We offer you a variety of options both in design and functionality."
+		},
+		{
+			"id"    : 303,
+			"name"  : "APIKO AVTO",
+			"floor" : 0,
+			"xyr"   : [801,381,8],
+			"descr" : "APIKO AVTO sins 1994 exports to Russia original car accessories from leading manufacturers."
+		},
+		{
+			"id"    : 304,
+			"name"  : "BELIY VETER",
+			"floor" : 0,
+			"xyr"   : [665,675,59],
+			"descr" : "Company \"White Wind \" more than 20 years experience in digital and computer retailers."
+		},
+		{
+			"id"    : 305,
+			"name"  : "EVROSET",
+			"floor" : 1,
+			"xyr"   : [382,140,12],
+			"descr" : "«EVROSET» — Russia's largest company operating in the mobile retail market, founded in 1997."
+		},
+		{
+			"id"    : 306,
+			"name"  : "ION CIFROVOI CENTR",
+			"floor" : 0,
+			"xyr"   : [706,338,8],
+			"descr" : "ION CIFROVOI CENTR – is more than 80 mobile electronics stores located in the best shopping centers in Moscow and Moscow region."
+		},
+		{
+			"id"    : 307,
+			"name"  : "ION CIFROVOI CENTR",
+			"floor" : 0,
+			"xyr"   : [572,596,13],
+			"descr" : "ION CIFROVOI CENTR – is more than 80 mobile electronics stores located in the best shopping centers in Moscow and Moscow region."
+		},
+		{
+			"id"    : 308,
+			"name"  : "SALON MTS",
+			"floor" : 1,
+			"xyr"   : [275,177,9],
+			"descr" : ""
+		},
+		{
+			"id"    : 309,
+			"name"  : "SVYAZNOY",
+			"floor" : 1,
+			"xyr"   : [532,120,12],
+			"descr" : "«SVYAZNOY» - federal retail chain specializing in the sale of services of cellular operators, personal communication, accessories, portable digital audio and photography."
+		},
+		{
+			"id"    : 310,
+			"name"  : "SVYAZNOY",
+			"floor" : 4,
+			"xyr"   : [787,425,9],
+			"descr" : "«SVYAZNOY» - federal retail chain specializing in the sale of services of cellular operators, personal communication, accessories, portable digital audio and photography."
+		},
+		{
+			"id"    : 311,
+			"name"  : "SIGAR FRESH",
+			"floor" : 3,
+			"xyr"   : [584,445,8],
+			"descr" : ""
+		},
+		{
+			"id"    : 312,
+			"name"  : "TEHNOPARK",
+			"floor" : 0,
+			"xyr"   : [848,348,15],
+			"descr" : "«TEHNOPARK» - is a network of home appliances and electronics, an expert in the first-class service and quality of products provided."
+		},
+		{
+			"id"    : 313,
+			"name"  : "TEHNOPARK",
+			"floor" : 0,
+			"xyr"   : [608,409,9],
+			"descr" : "«TEHNOPARK» - is a network of home appliances and electronics, an expert in the first-class service and quality of products provided."
+		}
+		],
+		"Homeware" : [
+		{
+			"id"    : 314,
+			"name"  : "ASKONA",
+			"floor" : 0,
+			"xyr"   : [747,245,10],
+			"descr" : "In Askona company store offering a wide range of different products for sleep."
+		},
+		{
+			"id"    : 315,
+			"name"  : "COOK HOUSE",
+			"floor" : 0,
+			"xyr"   : [789,440,22],
+			"descr" : "COOK HOUSE — This is the first federal network products for the kitchen and table."
+		},
+		{
+			"id"    : 316,
+			"name"  : "GIPFEL",
+			"floor" : 0,
+			"xyr"   : [507,414,8],
+			"descr" : "We welcome every our customer and will do everything to make your kitchen was perfect!"
+		},
+		{
+			"id"    : 317,
+			"name"  : "HOBBY STYLE MODNOE RUKODELIE",
+			"floor" : 0,
+			"xyr"   : [571,481,12],
+			"descr" : "Our range of products consists of shops leading brands - the leaders in the production of goods for needlework."
+		},
+		{
+			"id"    : 318,
+			"name"  : "HOME & COOK",
+			"floor" : 0,
+			"xyr"   : [580,358,20],
+			"descr" : "Home&Cook — a wide choice of dishes and home appliances from brands Tefal, Moulinex, Rowenta, Krups, current trends for the kitchen, home and personal care, first-class consultants and great prices."
+		},
+		{
+			"id"    : 319,
+			"name"  : "MASSAGER",
+			"floor" : 0,
+			"xyr"   : [247,186,8],
+			"descr" : "\"Massager\" is the exclusive representative of Panasonic massage chairs and Jacuzzi whirlpool spa pools on the territory of Russia, occupying a leading position in this field for over 15 years."
+		},
+		{
+			"id"    : 320,
+			"name"  : "MASSAGER",
+			"floor" : 3,
+			"xyr"   : [389,259,7],
+			"descr" : " \"Massager\" is the exclusive representative of Panasonic massage chairs and Jacuzzi whirlpool spa pools on the territory of Russia, occupying a leading position in this field for over 15 years."
+		},
+		{
+			"id"    : 321,
+			"name"  : "SMART SHOP",
+			"floor" : 0,
+			"xyr"   : [811,274,8],
+			"descr" : "Homeware."
+		},
+		{
+			"id"    : 322,
+			"name"  : "SONICHKA",
+			"floor" : 0,
+			"xyr"   : [629,369,9],
+			"descr" : "Salons \"Sonichka-all to sleep \" - a beautiful and comfortable things for the home."
+		},
+		{
+			"id"    : 323,
+			"name"  : "TOGAS",
+			"floor" : 0,
+			"xyr"   : [530,465,18],
+			"descr" : "Our main principle - individual approach and high-quality execution. In drafting designer primarily guided tastes and preferences of the customer."
+		},
+		{
+			"id"    : 324,
+			"name"  : "VILLARI",
+			"floor" : 0,
+			"xyr"   : [713,532,10],
+			"descr" : "VILLARI salon in the shopping center \"European\" - the first single-brand boutique in Russia. "
+		},
+		{
+			"id"    : 325,
+			"name"  : "VITESSE",
+			"floor" : 0,
+			"xyr"   : [463,370,8],
+			"descr" : "Brand Vitesse ® is a high-quality stainless steel cookware 18/10. Vitesse ® is professionally engaged in developing, manufacturing and marketing of its products in the Russian market."
+		},
+		{
+			"id"    : 326,
+			"name"  : "DJOKONDA",
+			"floor" : 0,
+			"xyr"   : [392,216,8],
+			"descr" : "Picture framing design studio \"La Gioconda\" is pleased to help create an atmosphere of comfort and harmony in your home."
+		},
+		{
+			"id"    : 327,
+			"name"  : "DOM FARVORA",
+			"floor" : 0,
+			"xyr"   : [549,563,18],
+			"descr" : "Salon \"House of Porcelain\" territory exclusive brands, where even the most demanding customer will be able to find a gift for yourself and for your lover."
+		},
+		{
+			"id"    : 328,
+			"name"  : "EVRODOM",
+			"floor" : 0,
+			"xyr"   : [678,225,44],
+			"descr" : "«EVRODOM» represents the first time a range of household products from leading European brands."
+		},
+		{
+			"id"    : 329,
+			"name"  : "MOYA NOCH",
+			"floor" : 0,
+			"xyr"   : [449,258,15],
+			"descr" : ""
+		},
+		{
+			"id"    : 330,
+			"name"  : "NOJ I K",
+			"floor" : 0,
+			"xyr"   : [598,421,8],
+			"descr" : "Knives: travel, cutting, hunting, folding, collectible, gift, works of authorship, kitchen. Sharpening accessories, accessories, souvenir and gift items."
+		},
+		{
+			"id"    : 331,
+			"name"  : "OSTROVOK DOMASHNEGO YUTA",
+			"floor" : 0,
+			"xyr"   : [421,279,8],
+			"descr" : ""
+		},
+		{
+			"id"    : 332,
+			"name"  : "POSUDION",
+			"floor" : 0,
+			"xyr"   : [726,492,15],
+			"descr" : "Chain stores \"Posudion\" is a group of companies \"GenLeks\", representing the Russian market the products of leading manufacturers of porcelain."
+		},
+		{
+			"id"    : 333,
+			"name"  : "SNI i SEKRETI",
+			"floor" : 0,
+			"xyr"   : [838,347,9],
+			"descr" : "Home Textiles (adults and children): pillows, blankets, bed linen, towels, bathrobes, blankets, bedspreads, home accessories."
+		},
+		{
+			"id"    : 334,
+			"name"  : "ULICA GOBELENOV",
+			"floor" : 0,
+			"xyr"   : [399,309,9],
+			"descr" : "Textiles for the home."
+		}
+		],
+		"Jewelry and Watches" : [
+		{
+			"id"    : 335,
+			"name"  : "BEF",
+			"floor" : 1,
+			"xyr"   : [532,346,7],
+			"descr" : "Jewellery, jewelry, watches."
+		},
+		{
+			"id"    : 336,
+			"name"  : "CARAT",
+			"floor" : 1,
+			"xyr"   : [684,495,10],
+			"descr" : "Chain of jewelry stores \"KARAT\", located in the largest shopping centers in Moscow, offers a large selection of jewelry for every taste. From budget to luxury."
+		},
+		{
+			"id"    : 337,
+			"name"  : "CASIO",
+			"floor" : 2,
+			"xyr"   : [600,525,8],
+			"descr" : "Japanese company store hours CASIO."
+		},
+		{
+			"id"    : 338,
+			"name"  : "CASIO",
+			"floor" : 1,
+			"xyr"   : [898,257,8],
+			"descr" : "Japanese company store hours CASIO.."
+		},
+		{
+			"id"    : 339,
+			"name"  : "L'ARGENTO BELLISIMO",
+			"floor" : 1,
+			"xyr"   : [672,542,8],
+			"descr" : "Network of boutiques «L'Argento-Bellisimo» Italian for \"Silver Splendor\" exists in the Russian market for many years."
+		},
+		{
+			"id"    : 340,
+			"name"  : "OXETTE",
+			"floor" : 1,
+			"xyr"   : [438,221,5],
+			"descr" : "Oxette – is a unique and original approach to the creative world treasures Fashion trends that combine classic elegance with the charm of free style and art trends."
+		},
+		{
+			"id"    : 341,
+			"name"  : "PANDORA",
+			"floor" : 1,
+			"xyr"   : [560,546,9],
+			"descr" : "PANDORA – one of the most successful fashion brands, known for its unique products."
+		},
+		{
+			"id"    : 342,
+			"name"  : "PRIMA EXCLUSIVE",
+			"floor" : 1,
+			"xyr"   : [693,592,12],
+			"descr" : "Jewelry: rings, earrings, bracelets, pendants, cuff links, clips of 585 and 750 with diamonds and other precious and semi precious stones."
+		},
+		{
+			"id"    : 343,
+			"name"  : "PRINCESS JEWELLERY",
+			"floor" : 1,
+			"xyr"   : [702,520,12],
+			"descr" : "PRINCESS JEWELLERY works in the field of trade jewelery and accessories in the Russian market since 2003. In the salons «PRINCESS JEWELLERY» collections of the finest jewelry manufacturers in the world: Italy, Germany, Belgium, America, Israel, Britain and France, etc."
+		},
+		{
+			"id"    : 344,
+			"name"  : "SALVATORE BERSANI",
+			"floor" : 1,
+			"xyr"   : [628,430,7],
+			"descr" : "Jewelry - Fashion and Accessories."
+		},
+		{
+			"id"    : 345,
+			"name"  : "SILVER & SILVER",
+			"floor" : 1,
+			"xyr"   : [498,390,7],
+			"descr" : "«SILVER & SILVER» focuses on jewelry 925 sterling silver with inlays of cultured and natural precious and semiprecious stones."
+		},
+		{
+			"id"    : 346,
+			"name"  : "SILVER FUSION",
+			"floor" : 1,
+			"xyr"   : [603,534,8],
+			"descr" : "Silver Fusion – this jewelry chain, which offers a wide selection of jewelry and silverware 925."
+		},
+		{
+			"id"    : 347,
+			"name"  : "SUNLIGHT BRILLIANT",
+			"floor" : 3,
+			"xyr"   : [473,172,13],
+			"descr" : ""
+		},
+		{
+			"id"    : 348,
+			"name"  : "SUNLIGHT BRILLIANT",
+			"floor" : 1,
+			"xyr"   : [390,345,8],
+			"descr" : ""
+		},
+		{
+			"id"    : 349,
+			"name"  : "SWATCH",
+			"floor" : 1,
+			"xyr"   : [406,169,6],
+			"descr" : ""
+		},
+		{
+			"id"    : 350,
+			"name"  : "THOMAS SABO",
+			"floor" : 1,
+			"xyr"   : [508,132,5],
+			"descr" : "Thomas Sabo world famous German jewelry and watch brand that represents the unique design of jewelry sterling silver and silver plated yellow and pink gold with semi-precious inlays."
+		},
+		{
+			"id"    : 351,
+			"name"  : "TIME CODE",
+			"floor" : 1,
+			"xyr"   : [520,145,5],
+			"descr" : "\"TIME CODE \" - an atmosphere of beauty and style, exquisite design, attention and friendliness of staff."
+		},
+		{
+			"id"    : 352,
+			"name"  : "TOUS",
+			"floor" : 1,
+			"xyr"   : [547,507,17],
+			"descr" : "OUS produces its own line of accessories, perfumes and watches. Today, TOUS is presented in 45 countries worldwide, in more than 400 boutiques in cities such as New York, Mexico City and Tokyo."
+		},
+		{
+			"id"    : 353,
+			"name"  : "VALTERA",
+			"floor" : 1,
+			"xyr"   : [594,609,5],
+			"descr" : "VALTERA today - it's more than 70 stores in Moscow and Russian cities, regularly updated collection of jewelry made of gold and silver with inlays of precious stones."
+		},
+		{
+			"id"    : 354,
+			"name"  : "VANGOLD",
+			"floor" : 1,
+			"xyr"   : [591,495,10],
+			"descr" : "Jewelry House Vangold - one of the largest domestic manufacturers and wholesale jewelry suppliers."
+		},
+		{
+			"id"    : 355,
+			"name"  : "ADAMANT",
+			"floor" : 1,
+			"xyr"   : [678,619,12],
+			"descr" : "Jeweler \"Adamant\" - official representative of jewelry factory company \"Adamant\""
+		},
+		{
+			"id"    : 356,
+			"name"  : "DIADEME",
+			"floor" : 1,
+			"xyr"   : [667,482,9],
+			"descr" : "Products with precious stones (emerald, Sunfire, jewel of, ribin): earrings, rings, pendants, bracelets, necklaces. Products without gemstones (Jan): rings, earrings in your ears, navel earrings, rings, chains, necklaces, cufflinks, tie clip, crosses, pendants, watches, bracelets, pins, brooches."
+		},
+		{
+			"id"    : 357,
+			"name"  : "KARAT",
+			"floor" : 0,
+			"xyr"   : [480,387,10],
+			"descr" : "Shop \"CARAT\" in the \"European\" shopping mall offers a wide selection of jewelry made ​​of silver and gold."
+		},
+		{
+			"id"    : 358,
+			"name"  : "CONSUL",
+			"floor" : 1,
+			"xyr"   : [0,0,0],
+			"descr" : "The company \"CONSUL\" - one of the most reputable and respectable in the domestic market - more than 20 years is in Russian watches and jewelry."
+		},
+		{
+			"id"    : 359,
+			"name"  : "Moscow Jewelry Factory",
+			"floor" : 1,
+			"xyr"   : [585,633,10],
+			"descr" : "Store chain Moscow Jewelry Factory (MJP), one of the largest and oldest jewelry enterprises Russia invites all to evaluate a collection of articles of precious metals, diamonds and precious stones."
+		},
+		{
+			"id"    : 360,
+			"name"  : "NIKA",
+			"floor" : 0,
+			"xyr"   : [350,350,0],
+			"descr" : "\"NIKA\" – Russia's leading manufacturer of jewelry watches and accessories business."
+		},
+		{
+			"id"    : 361,
+			"name"  : "ONIKS",
+			"floor" : 1,
+			"xyr"   : [570,474,11],
+			"descr" : "If you strive for individuality, if you have your own style and you do not wear jewelry, issued in the amount of 4000000 pieces, take a look at our salon."
+		},
+		{
+			"id"    : 362,
+			"name"  : "SEREBRO GM",
+			"floor" : 1,
+			"xyr"   : [636,635,8],
+			"descr" : "Chain of jewelry stores \"SEREBRO G\" offers a wide range of products made ​​of silver."
+		},
+		{
+			"id"    : 363,
+			"name"  : "TAIM AVENU",
+			"floor" : 1,
+			"xyr"   : [583,587,10],
+			"descr" : "The company operates in the retail watch market since 1996."
+		},
+		{
+			"id"    : 364,
+			"name"  : "CHASOVIH DEL MASTER",
+			"floor" : 1,
+			"xyr"   : [266,220,8],
+			"descr" : "Replacing the batteries and watch straps, watch repair, cleaning jewelry ultra-sound, straps for watches, bracelets, accessories (cases) for I'PHONE, I'PAD."
+		},
+		{
+			"id"    : 365,
+			"name"  : "CHASOVIH DEL MASTER",
+			"floor" : 2,
+			"xyr"   : [671,431,8],
+			"descr" : "Replacing the batteries and watch straps, watch repair, cleaning jewelry ultra-sound, straps for watches, bracelets, accessories (cases) for I'PHONE, I'PAD."
+		},
+		{
+			"id"    : 366,
+			"name"  : "CHASOVIH DEL MASTER",
+			"floor" : 1,
+			"xyr"   : [929,224,8],
+			"descr" : "Replacing the batteries and watch straps, watch repair, cleaning jewelry ultra-sound, straps for watches, bracelets, accessories (cases) for I'PHONE, I'PAD."
+		},
+		{
+			"id"    : 367,
+			"name"  : "EPL DIAMOND Yakut diamonds",
+			"floor" : 1,
+			"xyr"   : [321,235,13],
+			"descr" : "Yakut diamonds - the largest producer of diamonds in Yakutia."
+		}
+		]
+	}
+}

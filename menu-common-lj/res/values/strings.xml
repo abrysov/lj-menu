@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">lj-menu</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- START = MOVE THIS SECTION TOPROJCT -->
+    <string name="lbl_client_config">Соединение с сервером</string>
+    <string name="lbl_client_id">Client ID</string>
+    <string name="lbl_client_pass">Client password</string>
+    <string name="lbl_host_name">Host name (IP)</string>
+    <string name="lbl_host_port">Host port</string>
+    <string name="lbl_packet_size">Packet size</string>
+    <string name="lbl_polling_delay">Polling delay</string>
+    <string name="lbl_socket_timeout">Socket timeout</string>
+    <string name="lbl_empty">Empty</string>
+    <!-- END = MOVE THIS SECTION TOPROJECT -->
+    <string name="loading">LOADING</string>
+    <string name="not_downloaded">NOT DOWNLOADED</string>
+    <string name="downloaded">DOWNLOADED</string>
+
+</resources>

@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/first_screen_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    tools:context=".ActivityMenuMain" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#fff5f5f5"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/second_bill_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:src="@drawable/second_choop" />
+
+        <LinearLayout
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/second_bill_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gunamaa"
+                android:textColor="#ff000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/second_bill_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gunamaa2"
+                android:textColor="#ff9e9e9e"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/second_bill_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="120p"
+                android:textColor="#ff000000"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/second_bill_minus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000"
+                    android:onClick="buttonBillMinus"
+                    android:src="@drawable/menu_0018_check_minus" />
+
+                <TextView
+                    android:id="@+id/second_bill_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="1"
+                    android:textColor="#ff000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/second_bill_plus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000"
+                    android:onClick="buttonShock"
+                    android:src="@drawable/menu_0017_check_plus" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

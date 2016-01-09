@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="server"
+        android:title="@string/lbl_client_config" >
+        <EditTextPreference
+            android:dialogTitle="@string/lbl_client_id"
+            android:key="client_id"
+            android:singleLine="true"
+            android:summary="@string/lbl_empty"
+            android:defaultValue="162"
+            android:title="@string/lbl_client_id" />
+        <EditTextPreference
+            android:dialogTitle="@string/lbl_client_pass"
+            android:inputType="textPassword"
+            android:key="password"
+            android:singleLine="true"
+            android:summary="@string/lbl_empty"
+            android:defaultValue="1234"
+            android:title="@string/lbl_client_pass" />
+        <EditTextPreference
+            android:dialogTitle="@string/lbl_api_url"
+            android:key="api_url"
+            android:singleLine="true"
+            android:summary="@string/lbl_empty"
+            android:defaultValue="http://rest.demo.sqiwy.com:8100/api/v1"
+            android:title="@string/lbl_api_url" />
+        <EditTextPreference
+            android:dialogTitle="@string/lbl_web_url"
+            android:key="web_url"
+            android:singleLine="true"
+            android:defaultValue="http://rest.demo.sqiwy.com:8100"
+            android:summary="@string/lbl_empty"
+            android:title="@string/lbl_web_url" />
+        <EditTextPreference
+            android:dialogTitle="@string/lbl_packet_size"
+            android:inputType="number"
+            android:key="packet_size"
+            android:singleLine="true"
+            android:defaultValue="1048576"
+            android:summary="@string/lbl_empty"
+            android:title="@string/lbl_packet_size" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

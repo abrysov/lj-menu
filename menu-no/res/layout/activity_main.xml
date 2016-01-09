@@ -1,0 +1,219 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/first_screen_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_0016_back"
+    tools:context=".ActivityMenuMain" >
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gestures"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:eventsInterceptionEnabled="true"
+        android:gestureColor="#00000000"
+        android:gestureStrokeType="multiple"
+        android:uncertainGestureColor="#00000000" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/main_0015_logo" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="topmenuRotate"
+                    android:layout_gravity="center"
+                    android:padding="15dp"
+                    android:src="@drawable/main_0000_turn" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/main_0014_check" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Гость"
+                        android:textColor="#949393"
+                        android:textSize="30dp" />
+
+                    <com.sqiwy.menu.view.Time
+                        android:id="@+id/main_clock"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_margin="10dp"
+                        android:text="14:00"
+                        android:textColor="#949393"
+                        android:textSize="20dp" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <ImageView
+                    android:id="@+id/main_menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:onClick="mainMenu"
+                    android:src="@drawable/main_0008_menu" />
+
+                <ImageView
+                    android:id="@+id/main_games"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_toRightOf="@id/main_menu"
+                    android:onClick="buttonGames"
+                    android:src="@drawable/main_0010_games" />
+
+                <ImageView
+                    android:id="@+id/main_delivery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_toRightOf="@id/main_games"
+                    android:onClick="buttonShock"
+                    android:src="@drawable/main_0009_delivery" />
+
+                <ImageView
+                    android:id="@+id/main_ad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_toRightOf="@id/main_delivery"
+                    android:onClick="buttonAd"
+                    android:src="@drawable/main_0013_ad" />
+
+                <ImageView
+                    android:id="@+id/main_social"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/main_games"
+                    android:layout_margin="7dp"
+                    android:layout_toRightOf="@id/main_menu"
+                    android:onClick="buttonSocial"
+                    android:src="@drawable/main_0001_social" />
+
+                <ImageView
+                    android:id="@+id/main_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/main_menu"
+                    android:layout_margin="7dp"
+                    android:onClick="buttonAbout"
+                    android:src="@drawable/main_0011_about" />
+
+                <ImageView
+                    android:id="@+id/main_chat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/main_menu"
+                    android:layout_margin="7dp"
+                    android:layout_toRightOf="@id/main_about"
+                    android:onClick="buttonChat"
+                    android:src="@drawable/main_0007_chat" />
+
+                <ImageView
+                    android:id="@+id/main_internet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/main_menu"
+                    android:layout_margin="7dp"
+                    android:layout_toRightOf="@id/main_chat"
+                    android:onClick="buttonInternet"
+                    android:src="@drawable/main_0012_internet" />
+
+                <ImageView
+                    android:id="@+id/main_card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/main_social"
+                    android:layout_margin="7dp"
+                    android:layout_toRightOf="@id/main_menu"
+                    android:onClick="buttonShock"
+                    android:src="@drawable/main_0005_card" />
+
+                <ImageView
+                    android:id="@+id/main_happy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/main_social"
+                    android:layout_margin="7dp"
+                    android:layout_toRightOf="@id/main_card"
+                    android:onClick="buttonShock"
+                    android:src="@drawable/main_0006_order" />
+
+                <ImageView
+                    android:id="@+id/main_discont"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/main_ad"
+                    android:layout_margin="7dp"
+                    android:layout_toRightOf="@id/main_happy"
+                    android:onClick="buttonShock"
+                    android:src="@drawable/main_0003_actions" />
+
+                <ImageView
+                    android:id="@+id/main_taxi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/main_ad"
+                    android:layout_margin="7dp"
+                    android:layout_toRightOf="@id/main_discont"
+                    android:onClick="buttonTaxi"
+                    android:src="@drawable/main_0004_taxi" />
+
+                <ImageView
+                    android:id="@+id/main_girl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/main_discont"
+                    android:layout_margin="7dp"
+                    android:layout_toRightOf="@id/main_happy"
+                    android:onClick="buttonShock"
+                    android:src="@drawable/main_0002_waiter" />
+            </RelativeLayout>
+        </LinearLayout>
+    </android.gesture.GestureOverlayView>
+
+</FrameLayout>

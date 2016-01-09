@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/map_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <fragment
+        android:id="@+id/fragment_menu_grand"
+        android:name="com.sqiwy.menu.cm.CMMenuGrandFragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cm_fragment_menu_grand_height" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <FrameLayout
+                android:id="@+id/map_ads_container"
+                android:layout_width="@dimen/map_activity_ads_width"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dip"
+                android:paddingBottom="20dip"
+                android:paddingTop="20dip" >
+            </FrameLayout>
+
+            <SurfaceView
+                android:layout_width="0px"
+                android:layout_height="0px" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <fragment
+                android:id="@+id/fragment_map"
+                android:name="com.sqiwy.dashboard.DBMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <fragment
+        android:id="@+id/fragment_map_panel"
+        android:name="com.sqiwy.dashboard.DBMapPanelFragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cm_fragment_menu_grand_height"
+        android:layout_gravity="bottom|center_vertical" />
+
+</LinearLayout>

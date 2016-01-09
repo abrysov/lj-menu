@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/cm_fragment_detail_lv_modifiers_checkbox_marginbottom" >
+
+    <com.sqiwy.menu.view.TypefaceCheckbox
+        android:id="@+id/cb_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="false"
+        android:singleLine="true"
+        android:paddingLeft="@dimen/cm_fragment_detail_lv_modifiers_checkbox_paddingleft"
+        android:textSize="@dimen/cm_fragment_detail_modifiers_name_textheight"
+        android:button="@drawable/productdetailscheckboxdrawable"
+        app:customTypeface="fonts/robotolight.ttf" />
+    <!-- Add android:button="@drawable/productdetailscheckboxdrawable" to show custom checkbox backgrounds -->
+
+    <com.sqiwy.menu.view.TypefaceTextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="@dimen/cm_fragment_detail_modifiers_name_textheight"
+        app:customTypeface="fonts/robotolight.ttf" />
+
+</LinearLayout>

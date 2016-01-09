@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/first_screen_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".ActivityMenuMain" >
+
+    <com.sqiwy.lj_menu.BackgroundButton
+        android:id="@+id/second_dish_22_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+        android:onClick="clickDish"
+        android:src="@drawable/second_dish_2_blunch1" />
+
+    <com.sqiwy.lj_menu.BackgroundButton
+        android:id="@+id/second_dish_22_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:onClick="clickDish"
+        android:src="@drawable/second_dish_1_blunch1" />
+
+</LinearLayout>

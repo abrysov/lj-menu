@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical"
+    android:paddingBottom="40dp"
+    android:gravity="center">
+	
+    <com.sqiwy.menu.view.TypefaceTextView
+	        android:id="@+id/public_title"
+	        android:layout_width="match_parent"
+        	android:layout_height="94dp"
+	        android:text="@string/public_chat_user"
+	        android:padding="10dp"
+	        android:gravity="center"
+	        android:textColor="@color/chat_text"
+	        app:customTypeface="fonts/robotoregular.ttf"
+	        android:textSize="@dimen/chat_big_textsize"/>
+    
+    <GridLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:orientation="vertical"
+        android:columnCount="2"
+        android:visibility="gone"
+        android:gravity="center"
+    	android:rowCount="2"
+        android:padding="10dp">
+			
+        <com.sqiwy.menu.view.TypefaceTextView
+	        android:id="@+id/chat_user_name"
+	        android:layout_columnSpan="2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        style="@style/black_mid_text"
+	        android:text="@string/public_chat_user"
+	        android:textColor="@color/chat_text"
+	        android:padding="5dp"
+	        app:customTypeface="fonts/robotoregular.ttf"
+	        android:textSize="@dimen/chat_big_textsize"/>
+    
+	    <com.sqiwy.menu.view.TypefaceTextView
+	        android:id="@+id/chat_user_status"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/chat_text"
+	        style="@style/black_mid_text"
+	        android:layout_gravity="left"
+	        android:padding="5dp"
+	        app:customTypeface="fonts/robotoregular.ttf"
+	        android:textSize="@dimen/chat_small_textsize"/>
+    	
+	    <com.sqiwy.menu.view.TypefaceTextView
+		        android:id="@+id/btn_block_user"
+		        android:drawablePadding="4dp"
+	            android:drawableLeft="@drawable/block_user_icon"
+		        style="@style/btn_gray"
+		        android:textColor="@color/chat_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/btn_ban_chat"
+		        android:layout_gravity="right"
+		        android:gravity="center"
+		        android:textSize="@dimen/chat_small_textsize"
+		        app:customTypeface="fonts/robotoregular.ttf" />
+            
+    </GridLayout>
+    
+    <View android:layout_width="match_parent"
+	        android:layout_height="1dp"
+	        android:background="#E9E9E9"/>
+    
+    <ListView
+        android:id="@+id/chat_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"/>
+	
+    <com.sqiwy.menu.view.TypefaceTextView
+        android:id="@+id/btn_write_message"
+        style="@style/btn_red"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_write_message"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="26dp"
+        app:customTypeface="fonts/robotoregular.ttf" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/cake"
+        android:id="@+id/iv"  />
+
+    <LinearLayout style="@style/ch_fragment_product_list_ll" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/ch_fragment_product_list_tv_name"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:text="sddcsdcdc"
+                android:id="@+id/tv_name" />
+
+            <TextView
+                style="@style/ch_fragment_product_list_tv_price_0"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:text="sddcsdcdc"
+                android:id="@+id/tv_price" />
+        </RelativeLayout>
+
+        <TextView
+            style="@style/ch_fragment_product_list_tv_weight"
+            android:text="sddcsdcdc"
+            android:id="@+id/tv_desc" />
+    </LinearLayout>
+
+</merge>

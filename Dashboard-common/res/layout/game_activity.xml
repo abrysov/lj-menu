@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:drawable/zoom_plate"
+                android:layout_margin="200dp">
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp">
+
+
+        <FrameLayout android:id="@+id/game01"
+                android:layout_width="80dp" android:layout_height="80dp"
+                android:background="@android:drawable/zoom_plate"
+                android:padding="3dp">
+
+
+        </FrameLayout>
+
+        <FrameLayout android:id="@+id/game02"
+                     android:layout_width="80dp" android:layout_height="80dp"
+                     android:background="@android:drawable/zoom_plate"
+                     android:padding="3dp">
+
+
+        </FrameLayout>
+
+        <FrameLayout android:id="@+id/game03"
+                     android:layout_width="80dp" android:layout_height="80dp"
+                     android:background="@color/black"
+                     android:padding="3dp">
+
+
+        </FrameLayout>
+
+        <FrameLayout android:id="@+id/game04"
+                     android:layout_width="80dp" android:layout_height="80dp"
+                     android:background="@color/black"
+                     android:padding="3dp">
+
+
+        </FrameLayout>
+
+        <FrameLayout android:id="@+id/game05"
+                     android:layout_width="80dp" android:layout_height="80dp"
+                     android:background="@color/black"
+                     android:padding="3dp">
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

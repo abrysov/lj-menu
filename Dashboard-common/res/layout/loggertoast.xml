@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="16dp" >
+    <TextView android:id="@+id/logMessageStage" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textColor="@color/black" />
+    <TextView android:id="@+id/logMessageText" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:visibility="gone" android:layout_marginTop="16dp" android:textSize="24dp"
+        android:textColor="@color/black" />
+</LinearLayout>

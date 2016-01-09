@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal" android:background="@drawable/progress_background" >
+    <ImageView android:id="@+id/fragment_progress_animatedcircle"
+        android:layout_width="@dimen/fragment_progress_image_size" android:layout_height="@dimen/fragment_progress_image_size"
+        android:src="@drawable/wait_gd" android:scaleType="centerInside" android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/fragment_progress_image_marginLeft" />
+    <com.sqiwy.menu.view.TypefaceTextView
+        android:id="@+id/fragment_progress_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/message_wait"
+        android:textColor="@color/fragment_error_dialog_textColor"
+        android:textSize="@dimen/fragment_progress_text_height"
+        app:customTypeface="fonts/robotoregular.ttf" />
+</LinearLayout>

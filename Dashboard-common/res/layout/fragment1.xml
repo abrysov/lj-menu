@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sqiwy.menu.view.TransitionAnimationFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ad_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <fragment class="com.sqiwy.dashboard.AdvertisementVideoFragment"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:id="@+id/ad_video_fragment"/>
+    
+    <fragment class="com.sqiwy.dashboard.AdvertisementImageFragment"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:id="@+id/ad_image_fragment"/>
+    
+</com.sqiwy.menu.view.TransitionAnimationFrameLayout>

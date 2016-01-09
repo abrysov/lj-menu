@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sqiwy.dashboard.view.MaxWidthLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="horizontal" >
+
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:id="@+id/map_tooltip_shop_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:paddingBottom="15dip"
+            android:paddingLeft="25dip"
+            android:paddingRight="10dip"
+            android:paddingTop="15dip"
+            android:text=""
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="@color/white"
+            android:textSize="37sp"
+            app:customTypeface="fonts/robotothin.ttf" />
+
+        <Button
+            android:id="@+id/map_tooltip_btn_close"
+            android:layout_width="25dip"
+            android:layout_height="25dip"
+            android:layout_gravity="right|top"
+            android:background="@drawable/btn_map_popup_close"
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="15dip"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tips_red"
+        android:orientation="vertical"
+        android:paddingBottom="15dip"
+        android:paddingLeft="25dip"
+        android:paddingRight="25dip"
+        android:paddingTop="10dip" >
+
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:id="@+id/map_tooltip_shop_descr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="0dp"
+            android:text=""
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:customTypeface="fonts/robotothin.ttf" />
+
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:id="@+id/map_tooltip_shop_floor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="0dp"
+            android:paddingTop="5dp"
+            android:text=""
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="@color/white"
+            app:customTypeface="fonts/robotothin.ttf" />
+    </LinearLayout>
+
+</com.sqiwy.dashboard.view.MaxWidthLinearLayout>

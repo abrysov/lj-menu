@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_invisible"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical"
+        android:visibility="gone" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_visible"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cm_fragment_menu_grand_height"
+        android:background="@color/dashboard_header"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_home"
+            style="@style/cm_fragment_menu_grand_iv"
+            android:src="@drawable/ic_home" />
+
+        <ImageView style="@style/cm_fragment_menu_grand_iv_separator" />
+
+        <LinearLayout
+            android:id="@+id/ll_menu"
+            android:layout_width="@dimen/cm_fragment_product_category_list_width"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/cm_fragment_product_category_list_tv_padding_left" >
+
+            <com.sqiwy.menu.view.TypefaceTextView
+                android:id="@+id/tv_menu"
+                style="@style/cm_fragment_menu_grand_tv"
+                android:gravity="center_vertical"
+                android:text="@string/menu"
+                app:customTypeface="fonts/robotothin.ttf"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+        </LinearLayout>
+
+        <ImageView style="@style/cm_fragment_menu_grand_iv_separator" />
+
+        <LinearLayout
+            android:id="@+id/btn_call_waiter"
+            android:layout_width="@dimen/cm_fragment_bill_width"
+            android:layout_height="@dimen/menu_top_bar_height"
+            android:gravity="center" >
+
+            <com.sqiwy.menu.view.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_bell"
+                android:drawablePadding="40dp"
+                android:text="@string/call_waiter"
+                android:textColor="@color/tv_tile_item"
+                android:textSize="@dimen/menu_top_bar_text_medium"
+                android:textStyle="bold"
+                app:customTypeface="fonts/robotoregular.ttf" />
+        </LinearLayout>
+
+        <ImageView style="@style/cm_fragment_menu_grand_iv_separator" />
+
+        <LinearLayout
+            android:id="@+id/btn_rotate_screen"
+            android:layout_width="@dimen/menu_top_bar_height"
+            android:layout_height="@dimen/menu_top_bar_height"
+            android:gravity="center" >
+
+            <com.sqiwy.menu.view.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/ic_rotate"
+                android:paddingTop="14dp"
+                android:text="@string/rotate_180"
+                android:textColor="@android:color/white"
+                android:textSize="15dp"
+                app:customTypeface="fonts/robotolight.ttf" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

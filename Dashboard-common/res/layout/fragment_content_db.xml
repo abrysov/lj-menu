@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.sqiwy.dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" 
+    android:id="@+id/ll_parent">
+
+    <com.fosslabs.android.view.MosaicLayout
+        android:id="@+id/pl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        app:spacing_horizontal="@dimen/mosaic_layout_spacing_horizontal"
+        app:spacing_vertical="@dimen/mosaic_layout_spacing_vertical" >
+    </com.fosslabs.android.view.MosaicLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_base">#0D0D0D</color>
+    <color name="text_base">#7C7C7C</color>
+    
+   	<!-- BaseGrandFragment -->
+   	<color name="bg_bill">#C1C1C1</color>
+   	<color name="bg_grand">#FFE500</color>
+    <color name="bg_grand_light">#EF726E</color>
+    <color name="bg_menu_grand_light_grey">#F3F4F4</color>
+    <color name="bg_container_shadow">#D01E1E1E</color>
+    <color name="bg_btn_bill_unfocus">#D01E1E1E</color>
+    
+    <color name="bg_categoty_item">#f5f5f5</color>
+    
+    <!-- TestMapImageViewActivity -->
+    <color name ="shade">#303030</color>
+</resources>

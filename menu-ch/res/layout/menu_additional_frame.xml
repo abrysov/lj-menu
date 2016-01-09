@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/menu_0022_swipe_screen_left" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/menu_more_left" />
+
+        <!-- <TextView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_gravity="right|center_vertical" -->
+        <!-- android:rotation="90" -->
+        <!-- android:text="ЕЩЕ ОДНО МЕНЮ" -->
+        <!-- android:textColor="#fff" -->
+        <!-- android:textSize="30dp" /> -->
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/menu_0021_swipe_screen_right" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/menu_more_right" />
+
+        <!-- <TextView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_gravity="right|center_vertical" -->
+        <!-- android:rotation="-90" -->
+        <!-- android:text="ЕЩЕ ОДНО МЕНЮ" -->
+        <!-- android:textColor="#fff" -->
+        <!-- android:textSize="30dp" /> -->
+    </FrameLayout>
+
+</RelativeLayout>

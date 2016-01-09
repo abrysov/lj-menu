@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingBottom="25dp"
+    android:paddingTop="25dp"
+    tools:ignore="ContentDescription" >
+
+    <FrameLayout
+        android:id="@+id/tv_product_price_or_remove_btn"
+        android:layout_width="@dimen/cm_fragment_bill_item_gallery_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:id="@+id/tv_product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="6dp"
+            android:singleLine="true"
+            android:textColor="#494949"
+            android:textSize="@dimen/cm_fragment_bill_item_tv_size_sum"
+            app:customTypeface="fonts/robotolight.ttf" />
+
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:id="@+id/remove_product_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:background="@android:color/white"
+            android:clickable="false"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/remove_product_from_bill_text"
+            android:textColor="@color/cm_fragment_bill_item_remove_product_textcolor"
+            android:textSize="@dimen/cm_fragment_bill_item_product_remove_text_height"
+            android:visibility="invisible"
+            app:customTypeface="fonts/robotoregular.ttf" />
+    </FrameLayout>
+
+    <com.sqiwy.menu.view.TypefaceTextView
+        android:id="@+id/tv_product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/cm_fragment_bill_item_tv_name_and_modifiers_right_margin"
+        android:layout_toLeftOf="@id/tv_product_price_or_remove_btn"
+        android:textColor="#181818"
+        android:textSize="@dimen/cm_fragment_bill_item_tv_size_name"
+        android:textStyle="bold"
+        app:customTypeface="fonts/robotolight.ttf" />
+
+    <FrameLayout
+        android:id="@+id/tv_product_count_gallery"
+        android:layout_width="@dimen/cm_fragment_bill_item_gallery_width"
+        android:layout_height="@dimen/cm_fragment_bill_item_gallery_height"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_product_price_or_remove_btn" >
+
+        <com.fosslabs.android.view.JSNoFlingGallery
+            android:id="@+id/gallery_product_count"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/picker_masked" />
+    </FrameLayout>
+
+    <com.sqiwy.menu.view.TypefaceTextView
+        android:id="@+id/tv_product_modifiers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_product_name"
+        android:layout_marginRight="@dimen/cm_fragment_bill_item_tv_name_and_modifiers_right_margin"
+        android:layout_marginTop="4dp"
+        android:layout_toLeftOf="@id/tv_product_price_or_remove_btn"
+        android:textColor="#bababa"
+        android:textSize="@dimen/cm_fragment_bill_item_tv_size_modifiers"
+        app:customTypeface="fonts/robotoregular.ttf" />
+
+    <com.sqiwy.menu.view.TypefaceTextView
+        android:id="@+id/tv_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_product_modifiers"
+        android:layout_marginRight="@dimen/cm_fragment_bill_item_tv_name_and_modifiers_right_margin"
+        android:layout_marginTop="4dp"
+        android:layout_toLeftOf="@id/tv_product_price_or_remove_btn"
+        android:textColor="#bababa"
+        android:textSize="@dimen/cm_fragment_bill_item_tv_size_name"
+        app:customTypeface="fonts/robotolight.ttf"
+        android:text="999 г" />
+
+</RelativeLayout>

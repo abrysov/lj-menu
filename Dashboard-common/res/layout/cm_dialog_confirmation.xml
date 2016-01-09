@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/cm_fragment_bill_confirmation_dialog_width"
+    android:layout_height="@dimen/cm_fragment_bill_confirmation_dialog_height"
+    android:orientation="vertical" 
+    android:background="@color/white_low">
+
+    <com.sqiwy.menu.view.TypefaceTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="35dp"
+        android:text="@string/tv_order"
+        android:textColor="@color/cm_fragment_bill_item_clearorder_textcolor"
+        android:textSize="@dimen/cm_fragment_bill_order_textsize"
+        android:textStyle="bold"
+        app:customTypeface="fonts/robotolight.ttf" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/bill_line" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/bill_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="40dp" >
+
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/total_to_pay"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:customTypeface="fonts/robotolight.ttf" />
+
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:id="@+id/tv_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/order" 
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:customTypeface="fonts/robotolight.ttf" />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="40dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+
+        <com.sqiwy.menu.view.TypefaceButton
+            android:id="@+id/btn_cancel"
+            android:layout_width="145dp"
+            android:layout_height="47dp"
+            android:layout_alignParentLeft="true"
+            android:text="@string/btn_cancel"
+            android:background="@color/white"/>
+
+        <com.sqiwy.menu.view.TypefaceButton
+            android:id="@+id/btn_order"
+            android:layout_width="145dp"
+            android:layout_height="47dp"
+            android:layout_alignParentRight="true"
+            android:text="@string/btn_order"
+            android:background="@color/cm_fragment_bill_confirmation_dialog_red"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+</LinearLayout>

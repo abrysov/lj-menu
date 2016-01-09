@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <com.sqiwy.dashboard.view.MapView
+                android:id="@+id/map_view"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/cm_fragment_menu_grand_height"
+                android:layout_weight="1"
+                android:padding="20dip" />
+
+            <View
+                android:layout_width="@dimen/map_activity_ads_width"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dip"
+                android:paddingBottom="20dip"
+                android:paddingTop="20dip" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+        <FrameLayout
+                android:id="@+id/map_picker_overlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <GridView
+                    android:id="@+id/map_popup_items"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginLeft="@dimen/cm_fragment_menu_grand_height"
+                    android:background="@color/white"
+                    android:clickable="true"
+                    android:listSelector="#00000000"
+                    android:numColumns="4"
+                    android:padding="30dip" />
+        </FrameLayout>
+
+
+        <FrameLayout android:layout_width="match_parent"
+                     android:layout_height="match_parent">
+
+
+            <ListView
+                    android:id="@+id/map_floors_list"
+                    android:layout_width="@dimen/cm_fragment_menu_grand_height"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1dp"
+                    android:divider="@null"
+                    android:dividerHeight="0dip"
+                    android:footerDividersEnabled="true"
+                    android:listSelector="#00000000"
+                    android:stackFromBottom="true"
+                    android:visibility="visible" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

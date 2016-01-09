@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <declare-styleable name="VerticalLabelView">
+        <attr name="text" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="rotote" format="integer" />
+    </declare-styleable>
+    
+     <declare-styleable name="NewSlidingDrawer">
+		<attr name="handle" format="reference" />
+		<attr name="content" format="reference" />
+		<attr name="orientation"  format="integer" />
+		<attr name="bottomOffset" format="dimension" />
+		<attr name="topOffset" format="dimension" />
+		<attr name="allowSingleTap" format="boolean" />
+		<attr name="animateOnClick" format="boolean" />
+	</declare-styleable>
+    
+    <declare-styleable name="MosaicLayout">
+        <attr name="spacing_vertical" format="dimension" />
+        <attr name="spacing_horizontal" format="dimension" />
+        <attr name="row_height" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="MosaicLayoutChild">
+        <attr name="left" format="integer" />
+        <attr name="top" format="integer" />
+        <attr name="width" format="integer" />
+        <attr name="height" format="integer" />
+    </declare-styleable>
+    
+    <attr name="switchStyle" format="reference" />
+    <declare-styleable name="Switch">
+	    <attr name="textLeft" format="string"/>
+	    <attr name="textRight" format="string"/>
+	    <attr name="switchMinWidth" format="dimension" />
+	    <attr name="switchPadding" format="dimension" />	    
+	    <attr name="colorUnChecked" format="color" />	    
+	    <attr name="colorChecked" format="color" />	    
+	    <attr name="backgroundDrawable" format="reference" />	    
+	    <attr name="switchDrawable" format="dimension" />
+	    <attr name="innerPadding" format="dimension" />	   
+	    <attr name="isChecked" format="boolean" />	    
+	    	    
+	</declare-styleable>
+</resources>

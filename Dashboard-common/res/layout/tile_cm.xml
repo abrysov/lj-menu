@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1.0" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.54"
+            android:background="#00000000" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.46"
+            android:background="#b3ffffff"
+            android:gravity="center_vertical"
+            android:minHeight="95px"
+            android:paddingLeft="30dp"
+            android:paddingBottom="10dp">
+
+            <LinearLayout
+                android:id="@+id/price_bunch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal" >
+
+                <com.sqiwy.menu.view.TypefaceTextView
+                    android:id="@+id/tv_price"
+                    style="@style/cm_fragment_product_list_tv_price_0"
+                    app:customTypeface="fonts/robotolight.ttf" />
+
+                <com.sqiwy.menu.view.TypefaceTextView
+                    android:id="@+id/tv_weight"
+                    style="@style/cm_fragment_product_list_tv_weight"
+                    android:paddingLeft="8px"
+                    app:customTypeface="fonts/robotolight.ttf" />
+            </LinearLayout>
+
+            <com.sqiwy.menu.view.TypefaceTextView
+                android:id="@+id/tv_name"
+                style="@style/cm_fragment_product_list_tv_name"
+                android:layout_alignParentTop="true"
+                android:layout_above="@id/price_bunch"
+                app:customTypeface="fonts/robotolight.ttf" />
+
+<!--             <com.sqiwy.menu.view.TypefaceTextView -->
+<!--             android:id="@+id/tv_desc" -->
+<!--             style="@style/cm_fragment_product_list_tv_weight" -->
+<!--             android:visibility="gone" -->
+<!--             app:customTypeface="fonts/robotolight.ttf" /> -->
+        </RelativeLayout>
+
+        <!-- <LinearLayout style="@style/cm_fragment_product_list_ll" > -->
+
+
+        <!-- <com.sqiwy.menu.view.TypefaceTextView -->
+        <!-- android:id="@+id/tv_name" -->
+        <!-- style="@style/cm_fragment_product_list_tv_name" -->
+        <!-- app:customTypeface="fonts/robotolight.ttf" /> -->
+
+
+        <!-- <LinearLayout -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:orientation="horizontal" > -->
+
+
+        <!-- <com.sqiwy.menu.view.TypefaceTextView -->
+        <!-- android:id="@+id/tv_price" -->
+        <!-- style="@style/cm_fragment_product_list_tv_price_0" -->
+        <!-- app:customTypeface="fonts/robotolight.ttf" /> -->
+
+
+        <!-- <com.sqiwy.menu.view.TypefaceTextView -->
+        <!-- android:id="@+id/tv_weight" -->
+        <!-- style="@style/cm_fragment_product_list_tv_weight" -->
+        <!-- android:paddingLeft="8px" -->
+        <!-- app:customTypeface="fonts/robotolight.ttf" /> -->
+        <!-- </LinearLayout> -->
+
+
+        <!-- <com.sqiwy.menu.view.TypefaceTextView -->
+        <!-- android:id="@+id/tv_desc" -->
+        <!-- style="@style/cm_fragment_product_list_tv_weight" -->
+        <!-- android:visibility="gone" -->
+        <!-- app:customTypeface="fonts/robotolight.ttf" /> -->
+        <!-- </LinearLayout> -->
+    </LinearLayout>
+
+</merge>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- DBPreferenceFragment -->
+    <string name="pc_appearance">登记</string>
+    <string name="etp_fragment_grand_base_height">顶板高度 (px)</string>
+
+    <!-- Errors -->
+    <string name="error_not_dir_for_work">错误，无法创建必须的目录</string>
+    <string name="error_menu_category_is_empty">在该类别中暂没有食物</string>
+    <string name="error_retrieving_menu">由于网路故障，无法加载菜单</string>
+    <string name="error_placing_order">无法发送订单\n请联系场所工作人员</string>
+
+    <!-- DBGrandFragment -->
+    <string name="lock">锁定</string>
+    <string name="lang_tag">ZH</string>
+    <!-- MediaFragment -->
+    <string name="enter">进入菜单</string>
+
+    <!-- CafeFragment -->
+    <string name="cafe_info_top"> 莫斯科懒人咖啡馆－是位于喧闹繁华的莫斯科商业中心的一个温馨的小窝，在这里您会感受和理解没有什么比温暖，关心和照顾更珍贵。
+        莫斯科人理解做美味可口的食物的真意，我们将尽全力在我们的沙拉，意大利面，烩饭和其他各种地中海菜肴传达美味的真谛。当之无愧的赞赏。</string>
+    <string name="cafe_info_bottom">基辅地铁站，“欧洲” 购物和娱乐中心
+        楼中庭“莫斯科”,
+        航海路 177 号
+        电话：+7 (495) 221-83-81 分机 6090</string>
+    <string name="cafe">咖啡馆</string>
+
+    <!-- GrandFragmentItem -->
+    <string name="internet">网络</string>
+    <string name="communication">沟通</string>
+    <string name="carte_blanche">地图\n布兰奇</string>
+    <string name="call_waiter">呼叫服务员</string>
+    <string name="waiter_is_coming">服务员很快就来</string>
+    <string name="error_on_call_waiter">无法呼叫服务员</string>
+    <string name="delivery">送餐</string>
+    <string name="games">游戏</string>
+    <string name="social_networks">社交网络</string>
+    <string name="stock">股票</string>
+    <string name="about_cafe">关于咖啡馆</string>
+    <string name="taxi">出租车服务</string>
+    <string name="guest">客人</string>
+
+    <!-- Menu -->
+    <string name="menu">菜单</string>
+    <string name="add_dish_hear">添加\n菜至此</string>
+    <string name="order">订单</string>
+    <string name="btn_call_waiter">呼叫\n服务员</string>
+    <string name="btn_bring_bill">拿来\n账单</string>
+    <string name="total_to_pay">总计</string>
+    <string name="btn_order">下单</string>
+    <string name="tv_price">价格</string>
+    <string name="tv_count">0</string>
+    <string name="in_total">总计</string>
+    <string name="ingredients">组成</string>
+    <string name="tv_content">奶油奶酪，黑和白巧克力，巧克力蛋糕，杏仁片，焦糖</string>
+    <string name="tv_ingredients">成分:</string>
+    <string name="tv_order">订单</string>
+    <string name="menu_not_loaded_message">呼叫服务员</string>
+
+    <!-- MGContentFragment -->
+    <string name="pressa">新闻</string>
+    <string name="quick_order">快速下单</string>
+    <string name="clock">时钟</string>
+    <string name="molle_map">购物中心地图</string>
+    <string name="coffe">仅咖啡</string>
+
+    <!-- TestClockPreferences -->
+    <string name="timezone">时区</string>
+    <string name="unlock">解锁屏幕</string>
+
+    <string name="title_order_confirm">发送订单</string>
+
+    <string name="message_wait">请稍候…</string>
+    <string name="message_order_confirm">您订单总金额为 %s</string>
+    <string name="message_order_success">订单已发送，请等待.</string>
+    <string name="message_order_failure">订单发送过程中发生错误.</string>
+
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_send">发送</string>
+    <string name="btn_add">添加</string>
+    <string name="btn_change">更改</string>
+
+    <string name="settings">设置</string>
+    <string name="data_loading_status">%1$s 从 %2$s 文档</string>
+    <string name="data_loading">数据加载中…</string>
+    <string name="data_loading_error">唉，发生错误，请邀请管理员到桌旁</string>
+    <string name="reload">重新加载</string>
+    <string name="hint_enter_password">输入密码</string>
+    <string name="login">进入</string>
+
+    <string name="toast_max_product_count">账户中可以添加不超过 %d 的位置。</string>
+    <string name="toast_max_product_unit_count">在账户中可以添加不超过 %d 单件商品。</string>
+    <string name="opens_system_settings">打开系统设置</string>
+    <string name="system_settings">系统设置</string>
+    <string name="proceed">继续</string>
+
+    <string name="lbl_client_config">连接服务器</string>
+
+    <string name="wrong_password">密码不正确</string>
+
+    <string name="rotate_180">180°</string>
+    <string name="clear_history">删除历史记录</string>
+
+    <string name="closing_session_success">历史记录成功删除</string>
+    <string name="closing_session_failure">唉，发生错误</string>
+
+    <string name="clear_order">清除订单</string>
+    <string name="remove_product_from_bill_text">删除</string>
+
+    <!-- settings -->
+    <string name="settings_enable_install_apps_title">允许安装应用程序</string>
+    <string name="settings_enable_demo_mode">演示模式</string>
+    <string name="settings_error_dialog_title">错误</string>
+    <string name="caloricityUnit">大卡</string>
+
+    <!-- map -->
+    <string name="map_title">欧洲购物和娱乐中心地图</string>
+    <string name="map_goods_categories">商品分类</string>
+    <string name="map_floor">楼层</string>
+    <string name="map_floors">楼层</string>
+    <string name="_small_r">" 元"</string> <!-- was " р"  fixed to uans -->
+
+    <string name="customNo">无</string>
+    <string name="customYes">是</string>
+
+    <!-- Default table password for 1st app launch -->
+
+
+    <!-- Localization -->
+    <string name="dashboard_resources">DASHBOARD/zh</string>
+
+    <!-- Chat -->
+
+    <string name="now_in_chat">正在聊天</string>
+    <string name="editing">编辑</string>
+    <string name="chat_sign_in">输入</string>
+    <string name="btn_write_message">发送信息</string>
+    <string name="btn_make_gift">赠送礼物</string>
+    <string name="btn_ban_chat">阻止</string>
+    <string name="btn_unban_chat">发布</string> <!-- Разблокировать -->
+    <string name="btn_edit">编辑</string>
+    <string name="panel_lbl">沟通</string>
+
+    <string name="hint_message">信息</string>
+    <string name="message_sended">信息已发送</string>
+
+    <string name="hint_nick_name">昵称</string>
+    <string name="hint_status">状态</string>
+    <string name="btn_enter">进入</string>
+    <string name="me">我</string>
+    <string name="public_chat_user">公共聊天</string>
+    <string name="btn_save_and_continue">保存</string>
+
+    <string name="just_now">刚才</string>
+    <string name="ago">之前</string>
+    <string name="hour0">小时</string>
+    <string name="hour1">小时</string>
+    <string name="hour2">小时</string>
+    <string name="minute0">分钟</string>
+    <string name="minute1">分钟</string>
+    <string name="minute2">分钟</string>
+
+
+
+</resources>

@@ -1,0 +1,293 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
+
+
+    -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="AppTheme.EditText" parent="AppBaseTheme">
+        <item name="android:background">@drawable/edittext</item>
+        <item name="android:textSize">28dp</item>
+    </style>
+
+    <style name="AppThemNoBackground" parent="AppTheme">
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+
+    <style name="SystemTheme" parent="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" />
+
+    <style name="switch_lang">
+        <item name="@attr/colorChecked">#FFFFFF</item>
+        <item name="@attr/colorUnChecked">#808080</item>
+        <item name="@attr/backgroundDrawable">@drawable/switch_bg_holo_dark</item>
+        <item name="@attr/switchDrawable">@drawable/switch_thumb_activated_holo_dark</item>
+    </style>
+
+    <style name="cm_fragment_menu_grand_iv">
+        <item name="android:layout_width">@dimen/cm_fragment_menu_grand_height</item>
+        <item name="android:layout_height">@dimen/cm_fragment_menu_grand_height</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="cm_fragment_menu_grand_iv_separator">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/menu_top_bar_height</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@drawable/separator</item>
+    </style>
+
+    <style name="cm_fragment_menu_grand_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">#F2D2D9</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/cm_fragment_menu_grand_tv_size_menu</item>
+    </style>
+
+    <!-- EVEL -->
+
+    <style name="cm_fragment_product_list_tv_name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">@dimen/cm_fragment_product_name_textheight</item>
+    </style>
+
+    <style name="cm_fragment_product_list_tv_price_0">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#4c4c4c</item>
+        <item name="android:textSize">@dimen/cm_fragment_product_price_textheight</item>
+    </style>
+
+    <style name="cm_fragment_product_list_tv_weight">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#7F7F7F</item>
+        <item name="android:textSize">@dimen/cm_fragment_product_weight_textheight</item>
+    </style>
+
+    <style name="cm_fragment_product_list_fl">
+        <item name="android:padding">2px</item>
+        <item name="android:background">#c7c7c7</item>
+        <item name="android:layout_marginTop">8px</item>
+        <item name="android:layout_marginBottom">8px</item>
+        <item name="android:layout_marginLeft">8px</item>
+        <item name="android:layout_marginRight">8px</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="cm_fragment_product_list_fl_small" parent="cm_fragment_product_list_fl">
+        <item name="android:layout_width">455px</item>
+        <item name="android:layout_height">287px</item>
+    </style>
+
+    <style name="cm_fragment_product_list_fl_medium" parent="cm_fragment_product_list_fl">
+        <item name="android:layout_width">926px</item>
+        <item name="android:layout_height">373px</item>
+    </style>
+
+    <style name="cm_fragment_product_list_fl_text" parent="cm_fragment_product_list_fl">
+        <item name="android:layout_width">455px</item>
+        <item name="android:layout_height">85px</item>
+    </style>
+
+    <style name="cm_fragment_product_list_fl_text_2" parent="cm_fragment_product_list_fl">
+        <item name="android:layout_width">455px</item>
+        <item name="android:layout_height">136px</item>
+    </style>
+
+    <style name="cm_fragment_product_list_ll">
+        <item name="android:layout_weight">0.46</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:paddingLeft">30px</item>
+        <item name="android:background">#b3ffffff</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">95px</item>
+    </style>
+
+    <style name="cm_fragment_product_list_ll_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">30px</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!--  -->
+    <style name="ch_fragment_product_list_tv_name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">10pt</item>
+    </style>
+
+    <style name="ch_fragment_product_list_tv_price_0">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#4c4c4c</item>
+        <item name="android:textSize">12pt</item>
+    </style>
+
+    <style name="ch_fragment_product_list_tv_price_1" parent="cm_fragment_product_list_tv_price_0">
+        <item name="android:textSize">12pt</item>
+    </style>
+
+    <style name="ch_fragment_product_list_tv_weight">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#7F7F7F</item>
+        <item name="android:textSize">9pt</item>
+    </style>
+
+    <style name="ch_fragment_product_list_fl">
+        <item name="android:padding">0px</item>
+        <item name="android:background">#291C16</item>
+        <item name="android:layout_margin">2px</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ch_fragment_product_list_fl_small" parent="ch_fragment_product_list_fl">
+        <item name="android:layout_width">309px</item>
+        <item name="android:layout_height">309px</item>
+    </style>
+
+    <style name="ch_fragment_product_list_fl_medium">
+        <item name="android:layout_width">618px</item>
+        <item name="android:layout_height">309px</item>
+    </style>
+
+    <style name="ch_fragment_product_list_fl_big">
+        <item name="android:layout_width">618px</item>
+        <item name="android:layout_height">618px</item>
+    </style>
+
+    <style name="ch_fragment_product_list_ll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">20px</item>
+        <item name="android:paddingBottom">20px</item>
+        <item name="android:paddingLeft">30px</item>
+        <item name="android:paddingRight">30px</item>
+        <item name="android:background">#c4ffffff</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:minHeight">95px</item>
+    </style>
+
+    <!-- MAP -->
+    <style name="map_panel_floor_button">
+        <item name="android:layout_width">@dimen/cm_fragment_menu_grand_height</item>
+        <item name="android:layout_height">@dimen/cm_fragment_menu_grand_height</item>
+        <item name="android:minWidth">@dimen/cm_fragment_menu_grand_height</item>
+        <item name="android:minHeight">@dimen/cm_fragment_menu_grand_height</item>
+        <item name="android:background">@drawable/map_panel_floor_button_background</item>
+        <item name="android:textColor">@color/map_panel_floor_button_text_color</item>
+        <item name="android:padding">5dip</item>
+    </style>
+
+    <style name="map_panel_floor_button_text" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">25dip</item>
+        <item name="android:textColor">@color/map_panel_floor_button_text_color</item>
+    </style>
+
+    <style name="map_panel_floor_button_text_ex" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">13dip</item>
+        <item name="android:textColor">@color/map_panel_floor_button_text_ex_color</item>
+    </style>
+
+    <style name="map_panel_floor_picker_button_text" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">32dip</item>
+        <item name="android:textColor">@color/map_panel_button_text_color</item>
+    </style>
+
+    <style name="map_panel_floor_picker_button_text_ex" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">@color/map_panel_button_text_color</item>
+    </style>
+
+    <style name="map_panel_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/cm_fragment_menu_grand_height</item>
+        <item name="android:paddingLeft">36dip</item>
+        <item name="android:paddingRight">36dip</item>
+        <item name="android:paddingTop">5dip</item>
+        <item name="android:paddingBottom">5dip</item>
+    </style>
+
+    <style name="map_panel_button_text" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">32dip</item>
+        <item name="android:textColor">@color/map_panel_button_text_color</item>
+    </style>
+
+    <style name="map_category_picker_text" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">26dip</item>
+        <item name="android:textColor">@color/map_panel_button_text_color</item>
+    </style>
+	
+	<!-- Chat -->
+
+	   <style name="white_mid_text">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="btn_red" parent="white_mid_text">
+        <item name="android:background">@drawable/bg_red_button_selector</item>
+    </style>
+    
+    <style name="btn_gray" parent="white_mid_text">
+        <item name="android:background">@drawable/bg_gray_button_selector</item>
+    </style>
+
+    <style name="black_mid_text">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="grid_picker_dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+<!--         <item name="android:background">@null</item> -->
+<!--         <item name="android:windowIsFloating">true</item> -->
+    </style>
+</resources>

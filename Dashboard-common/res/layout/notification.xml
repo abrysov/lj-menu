@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root">
+
+    <RelativeLayout
+        android:id="@+id/toast_root"
+        android:layout_width="@dimen/fragment_notification_window_width"
+        android:layout_height="@dimen/fragment_notification_window_height"
+        android:background="@drawable/notification_background"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/fragment_notification_window_closebutton_padding"
+            android:layout_marginTop="@dimen/fragment_notification_window_closebutton_padding"
+            android:adjustViewBounds="true"
+            android:src="@drawable/notification_close" />
+
+        <com.sqiwy.menu.view.TypefaceTextView
+            android:id="@+id/notification_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/notification_warning"
+            android:gravity="center"
+            android:paddingLeft="40dp"
+            android:textColor="@color/fragment_error_dialog_textColor"
+            android:textSize="@dimen/notification_text_height"
+            app:customTypeface="fonts/robotoregular.ttf" />
+    </RelativeLayout>
+
+</FrameLayout> 

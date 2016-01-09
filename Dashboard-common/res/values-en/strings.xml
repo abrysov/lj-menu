@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dashboard-common</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- DBPreferenceFragment -->
+    <string name="pc_appearance">Decor</string>
+    <string name="pc_appearance_key">pc_appearance_key</string>
+    <string name="etp_fragment_grand_base_height">Height of the top panel (px)</string>
+    <string name="etp_fragment_grand_base_height_key">etp_fragment_grand_base_height_key</string>
+
+    <!-- Errors -->
+    <string name="error_not_dir_for_work">Error. Unable to create necessary directories.</string>
+    <string name="error_menu_category_is_empty">There are no items in this category yet.</string>
+    <string name="error_retrieving_menu">Unable to load the menu due to the network failure.</string>
+    <string name="error_placing_order">Unable to send the order. Please call a waiter.</string>
+
+    <!-- DBGrandFragment -->
+    <string name="switch_off">ru</string>
+    <string name="switch_on">eng</string>
+    <string name="lock">Block</string>
+    <string name="lang_tag">EN</string>
+    <!-- MediaFragment -->
+    <string name="enter">See the menu</string>
+
+    <!-- CafeFragment -->
+    <string name="cafe_info_top"> Once you find yourself in a cozy laid-back cafe "Moscow" in the center of the bustling business area, you realize that there is nothing more important than warm atmosphere, attention to detail and great care. Muscovites are experts in preparing tasty and flavorful food, and we try to convey the whole pallete of gustatory sensations in our salads, pasta, risotto and other Mediterranean dishes.</string>
+    <string name="cafe_info_bottom">Kievskaya subway station, "European Mall", 1st floor, Atrium "Moscow", quick search # 177, tel.: +7 (495) 221-83-81, extension # 6090</string>
+    <string name="cafe">Cafe</string>
+
+    <!-- GrandFragmentItem -->
+    <string name="internet">Internet</string>
+    <string name="communication">Connect</string>
+    <string name="carte_blanche">Blank cheque</string>
+    <string name="call_waiter">Call waiter</string>
+    <string name="waiter_is_coming">Waiter will be with you soon</string>
+    <string name="error_on_call_waiter">Unable to call waiter</string>
+    <string name="delivery">Delivery</string>
+    <string name="games">Games</string>
+    <string name="social_networks">Social networks</string>
+    <string name="stock">Special offers</string>
+    <string name="about_cafe">About cafe</string>
+    <string name="taxi">call a taxi</string>
+    <string name="guest">guest</string>
+
+    <!-- Menu -->
+    <string name="menu">Menu</string>
+    <string name="add_dish_hear">add dishes here</string>
+    <string name="order">your order</string>
+    <string name="btn_call_waiter">call waiter</string>
+    <string name="btn_bring_bill">Bring the check</string>
+    <string name="total_to_pay">Total</string>
+    <string name="btn_order">Order</string>
+    <string name="tv_price">Price</string>
+    <string name="tv_count">0</string>
+    <string name="in_total">Total</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="tv_content">Whipped cream cheese, dark and white chocolate, chocolate sponge cake, almond chips, caramel</string>
+    <string name="tv_ingredients">Add-ons</string>
+    <string name="tv_order">Guest check</string>
+    <string name="menu_not_loaded_message">Call waiter</string>
+
+    <!-- MGContentFragment -->
+    <string name="pressa">Press</string>
+    <string name="quick_order">Quick order</string>
+    <string name="clock">Time</string>
+    <string name="molle_map">Map of the mall</string>
+    <string name="coffe">Simply coffee</string>
+
+    <!-- TestClockPreferences -->
+    <string name="timezone">TimeZone</string>
+    <string name="unlock">Unblock the screen</string>
+    <string name="title_activity_dbinitialize_gallery_clock">DBInitializeGalleryClock</string>
+
+    <string name="title_order_confirm">Send your order</string>
+
+    <string name="message_wait">Please, wait…</string>
+    <string name="message_order_confirm">The amount due is %s</string>
+    <string name="message_order_success">Your order has been sent. Please, wait.</string>
+    <string name="message_order_failure">An error has occurred during sending your order.</string>
+
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_change">Change</string>
+
+    <string name="settings">Settings</string>
+    <string name="data_loading_status">%1$s of %2$s files</string>
+    <string name="data_loading">Loading...</string>
+    <string name="data_loading_error">Unfortunately, an error has occured. Please, call for a manager.</string>
+    <string name="reload">Reload</string>
+    <string name="hint_enter_password">Enter the password</string>
+    <string name="login">Enter</string>
+
+    <string name="toast_max_product_count">No more than %d items can be added to the order</string>
+    <string name="toast_max_product_unit_count">No more than %d items of the kind can be added to the order</string>
+    <string name="opens_system_settings">Open system settings</string>
+    <string name="system_settings">system settings</string>
+	<string name="proceed">continue</string>
+
+    <string name="lbl_client_config">Connecting the server</string>
+    <string name="lbl_client_id">Client ID</string>
+    <string name="lbl_client_pass">Client password</string>
+    <string name="lbl_api_url">API Server URL</string>
+    <string name="lbl_web_url">Web Server URL</string>
+    <string name="lbl_packet_size">Packet size</string>
+    <string name="lbl_empty">Empty</string>
+    <string name="wrong_password">incorrect password</string>
+    
+    <string name="rotate_180">180°</string>
+    <string name="clear_history">Clear history</string>
+    
+    <string name="closing_session_success">History has been cleared</string>
+    <string name="closing_session_failure">Unfortunately, an error has occured</string>
+    
+    <string name="clear_order">Clear the check</string>
+    <string name="remove_product_from_bill_text">delete</string>
+    
+    <!-- settings -->
+    <string name="settings_enable_install_apps_title">Enable application installation</string>
+    <string name="settings_enable_demo_mode">demo version</string>
+    <string name="settings_enable_install_apps_summary"></string>
+    <string name="settings_enable_demo_mode_summary"></string>
+    <string name="settings_error_dialog_title">Error</string>
+    <string name="caloricityUnit">kcal</string>
+    
+    <!-- map -->
+    <string name="map_title">Map of the European mall</string>
+    <string name="map_goods_categories">Categories</string>
+    <string name="map_floor">Floor</string>
+    <string name="map_floors">floors</string>
+    <string name="_small_r">" rub"</string>
+    
+    <string name="customNo">no</string>
+	<string name="customYes">yes</string>
+	
+	<!-- Default table password for 1st app launch -->
+	<string name="defaultTablePassword">password</string>
+
+
+    <!-- Localization -->
+    <string name="dashboard_resources">DASHBOARD/en</string>
+
+    <!-- Chat -->
+
+    <string name="now_in_chat">Now in chat</string>
+    <string name="editing">Edit</string>
+    <string name="chat_sign_in">Enter</string>
+    <string name="btn_write_message">Send message</string>
+    <string name="btn_make_gift">Make a gift</string>
+    <string name="btn_ban_chat">Block</string>
+    <string name="btn_unban_chat">Unblock</string>
+    <string name="btn_edit">Edit</string>
+    <string name="panel_lbl">Talk</string>
+
+    <string name="hint_message">Message</string>
+    <string name="message_sended">Message has been send</string>
+
+    <string name="hint_nick_name">Nickname</string>
+    <string name="hint_status">Status</string>
+    <string name="btn_enter">Enter</string>
+    <string name="me">Me</string>
+    <string name="public_chat_user">Public chat</string>
+    <string name="btn_save_and_continue">Save</string>
+
+    <string name="just_now">Just now</string>
+    <string name="ago">back</string>
+    <string name="hour0">hours</string>
+    <string name="hour1">hour</string>
+    <string name="hour2">hours</string>
+    <string name="minute0">min</string>
+    <string name="minute1">minute</string>
+    <string name="minute2">minutes</string>
+
+
+</resources>

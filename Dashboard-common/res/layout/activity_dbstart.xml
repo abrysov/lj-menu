@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/iv_db_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!--
+    	This SurfaceView somehow stops blank screen to appear when video ad is displayed
+    	http://stackoverflow.com/questions/17717906/videoview-inside-fragment-causes-black-screen-flicking
+        -->
+
+        <SurfaceView
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <FrameLayout
+            android:id="@+id/fragment_content_db"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <android.gesture.GestureOverlayView
+            android:id="@+id/gestures"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:eventsInterceptionEnabled="true"
+            android:gestureColor="@color/transparent"
+            android:gestureStrokeType="multiple"
+            android:orientation="vertical"
+            android:uncertainGestureColor="@color/transparent" >
+
+            <FrameLayout
+                android:id="@+id/fragment_grand_db"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </FrameLayout>
+        </android.gesture.GestureOverlayView>
+    </FrameLayout>
+
+</RelativeLayout>

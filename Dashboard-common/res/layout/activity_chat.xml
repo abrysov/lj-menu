@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".ActivityChat">
+    
+    <RelativeLayout 
+	    android:id="@+id/rl_parent"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/dashboard_header"
+	    android:baselineAligned="false"
+	    android:divider="@color/menu_top_bar_divider"
+	    android:dividerPadding="0dp"
+	    android:gravity="center"
+	    android:minHeight="94dp"
+	    android:orientation="horizontal" >
+	
+	    <LinearLayout
+	        android:id="@+id/btn_lock_screen"
+	        android:layout_width="@dimen/menu_top_bar_height"
+	        android:layout_height="@dimen/menu_top_bar_height"
+	        android:layout_alignParentLeft="true"
+	        android:gravity="center"
+	        android:clickable="true"
+	        android:onClick="goHome" >
+	
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+				android:layout_gravity="center"
+	            android:src="@drawable/ic_home"/>
+	    </LinearLayout>
+	
+	    <ImageView
+	        android:id="@+id/sep1"
+	        style="@style/cm_fragment_menu_grand_iv_separator"
+	        android:layout_toRightOf="@id/btn_lock_screen" />
+	
+	    <LinearLayout
+	        android:id="@+id/btn_rotate_screen"
+	        android:layout_width="@dimen/menu_top_bar_height"
+	        android:layout_height="@dimen/menu_top_bar_height"
+	        android:layout_alignParentRight="true"
+	        android:gravity="center" >
+	
+	        <com.sqiwy.menu.view.TypefaceTextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:drawablePadding="4dp"
+	            android:drawableTop="@drawable/ic_rotate"
+	            android:paddingTop="14dp"
+	            android:text="@string/rotate_180"
+	            android:textColor="@android:color/white"
+	            android:textSize="15dp"
+	            app:customTypeface="fonts/robotolight.ttf"
+	            android:clickable="true"
+	            android:onClick="rotateScreen" />
+	    </LinearLayout>
+	
+	    <ImageView
+	        android:id="@+id/sep4"
+	        style="@style/cm_fragment_menu_grand_iv_separator"
+	        android:layout_toLeftOf="@id/btn_rotate_screen" />
+	
+	    <LinearLayout
+	        android:id="@+id/btn_clear_history"
+	        android:layout_width="350dp"
+	        android:layout_height="@dimen/menu_top_bar_height"
+	        android:layout_toRightOf="@id/sep1"
+	        android:gravity="center" >
+	
+	        <com.sqiwy.menu.view.TypefaceTextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/communication"
+	            android:textColor="@color/tv_tile_item"
+	            android:textSize="@dimen/menu_top_bar_text_large"
+	            android:textStyle="bold"
+	            app:customTypeface="fonts/robotothin.ttf" />
+	        
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:id="@+id/btn_call_waiter"
+	        android:layout_width="@dimen/cm_fragment_bill_width"
+	        android:layout_height="@dimen/menu_top_bar_height"
+	        android:layout_toLeftOf="@id/sep4"
+	        android:gravity="center"
+	        android:onClick="callWaiter" >
+	
+	        <com.sqiwy.menu.view.TypefaceTextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:drawableLeft="@drawable/ic_bell"
+	            android:drawablePadding="40dp"
+	            android:text="@string/call_waiter"
+	            android:textColor="@color/tv_tile_item"
+	            android:textSize="@dimen/menu_top_bar_text_medium"
+	            android:textStyle="bold"
+	            app:customTypeface="fonts/robotoregular.ttf"
+	             />
+	    </LinearLayout>
+	
+	    <ImageView
+	        android:id="@+id/sep3"
+	        style="@style/cm_fragment_menu_grand_iv_separator"
+	        android:layout_toLeftOf="@id/btn_call_waiter" />
+	
+	</RelativeLayout>
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:baselineAligned="false"
+	    android:orientation="horizontal"
+	    android:paddingRight="94dp"
+    	android:paddingLeft="15dp" >
+	
+	    <FrameLayout
+	        android:id="@+id/fl_frags"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1" >
+	
+	        <fragment
+	            android:id="@+id/frag_map"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            class="com.sqiwy.menu.chat.FragMap" />
+	    </FrameLayout>
+	
+	    <fragment
+	        android:id="@+id/frag_user_list"
+	        android:layout_width="@dimen/cm_activity_chat_userlist_width"
+	        android:layout_height="match_parent"
+	        class="com.sqiwy.menu.chat.FragUserList" />
+	
+	    <FrameLayout
+	        android:id="@+id/fl_chat"
+	        android:layout_width="@dimen/cm_fragment_bill_width"
+	        android:layout_height="match_parent">
+	
+	        <fragment
+	            android:id="@+id/frag_chat"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            class="com.sqiwy.menu.chat.FragChat" />
+
+	    </FrameLayout>
+	
+	</LinearLayout>
+</LinearLayout>

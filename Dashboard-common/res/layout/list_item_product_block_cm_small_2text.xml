@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:id="@+id/fl_10"
+        style="@style/cm_fragment_product_list_fl_small" >
+
+        <include layout="@layout/tile_cm" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_0"
+        android:layout_width="455px"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8px" >
+
+        <FrameLayout
+            android:id="@+id/fl_00"
+            style="@style/cm_fragment_product_list_fl_text_2"
+            android:layout_marginTop="0px"
+            android:layout_marginLeft="0px"
+            android:layout_marginRight="0px"
+            android:layout_marginBottom="8px"
+             >
+
+            <include layout="@layout/tile_cm_text" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_01"
+            style="@style/cm_fragment_product_list_fl_text_2"
+            android:layout_marginTop="8px"
+            android:layout_marginLeft="0px"
+            android:layout_marginRight="0px"
+            android:layout_marginBottom="0px"
+            >
+
+            <include layout="@layout/tile_cm_text" />
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>
+<!-- <style name="cm_fragment_product_list_fl"> -->
+<!-- <item name="android:padding">2px</item> -->
+<!-- <item name="android:background">#c7c7c7</item> -->
+<!-- <item name="android:layout_margin">8px</item> -->
+<!-- <item name="android:orientation">vertical</item> -->
+<!-- </style> -->
+
+
+<!-- <style name="cm_fragment_product_list_fl_small" parent="cm_fragment_product_list_fl"> -->
+<!-- <item name="android:layout_width">455px</item> -->
+<!-- <item name="android:layout_height">287px</item> -->
+<!-- </style> -->

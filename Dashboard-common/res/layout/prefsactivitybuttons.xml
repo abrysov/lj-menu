@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/preferences_reload_button"
+        android:text="@string/reload" android:gravity="center" />
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/preferences_proceed_button"
+        android:text="@string/proceed" android:gravity="center" android:layout_marginTop="@dimen/preferences_activity_proceed_button_topmargin" />
+</LinearLayout>

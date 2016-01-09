@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loader_back"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/panel"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="48dp" >
+
+            <ProgressBar
+                android:id="@+id/loader_progress_ininite"
+                android:layout_width="26dp"
+                android:layout_height="26dp" />
+
+            <TextView
+                android:id="@+id/loader_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="6dp"
+                android:text="@string/data_loading"
+                android:textSize="@dimen/menu_top_bar_text_medium" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/loader_status_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="..." />
+
+        <ProgressBar
+            android:id="@+id/loader_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:progressDrawable="@drawable/progress_drawable" />
+
+        <LinearLayout
+            android:id="@+id/loader_controls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/loader_settings_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="160dp"
+                android:text="@string/settings" />
+
+            <Button
+                android:id="@+id/loader_reload_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="160dp"
+                android:text="@string/reload"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/loader_login_controls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <EditText
+                android:id="@+id/loader_password"
+                android:layout_width="180dp"
+                android:maxLength="40"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:hint="@string/hint_enter_password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/loader_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="160dp"
+                android:text="@string/login" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

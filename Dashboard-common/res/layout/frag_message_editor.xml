@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:minHeight="100dp"
+              android:minWidth="400dp"
+              android:orientation="horizontal"
+              android:background="@android:color/transparent"
+              android:gravity="bottom"
+              android:paddingRight="550dp">
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:minHeight="100dp"
+                  android:minWidth="400dp"
+                  android:paddingBottom="60dp"
+                  android:background="#f5f5f5">
+
+
+        <EditText
+                android:id="@+id/messageEditor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:layout_weight="1"
+                android:hint="@string/hint_message"
+                android:background="@drawable/bg_chat_send_line_white"
+                android:textSize="36dp"
+                android:layout_gravity="center">
+        </EditText>
+
+        <Button
+                android:id="@+id/btn_send_message"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:text="@string/btn_send"
+                android:background="@drawable/btn_chat_send_message"
+                android:textSize="24dp"
+                android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

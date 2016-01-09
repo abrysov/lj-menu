@@ -1,0 +1,185 @@
+<resources>
+    
+    <dimen name="mosaic_layout_top_margin">62dp</dimen>
+    <dimen name="mosaic_layout_bottom_margin">67dp</dimen>
+    <dimen name="mosaic_layout_spacing_horizontal">20dp</dimen>
+    <dimen name="mosaic_layout_spacing_vertical">18dp</dimen>
+    
+    <!-- Dimensions for top bar. TODO: unite it with cm_fragment_menu_grand_height... -->
+    <dimen name="menu_top_bar_height">94dp</dimen>
+    <dimen name="menu_top_bar_drawable_padding">35dp</dimen>
+    <dimen name="menu_top_bar_padding">32dp</dimen>
+    <dimen name="menu_top_bar_text_large">42dp</dimen>
+    <dimen name="menu_top_bar_text_medium">20dp</dimen>
+    <dimen name="menu_top_bar_text_small">24dp</dimen>
+    <dimen name="menu_top_bar_top_padding">30dp</dimen>
+    <dimen name="menu_top_bar_bottom_padding">13dp</dimen>
+    <dimen name="menu_top_bar_drawable_padding_little">6dp</dimen>
+    <dimen name="menu_top_bar_padding_left_call_waiter">83dp</dimen>
+    <dimen name="menu_top_bar_padding_left_clean_history">40dp</dimen>
+    
+    <dimen name="fragment_grand_height">48dp</dimen>
+    <dimen name="fragment_grand_padding">16dp</dimen>
+    <dimen name="fragment_cafe_info_width">400dp</dimen>
+    <dimen name="fragment_cafe_info_padding_left">80dp</dimen>
+    <dimen name="fragment_cafe_info_tv_padding">30dp</dimen>
+    
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	
+   
+	<dimen name="list_item_grand_fragment_iv_padding">4dp</dimen>
+	<dimen name="text_size">14sp</dimen>
+	
+	<dimen name="list_item_menu_category_iv_padding">20dp</dimen>
+	
+	<!--  -->
+    <dimen name="cm_fragment_menu_grand_height">94dp</dimen>
+    <dimen name="cm_fragment_menu_grand_tv_size_menu">46dp</dimen>
+    <dimen name="cm_fragment_menu_grand_tv_size_order">40dp</dimen>
+    <dimen name="cm_fragment_menu_grand_tv_size_sum">37dp</dimen>
+    
+    <!-- <dimen name="cm_fragment_product_category_list_width">329dp</dimen> -->
+    <dimen name="cm_fragment_product_category_list_width">329dp</dimen>
+    <dimen name="cm_fragment_product_category_list_item_height">77dp</dimen>
+    <dimen name="cm_fragment_product_category_list_tv_padding_left">30dp</dimen>
+    <dimen name="cm_fragment_product_category_list_tv_size">27dp</dimen>
+    <dimen name="cm_fragment_product_sub_category_list_tv_size">25dp</dimen>
+    <dimen name="cm_fragment_product_list_bottompadding">80dp</dimen>
+	
+    <dimen name="cm_activity_chat_userlist_width">320dp</dimen>
+    <dimen name="cm_fragment_bill_width">457dp</dimen>
+    <dimen name="cm_fragment_bill_bottom_height">295dp</dimen>
+    <dimen name="cm_fragment_bill_order_textsize">25dp</dimen>
+    <dimen name="cm_fragment_bill_clearorder_textsize">17dp</dimen>
+    <dimen name="cm_fragment_bill_item_tv_size_name">22dp</dimen>
+    <dimen name="cm_fragment_bill_item_tv_size_sum">22dp</dimen>
+    <dimen name="cm_fragment_bill_item_tv_size_modifiers">16dp</dimen>
+    <dimen name="cm_fragment_bill_item_tv_name_and_modifiers_right_margin">22dp</dimen>
+    <dimen name="cm_fragment_bill_item_gallery_width">117dp</dimen>
+    <dimen name="cm_fragment_bill_item_gallery_height">54dp</dimen>
+    <dimen name="cm_fragment_bill_item_product_remove_text_height">16dp</dimen>
+    <dimen name="cm_fragment_bill_item_count_gallery_item_textheight">16dp</dimen>
+    
+    <dimen name="cm_fragment_bill_tv_size_total">23dp</dimen>
+    <dimen name="cm_fragment_bill_tv_size_total_sum">25dp</dimen>
+    <dimen name="cm_fragment_bill_tv_size_order">25dp</dimen>
+    <dimen name="cm_fragment_bill_tv_size_call">27dp</dimen>
+    
+    <dimen name="cm_fragment_bill_btn_width_call">208dp</dimen>
+    <dimen name="cm_fragment_bill_btn_height_call">122dp</dimen>
+    
+    <dimen name="cm_fragment_bill_tv_margin_top_total">40dp</dimen>
+    <dimen name="cm_fragment_bill_tv_margin_top_total_sum">20dp</dimen>
+    <dimen name="cm_fragment_bill_tv_margin_top_order">35dp</dimen>
+    <dimen name="cm_fragment_bill_btn_margin_top">40dp</dimen>
+    <dimen name="cm_fragment_bill_btn_margin_bottom">36dp</dimen>
+    
+    <dimen name="cm_fragment_bill_removeorder_layout_height">75dp</dimen>
+    <dimen name="cm_fragment_bill_removeorder_button_height">35dp</dimen>
+    
+    <dimen name="cm_fragment_bill_removeconfirmation_layout_rightmargin">33dp</dimen>
+    <dimen name="cm_fragment_bill_removeconfirmation_layout_topmargin">24dp</dimen>
+    <dimen name="cm_fragment_bill_removeconfirmation_button_width">76dp</dimen>
+    <dimen name="cm_fragment_bill_removeconfirmation_button_height">35dp</dimen>
+    <dimen name="cm_fragment_bill_removeconfirmation_button_intervalbetween">4dp</dimen>
+    <dimen name="cm_fragment_bill_removeconfirmation_button_textheight">18dp</dimen>
+    
+    <dimen name="cm_fragment_bill_confirmation_dialog_width">800dp</dimen>
+    <dimen name="cm_fragment_bill_confirmation_dialog_height">604dp</dimen>
+    
+    <dimen name="cm_fragment_product_list_margin_right">16dp</dimen>
+    <dimen name="cm_fragment_product_list_margin_left">3dp</dimen>
+    <dimen name="cm_fragment_product_list_weight_leftpadding">24dp</dimen>
+    <dimen name="cm_fragment_product_price_textheight">28dp</dimen>
+    <dimen name="cm_fragment_product_name_textheight">28dp</dimen>
+    <dimen name="cm_fragment_product_weight_textheight">21dp</dimen>
+    
+    <!-- <dimen name="cm_fragment_detail_position">422dp</dimen>  -->
+    <!-- product details window size. Android by some reason decreased dialog layout width/height by 16dp,
+     so we increase width/height manually -->
+    <dimen name="cm_fragment_detail_with_image_and_modifiers_width">1219dp</dimen> <!-- 1203 -->
+    <dimen name="cm_fragment_detail_with_image_and_modifiers_height">902dp</dimen> <!-- 886 -->
+    <dimen name="cm_fragment_detail_with_modifiers_width">1219dp</dimen> <!-- 1203 -->
+    <dimen name="cm_fragment_detail_with_modifiers_height">902dp</dimen> <!-- 886 -->
+	<dimen name="cm_fragment_detail_with_image_width">943dp</dimen> <!-- 927px -->
+    <dimen name="cm_fragment_detail_with_image_height">902dp</dimen> <!-- 886px -->
+    <dimen name="cm_fragment_detail_width">943dp</dimen> <!-- 927px -->
+    <dimen name="cm_fragment_detail_height">436dp</dimen> <!-- 420px -->
+    <!-- other product details sizes -->    
+
+    <!-- product details close button size, top-right margin and click extension area size.
+    	Currently, for experiment, this area set to 'close_button_size'+2*'close_button_topright_margin' -->
+    <dimen name="cm_fragment_detail_close_button_size">30dp</dimen>
+    <dimen name="cm_fragment_detail_close_button_clickextension_layout_size">74dp</dimen>
+    <dimen name="cm_fragment_detail_close_button_topright_margin">22dp</dimen>
+
+    <dimen name="cm_fragment_detail_nameprice_layout_height">160dp</dimen>
+    <dimen name="cm_fragment_detail_grayzone_width">344dp</dimen>
+    <dimen name="cm_fragment_detail_modifiers_list_layout_rightpadding">14dp</dimen>
+    <dimen name="cm_fragment_detail_modifiers_list_rightpadding">20dp</dimen>
+    <dimen name="cm_fragment_detail_modifiers_list_padding">34dp</dimen>
+    <dimen name="cm_fragment_detail_weightcaloricityaddbutton_layout_height">277dp</dimen>
+    <dimen name="cm_fragment_detail_weightcaloricity_layout_topmargin">40dp</dimen>
+    <!-- Custom description/weight/caloricity layout top margin for PRODUCT with no image and modifiers -->
+    <!-- Calc by hand to align description text baseline with modifiers header text baseline -->
+    <dimen name="cm_fragment_detail_no_image_with_modifiers_weightcaloricity_layout_topmargin">28dp</dimen>
+    <dimen name="cm_fragment_detail_weightcaloricity_layout_bottommargin">65dp</dimen>
+    <!-- This is bottom margin for weight and caloricity TextView's, so that views bottom will be aligned with add button bottom -->
+    <!-- Calculated by hand as (weightcaloricityaddbutton_layout_height-cm_fragment_detail_add_button_height)/2 -->
+    <dimen name="cm_fragment_detail_caloricity_bottompadding">2dp</dimen>
+    <dimen name="cm_fragment_detail_weightcaloricity_bottommargin">65dp</dimen>
+    <dimen name="cm_fragment_detail_addbutton_bottommargin">54dp</dimen>
+    <dimen name="cm_fragment_detail_namecontentweightcaloricity_layout_leftmargin">56dp</dimen>
+    <dimen name="cm_fragment_detail_caloricity_leftmargin">16dp</dimen>
+    <dimen name="cm_fragment_detail_modifiers_name_textheight">20dp</dimen>
+    <dimen name="cm_fragment_detail_product_name_textheight">42dp</dimen>
+    <dimen name="cm_fragment_detail_product_price_textheight">49dp</dimen>
+    <dimen name="cm_fragment_detail_lv_modifiers_groupname_textheight">24dp</dimen>
+    <dimen name="cm_fragment_detail_lv_modifiers_groupname_paddingtop">30dp</dimen>
+    <dimen name="cm_fragment_detail_lv_modifiers_groupname_paddingbottom">26dp</dimen>
+    <dimen name="cm_fragment_detail_lv_modifiers_checkbox_paddingleft">20dp</dimen>
+    <dimen name="cm_fragment_detail_lv_modifiers_checkbox_marginbottom">20dp</dimen>
+    <dimen name="cm_fragment_detail_content_textheight">26dp</dimen>
+    <dimen name="cm_fragment_detail_weight_textheight">35dp</dimen>
+    <dimen name="cm_fragment_detail_caloricity_textheight">28dp</dimen>
+    <dimen name="cm_fragment_detail_add_button_textheight">28dp</dimen>
+    <dimen name="cm_fragment_detail_add_button_width">236dp</dimen>
+    <dimen name="cm_fragment_detail_add_button_height">64dp</dimen>
+    <!-- Product image area size, for 'with image/with modifiers' and 'with image/no modifiers' -->
+    <dimen name="cm_fragment_detail_product_image_width">858dp</dimen>
+    <dimen name="cm_fragment_detail_product_image_height">449dp</dimen>
+    <dimen name="cm_fragment_detail_no_modifiers_product_image_width">927dp</dimen>
+    <dimen name="cm_fragment_detail_no_modifiers_product_image_height">449dp</dimen>
+    
+    
+    <!-- error dialog fragment -->
+    <dimen name="fragment_error_viewpadding">20dp</dimen>
+    <dimen name="fragment_error_textLeftMargin">30dp</dimen>
+    
+    <!-- notification window fragment -->
+    <dimen name="fragment_notification_window_width">1148px</dimen>
+    <dimen name="fragment_notification_window_height">115px</dimen>
+    <dimen name="fragment_notification_window_closebutton_padding">20dp</dimen>
+    <dimen name="notification_text_height">18pt</dimen>
+    <dimen name="notification_bottom_margin">28px</dimen>
+    
+    <!-- progress dialog fragment -->
+    <dimen name="fragment_progress_window_width">588px</dimen>
+    <dimen name="fragment_progress_window_height">116px</dimen>
+    <dimen name="fragment_progress_window_corner_radius">10px</dimen>
+    <dimen name="fragment_progress_text_height">30dp</dimen>
+    <dimen name="fragment_progress_image_size">55dp</dimen>
+    <dimen name="fragment_progress_image_marginLeft">49dp</dimen>
+    
+    <!-- map -->
+    <dimen name="map_activity_ads_width">458px</dimen>
+    
+    <dimen name="preferences_activity_proceed_button_topmargin">30dp</dimen>
+    
+    <!-- chat -->
+    <dimen name="chat_small_textsize">14dp</dimen>
+    <dimen name="chat_big_textsize">24dp</dimen>
+    
+</resources>

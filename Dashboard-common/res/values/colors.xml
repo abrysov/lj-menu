@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- basic colors -->
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_low">#FFF5F5F5</color>
+    <color name="red">#FFFF0000</color>
+
+    <color name="tv_tile_item">#d4ffffff</color>
+    <color name="bg_sqiwy_logo">#010001</color>
+    <color name="shape_guest_transp">#7FE8E5E7</color>
+    <color name="menu_top_bar_divider">#30ffffff</color>
+    <color name="fragment_error_background">#FF000000</color>
+    <color name="fragment_error_dialog_background">#FFFFFFFF</color>
+    <color name="fragment_error_dialog_textColor">#FF7C7C7C</color>
+    <color name="dashboard_header">#CA283F</color>
+
+
+    <!-- Menu -->
+    <color name="bg_container_shadow">#1A000000</color>
+    <color name="container_tv">#adadad</color>
+    <color name="bg_bill">#F5F5F5</color>
+    <color name="tv_base">#F5F5F5</color>
+    <color name="modifiers_list_background">#F1F0F0</color>
+    <color name="category_group_text_selected">#BB253A</color>
+    <color name="category_child_divider">#B6132A</color>
+    <color name="cm_fragment_bill_item_count_textcolor">#4D000000</color>
+    <color name="cm_fragment_bill_item_count_selectedtextcolor">#FFCA283F</color>
+    <color name="cm_fragment_bill_item_remove_product_textcolor">#FFCA283F</color>
+    <color name="cm_fragment_bill_item_clearorder_textcolor">#FF747474</color>
+    <color name="cancelable_toast_default_color">#77000000</color>
+    <color name="cm_fragment_bill_confirmation_dialog_red">#FFC12544</color>
+
+    <color name="fragment_grand_cafe_dark_grey">#22FFFFFF</color>
+
+
+    <!-- MAP -->
+    <color name="map_panel_background">#E6E6E6</color>
+    <color name="bg_drop_target_circle">#f2f2f2</color>
+    <color name="bg_drop_target_border">#e8e8e8</color>
+
+
+    <!-- progress dialog -->
+    <color name="fragment_progress_bg_color">#FFFFFFFF</color>
+    <color name="fragment_progress_border_color">#FFD1D1D1</color>
+
+    <color name="tips_black">#FF000000</color>
+    <color name="tips_red">#FFCE3A4F</color>
+
+	<!-- Chat -->
+	
+	    <color name="dahsboard_red">#CA283F</color>
+    
+    <color name="chat_light_gray_f5">#FFf5f5f5</color>
+    <color name="chat_light_gray_e9">#FFe9e9e9</color>
+    
+    <color name="chat_gray">#FFdbdbdb</color>
+
+    <color name="chat_red">#FFde384e</color>
+	<color name="chat_red_pressed">#FFff7b8e</color>
+    
+    <color name="chat_yellow">#FFf9cb7d</color>
+    <color name="chat_yellow_pressed">#FFffe6b6</color>
+    
+<!--     TABLE COLORS -->
+    
+    <color name="aquamarin_crayola">#78DBE2</color>
+    <color name="ametist">#9966CC</color>
+    <color name="amarant_light_cherry">#CD2682</color>
+    <color name="granny_apple">#A8E4A0</color>
+    <color name="aubergine">#990066</color>
+    <color name="banana_mania">#FAE7B5</color>
+    <color name="white_show">#FFFAFA</color>
+    <color name="turquoise_blue">#3F888F</color>
+    <color name="bisquit">#FFE4C4</color>
+    <color name="pastel_pink">#FFCBDB</color>
+    
+    <color name="pastel_green">#89AC76</color>
+    <color name="brilliant_greenish_yellow">#CED23A</color>
+    <color name="brilliant_blue">#4285B4</color>
+    <color name="beaver">#9F8170</color>
+    <color name="vinous">#B00000</color>
+    <color name="diamont_blue">#3E5F8A</color>
+    <color name="cornflower">#6495ED</color>
+    <color name="cornflower_crayola">#9ACEEB</color>
+    <color name="water_blue">#256D7B</color>
+    <color name="bondy_beach_water">#0095B6</color>
+    
+    <color name="dahlia_yellow">#F3A505</color>
+    <color name="deep_pink_yellow">#F64A46</color>
+    <color name="blue_crayola">#80DAEB</color>
+    <color name="mountain_meadow">#30BA8F</color>
+    <color name="bitter_sweet">#FD7C6E</color>
+    <color name="blue_jeans">#1560BD</color>
+    <color name="macaroni_and_cheese">#FFBD88</color>
+    <color name="raspberry_red">#C51D34</color>
+    <color name="marengo">#4C5866</color>
+    <color name="wet_tropical_forest">#17806D</color>
+    
+    <color name="mouse_gray">#646B63</color>
+    <color name="elephant_bone">#FFFDDF</color>
+    <color name="pastel_olive">#6B8E23</color>
+    <color name="olive_green_crayola">#BAB86C</color>
+    <color name="olive">#808000</color>
+    <color name="orange_crayola">#FF7538</color>
+    <color name="pale_purple">#D8B1BF</color>
+    <color name="pang">#C7FCEC</color>
+    <color name="pastel_turquoise">#7FB5B5</color>
+    <color name="perl_purple">#8673A1</color>
+    
+    <color name="persian_pink">#FE28A2</color>
+    <color name="peru">#CD853F</color>
+    <color name="fire_magenta_crayola">#F8173E</color>
+    <color name="pink_flamingo">#FC74FD</color>
+    <color name="light_turquoise">#40E0D0</color>
+    <color name="light_blue_gray">#6C92AF</color>
+    <color name="gray_squirrel">#78858B</color>
+    <color name="gray_brown_crimson">#735184</color>
+    <color name="light_blue_green">#669E85</color>
+    <color name="light_khaki">#F0E68C</color>
+    
+    <color name="deep_green_sea">#8FBC8F</color>
+    <color name="terracotta">#CC4E5C</color>
+    <color name="moderate_spring_green">#00FA9A</color>
+    <color name="moderate_purple_pink">#E28090</color>
+    <color name="aqua">#008CF0</color>
+    <color name="bright_lilac">#E0B0FF</color>
+    <color name="chat_text">#4D4D4D</color>
+    
+    <array name="table_colors">
+        <item>@color/aquamarin_crayola</item>
+        <item>@color/ametist</item>
+        <item>@color/amarant_light_cherry</item>
+        <item>@color/granny_apple</item>
+        <item>@color/aubergine</item>
+        <item>@color/banana_mania</item>
+        <item>@color/white_show</item>
+        <item>@color/turquoise_blue</item>
+        <item>@color/bisquit</item>
+        <item>@color/pastel_pink</item>
+        
+        <item>@color/pastel_green</item>
+        <item>@color/brilliant_greenish_yellow</item>
+        <item>@color/brilliant_blue</item>
+        <item>@color/beaver</item>
+        <item>@color/vinous</item>
+        <item>@color/diamont_blue</item>
+        <item>@color/cornflower</item>
+        <item>@color/cornflower_crayola</item>
+        <item>@color/water_blue</item>
+        <item>@color/bondy_beach_water</item>
+        
+        <item>@color/dahlia_yellow</item>
+        <item>@color/deep_pink_yellow</item>
+        <item>@color/blue_crayola</item>
+        <item>@color/mountain_meadow</item>
+        <item>@color/bitter_sweet</item>
+        <item>@color/blue_jeans</item>
+        <item>@color/macaroni_and_cheese</item>
+        <item>@color/raspberry_red</item>
+        <item>@color/marengo</item>
+        <item>@color/wet_tropical_forest</item>
+                
+        <item>@color/mouse_gray</item>
+        <item>@color/elephant_bone</item>
+        <item>@color/pastel_olive</item>
+        <item>@color/olive_green_crayola</item>
+        <item>@color/olive</item>
+        <item>@color/orange_crayola</item>
+        <item>@color/pale_purple</item>
+        <item>@color/pang</item>
+        <item>@color/pastel_turquoise</item>
+        <item>@color/perl_purple</item>
+        
+        <item>@color/persian_pink</item>
+        <item>@color/peru</item>
+        <item>@color/fire_magenta_crayola</item>
+        <item>@color/pink_flamingo</item>
+        <item>@color/light_turquoise</item>
+        <item>@color/light_blue_gray</item>
+        <item>@color/gray_squirrel</item>
+        <item>@color/gray_brown_crimson</item>
+        <item>@color/light_blue_green</item>
+        <item>@color/light_khaki</item>
+        
+        <item>@color/deep_green_sea</item>
+        <item>@color/terracotta</item>
+        <item>@color/moderate_spring_green</item>
+        <item>@color/moderate_purple_pink</item>
+        <item>@color/aqua</item>
+        <item>@color/bright_lilac</item>
+    </array>
+    
+    
+    <string-array name="smiles">
+        <item>@drawable/g_happy</item>
+        <item>@drawable/g_smile</item>
+        <item>@drawable/g_toungue</item>
+        <item>@drawable/g_sad</item>
+        <item>@drawable/g_wrinkle</item>
+        <item>@drawable/g_hollywood</item>
+        <item>@drawable/g_cool</item>
+        <item>@drawable/g_angry</item>
+        <item>@drawable/g_evil</item>
+        <item>@drawable/g_surprise</item>
+        <item>@drawable/g_confuse</item>
+        <item>@drawable/g_netutral</item>
+        <item>@drawable/g_wonder</item>
+    </string-array>
+
+
+</resources>

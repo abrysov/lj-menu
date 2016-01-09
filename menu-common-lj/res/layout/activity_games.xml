@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffD2D2D2"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/menu_topmenu" />
+
+    <GridLayout
+        android:id="@+id/activity_games_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="5"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:useDefaultMargins="true" >
+<!--
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonGame"
+            android:src="@drawable/game_com_halfbrick_fruitninjafree"
+            android:tag="com.halfbrick.fruitninjafree" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonGame"
+            android:src="@drawable/game_com_rovio_angrybirds"
+            android:tag="com.rovio.angrybirds" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonGame"
+            android:src="@drawable/game_com_badlogic_androidgames_tank1990"
+            android:tag="com.badlogic.androidgames.tank1990" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonGame"
+            android:src="@drawable/game_com_dq_zombieskater_main"
+            android:tag="com.dq.zombieskater.main" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonGame"
+            android:src="@drawable/game_com_byril_battleship"
+            android:tag="com.byril.battleship" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonGame"
+            android:src="@drawable/game_com_halfbrick_jetpackjoyride"
+            android:tag="com.halfbrick.jetpackjoyride" />
+-->
+    </GridLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/menu_topmenu_drop"
+        android:visibility="gone" />
+
+</FrameLayout>

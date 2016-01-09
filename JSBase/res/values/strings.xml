@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JSBase</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Errors -->
+    <string name="error_not_dir_for_work">Ошибка. Невозможно создать необходимые директории</string>
+    <string name="guest">Гость</string>
+    
+    <!-- TestClockPreferences -->
+    <string name="timezone">TimeZone</string>
+    
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <EditTextPreference
+        android:key="pref_home_page"
+        android:title="Начальная страница"
+        android:editable="true"
+        android:defaultValue="http://185.12.117.33:8088/notifies/" />
+
+    <Preference 
+        android:title="Открыть системные настройки" 
+        android:key="systemSettingsLink"/> 
+    
+</PreferenceScreen>

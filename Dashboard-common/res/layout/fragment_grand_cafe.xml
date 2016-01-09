@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fragment_grand_height"
+    android:background="@color/dashboard_header"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/fragment_grand_padding"
+    android:paddingRight="@dimen/fragment_grand_padding" >
+
+    <RelativeLayout
+        android:id="@+id/rl_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.fosslabs.android.view.JSLinearLayout
+            android:id="@+id/ll_00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_menu" />
+        </com.fosslabs.android.view.JSLinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_00"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/ll_00"
+            android:background="@color/fragment_grand_cafe_dark_grey"/>
+
+        <com.fosslabs.android.view.JSLinearLayout
+            android:id="@+id/ll_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/iv_00"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cafe"
+                android:textColor="@color/tv_tile_item"
+                android:textSize="24sp" />
+        </com.fosslabs.android.view.JSLinearLayout>
+
+        <com.fosslabs.android.view.JSLinearLayout
+            android:id="@+id/ll_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_rotate" />
+        </com.fosslabs.android.view.JSLinearLayout>
+
+        <com.fosslabs.android.view.JSLinearLayout
+            android:id="@+id/ll_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="8dp"
+                android:text="@string/lock"
+                android:textColor="@color/tv_tile_item"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_lock" />
+        </com.fosslabs.android.view.JSLinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
